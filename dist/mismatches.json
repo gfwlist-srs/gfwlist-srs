@@ -205,8 +205,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||ampproject.org",
-   "739"
+   "739",
+   "||ampproject.org"
   ],
   "precision": [
    "exact"
@@ -218,8 +218,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||ampproject.org",
-   "739"
+   "739",
+   "||ampproject.org"
   ],
   "precision": [
    "exact"
@@ -231,8 +231,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||ampproject.org",
-   "739"
+   "739",
+   "||ampproject.org"
   ],
   "precision": [
    "exact"
@@ -1020,8 +1020,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "1134",
-   "||gov.tw"
+   "||gov.tw",
+   "1134"
   ],
   "precision": [
    "exact"
@@ -1033,8 +1033,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "1134",
-   "||gov.tw"
+   "||gov.tw",
+   "1134"
   ],
   "precision": [
    "exact"
@@ -1046,8 +1046,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "1134",
-   "||gov.tw"
+   "||gov.tw",
+   "1134"
   ],
   "precision": [
    "exact"
@@ -3341,11 +3341,11 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||google.com",
-   "||google",
+   "4446",
    "||goog",
    "@@||adservice.google.com",
-   "4446"
+   "||google",
+   "||google.com"
   ],
   "precision": [
    "exact"
@@ -5865,10 +5865,10 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "@@||c.pki.goog",
-   "||pki.goog",
+   "||goog",
    "4444",
-   "||goog"
+   "@@||c.pki.goog",
+   "||pki.goog"
   ],
   "precision": [
    "exact"
@@ -6228,9 +6228,9 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||ampproject.org",
    "@@||cdn-china.ampproject.org",
-   "4462"
+   "4462",
+   "||ampproject.org"
   ],
   "precision": [
    "exact"
@@ -6254,9 +6254,9 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||ampproject.org",
    "@@||cdn.ampproject.org",
-   "4461"
+   "4461",
+   "||ampproject.org"
   ],
   "precision": [
    "exact"
@@ -7028,8 +7028,8 @@
   "sim": true,
   "responsible": [
    "||android.com",
-   "@@||ci.android.com",
-   "4437"
+   "4437",
+   "@@||ci.android.com"
   ],
   "precision": [
    "exact"
@@ -7174,9 +7174,9 @@
   "sim": true,
   "responsible": [
    "4449",
-   "||google",
-   "||googleapis.com",
    "||goog",
+   "||googleapis.com",
+   "||google",
    "@@||clientservices.googleapis.com"
   ],
   "precision": [
@@ -7381,8 +7381,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "@@||cn.investing.com",
    "4434",
+   "@@||cn.investing.com",
    "||investing.com"
   ],
   "precision": [
@@ -7551,8 +7551,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "@@||connectivitycheck.gstatic.com",
    "||gstatic.com",
+   "@@||connectivitycheck.gstatic.com",
    "4454"
   ],
   "precision": [
@@ -7770,9 +7770,9 @@
   "sim": true,
   "responsible": [
    "@@||crl.pki.goog",
-   "||pki.goog",
    "||goog",
-   "4438"
+   "4438",
+   "||pki.goog"
   ],
   "precision": [
    "exact"
@@ -7856,8 +7856,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||gstatic.com",
    "@@||csi.gstatic.com",
+   "||gstatic.com",
    "4455"
   ],
   "precision": [
@@ -8735,10 +8735,10 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||google.com",
-   "@@||dl.google.com",
-   "||google",
    "||goog",
+   "||google",
+   "@@||dl.google.com",
+   "||google.com",
    "4447"
   ],
   "precision": [
@@ -10865,11 +10865,11 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4451",
-   "||google",
-   "||googleapis.com",
    "@@||fonts.googleapis.com",
-   "||goog"
+   "||goog",
+   "4451",
+   "||googleapis.com",
+   "||google"
   ],
   "precision": [
    "exact"
@@ -11508,8 +11508,8 @@
   "sim": true,
   "responsible": [
    "4441",
-   "||gstatic.com",
-   "@@||g0.gstatic.com"
+   "@@||g0.gstatic.com",
+   "||gstatic.com"
   ],
   "precision": [
    "exact"
@@ -11546,8 +11546,8 @@
   "sim": true,
   "responsible": [
    "4440",
-   "@@||g1.gstatic.com",
-   "||gstatic.com"
+   "||gstatic.com",
+   "@@||g1.gstatic.com"
   ],
   "precision": [
    "exact"
@@ -15426,8 +15426,8 @@
   "sim": true,
   "responsible": [
    "@@||i.pki.goog",
-   "4443",
    "||goog",
+   "4443",
    "||pki.goog"
   ],
   "precision": [
@@ -15584,11 +15584,11 @@
   "oracle": false,
   "sim": true,
   "responsible": [
+   "@@||imasdk.googleapis.com",
    "4450",
-   "||google",
-   "||googleapis.com",
    "||goog",
-   "@@||imasdk.googleapis.com"
+   "||googleapis.com",
+   "||google"
   ],
   "precision": [
    "exact"
@@ -19632,10 +19632,10 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "@@||o.pki.goog",
-   "||pki.goog",
    "||goog",
-   "4445"
+   "4445",
+   "@@||o.pki.goog",
+   "||pki.goog"
   ],
   "precision": [
    "exact"
@@ -19660,8 +19660,8 @@
   "sim": true,
   "responsible": [
    "@@||ocsp.pki.goog",
-   "4459",
    "||goog",
+   "4459",
    "||pki.goog"
   ],
   "precision": [
@@ -22136,11 +22136,11 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4453",
-   "||google",
-   "||googleapis.com",
+   "@@||safebrowsing.googleapis.com",
    "||goog",
-   "@@||safebrowsing.googleapis.com"
+   "4453",
+   "||googleapis.com",
+   "||google"
   ],
   "precision": [
    "exact"
@@ -23340,8 +23340,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "@@||ssl.gstatic.com",
    "4457",
+   "@@||ssl.gstatic.com",
    "||gstatic.com"
   ],
   "precision": [
@@ -23486,9 +23486,9 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||typepad.com",
    "@@||static.typepad.com",
-   "4436"
+   "4436",
+   "||typepad.com"
   ],
   "precision": [
    "exact"
@@ -25157,10 +25157,10 @@
   "sim": true,
   "responsible": [
    "4448",
-   "||google.com",
-   "||google",
    "||goog",
-   "@@||tools.google.com"
+   "||google",
+   "@@||tools.google.com",
+   "||google.com"
   ],
   "precision": [
    "exact"
@@ -26708,11 +26708,11 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "@@||update.googleapis.com",
+   "||goog",
    "4452",
-   "||google",
    "||googleapis.com",
-   "||goog"
+   "||google",
+   "@@||update.googleapis.com"
   ],
   "precision": [
    "exact"
@@ -28056,9 +28056,9 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||ampproject.org",
    "@@||www.ampproject.org",
-   "4460"
+   "4460",
+   "||ampproject.org"
   ],
   "precision": [
    "exact"
@@ -28382,8 +28382,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "@@||www.gov.tw",
    "||gov.tw",
+   "@@||www.gov.tw",
    "1135"
   ],
   "precision": [
@@ -28408,9 +28408,9 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "@@||www.gstatic.com",
    "4458",
-   "||gstatic.com"
+   "||gstatic.com",
+   "@@||www.gstatic.com"
   ],
   "precision": [
    "exact"
@@ -28974,9 +28974,9 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||typepad.com",
    "4435",
-   "@@||www.typepad.com"
+   "@@||www.typepad.com",
+   "||typepad.com"
   ],
   "precision": [
    "exact"
@@ -30044,8 +30044,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||ampproject.org",
-   "739"
+   "739",
+   "||ampproject.org"
   ],
   "precision": [
    "exact"
@@ -30057,8 +30057,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||ampproject.org",
-   "739"
+   "739",
+   "||ampproject.org"
   ],
   "precision": [
    "exact"
@@ -30177,8 +30177,8 @@
   "oracle": true,
   "sim": false,
   "responsible": [
-   "@@/^https?:\\/\\/(?=.*?(2x3|ni5|j5o))[a-z0-9.-]+\\.xn--ngstr-lra8j\\.com$",
    "@@||*.tokenplus.app",
+   "@@/^https?:\\/\\/(?=.*?(2x3|ni5|j5o))[a-z0-9.-]+\\.xn--ngstr-lra8j\\.com$",
    "iipdigital.usembassy.gov"
   ],
   "precision": [
@@ -30239,8 +30239,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||ampproject.org",
-   "739"
+   "739",
+   "||ampproject.org"
   ],
   "precision": [
    "exact"
@@ -30264,9 +30264,9 @@
   "oracle": true,
   "sim": false,
   "responsible": [
-   "@@/^https?:\\/\\/(?=.*?(2x3|ni5|j5o))[a-z0-9.-]+\\.xn--ngstr-lra8j\\.com$",
+   "@@||*.tokenplus.app",
    "www.aolnews.com",
-   "@@||*.tokenplus.app"
+   "@@/^https?:\\/\\/(?=.*?(2x3|ni5|j5o))[a-z0-9.-]+\\.xn--ngstr-lra8j\\.com$"
   ],
   "precision": [
    "approximated",
@@ -30292,8 +30292,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "1134",
-   "||gov.tw"
+   "||gov.tw",
+   "1134"
   ],
   "precision": [
    "exact"
@@ -31003,8 +31003,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||ampproject.org",
-   "739"
+   "739",
+   "||ampproject.org"
   ],
   "precision": [
    "exact"
@@ -33056,8 +33056,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "1134",
-   "||gov.tw"
+   "||gov.tw",
+   "1134"
   ],
   "precision": [
    "exact"
@@ -37343,8 +37343,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "||ampproject.org",
-   "739"
+   "739",
+   "||ampproject.org"
   ],
   "precision": [
    "exact"
@@ -39324,8 +39324,8 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "1134",
-   "||gov.tw"
+   "||gov.tw",
+   "1134"
   ],
   "precision": [
    "exact"
