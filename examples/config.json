@@ -1,0 +1,65 @@
+{
+  "log": { "level": "warn" },
+  "dns": {
+    "servers": [
+      { "type": "udp", "tag": "local-dns", "server": "223.5.5.5" },
+      { "type": "tls", "tag": "remote-dns", "server": "8.8.8.8", "detour": "proxy" }
+    ],
+    "rules": [
+      { "rule_set": "gfwlist-block", "server": "remote-dns" }
+    ]
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "in",
+      "listen": "127.0.0.1",
+      "listen_port": 7890
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "proxy",
+      "server": "example.com",
+      "server_port": 8388,
+      "method": "aes-128-gcm",
+      "password": "change-me"
+    },
+    { "type": "direct", "tag": "direct" }
+  ],
+  "route": {
+    "rules": [
+      {
+        "rule_set": "gfwlist-exception",
+        "action": "route",
+        "outbound": "direct"
+      },
+      {
+        "rule_set": "gfwlist-block",
+        "action": "route",
+        "outbound": "proxy"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "gfwlist-exception",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/<owner>/<repo>/main/dist/gfwlist-exception.srs",
+        "download_detour": "direct",
+        "update_interval": "24h"
+      },
+      {
+        "type": "remote",
+        "tag": "gfwlist-block",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/<owner>/<repo>/main/dist/gfwlist-block.srs",
+        "download_detour": "direct",
+        "update_interval": "24h"
+      }
+    ],
+    "final": "direct",
+    "auto_detect_interface": true
+  }
+}

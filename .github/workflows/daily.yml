@@ -1,0 +1,79 @@
+name: gfwlist-srs-daily
+
+on:
+  schedule:
+    # 每日 01:17 UTC (北京 09:17), 避开整点/半点
+    - cron: "17 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gfwlist-srs
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install sing-box
+        run: |
+          TAG=$(curl -fsSL https://api.github.com/repos/SagerNet/sing-box/releases/latest | jq -r .tag_name)
+          VER=${TAG#v}
+          curl -fsSL -o /tmp/sb.tar.gz "https://github.com/SagerNet/sing-box/releases/download/${TAG}/sing-box-${VER}-linux-amd64.tar.gz"
+          tar -xzf /tmp/sb.tar.gz -C /tmp
+          sudo install -m 0755 "/tmp/sing-box-${VER}-linux-amd64/sing-box" /usr/local/bin/sing-box
+          sing-box version
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test oracle dependency
+        run: pip install adblockparser
+
+      - name: Download gfwlist
+        run: |
+          curl -fsSL --retry 3 -o gfwlist.b64 https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
+          base64 -d gfwlist.b64 > gfwlist.txt
+
+      - name: Validate input
+        run: python3 tools/validate_input.py gfwlist.b64
+
+      - name: Convert gfwlist -> rule-set json + audit
+        run: python3 src/gfwlist2srs.py gfwlist.txt dist
+
+      - name: Compile .srs
+        run: |
+          sing-box rule-set compile dist/gfwlist-block.json -o dist/gfwlist-block.srs
+          sing-box rule-set compile dist/gfwlist-exception.json -o dist/gfwlist-exception.srs
+
+      - name: Differential test (equivalence gate)
+        run: python3 tests/differential_test.py gfwlist.txt dist
+
+      - name: sing-box config check
+        run: sing-box check -c examples/config.local.json
+
+      - name: Commit dist if changed
+        run: |
+          git config user.name "gfwlist-srs-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dist/
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            DATE=$(date -u +%Y-%m-%d)
+            git commit -m "dist: gfwlist snapshot ${DATE}"
+            git push
+          fi
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: gfwlist-srs-dist
+          path: dist/
+          retention-days: 30

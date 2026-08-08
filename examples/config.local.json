@@ -1,0 +1,30 @@
+{
+  "log": { "level": "warn" },
+  "inbounds": [
+    { "type": "mixed", "tag": "in", "listen": "127.0.0.1", "listen_port": 7890 }
+  ],
+  "outbounds": [
+    { "type": "direct", "tag": "direct" }
+  ],
+  "route": {
+    "rules": [
+      { "rule_set": "gfwlist-exception", "action": "route", "outbound": "direct" },
+      { "rule_set": "gfwlist-block", "action": "route", "outbound": "direct" }
+    ],
+    "rule_set": [
+      {
+        "type": "local",
+        "tag": "gfwlist-exception",
+        "format": "binary",
+        "path": "dist/gfwlist-exception.srs"
+      },
+      {
+        "type": "local",
+        "tag": "gfwlist-block",
+        "format": "binary",
+        "path": "dist/gfwlist-block.srs"
+      }
+    ],
+    "final": "direct"
+  }
+}

@@ -1,0 +1,13012 @@
+[
+ {
+  "url": "http://85.17.73.31:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "27"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://addons.mozilla.org.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "172"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://addons.mozilla.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "173"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://addons.mozilla.org:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "173"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://akademiye.org.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1338"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://akademiye.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1338"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://akademiye.org/other-path",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1338"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://akademiye.org:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1338"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://bartender.dowjones.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1948"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://bartender.dowjones.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1948"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://bartender.dowjones.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1948"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://bbs.cantonese.asia.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1659"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://bbs.cantonese.asia:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1659"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://bbs.hanminzu.org.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2375"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://bbs.hanminzu.org:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2375"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://blog.ranxiang.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3380"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://blog.ranxiang.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3380"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://busu.org.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1610"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://busu.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1610"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://busu.org/other-path",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1610"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://busu.org:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1610"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://china.ucanews.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4007"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://china.ucanews.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4007"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://chinanewscenter.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1745"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://chinanewscenter.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1745"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://chinanewscenter.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1745"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://digiland.tw.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1916"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://digiland.tw:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1916"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://dynupdate.no-ip.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3046"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://dynupdate.no-ip.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3046"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://e-zone.com.hk.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1992"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://e-zone.com.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1992"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://e-zone.com.hk/other-path",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1992"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://e-zone.com.hk:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1992"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://fbcdn.akamaihd.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1337"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://fbcdna.b.akamaihd.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1337"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://fbcdnx1.akamaihd.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1337"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://fulione.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2206"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://fulione.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2206"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://fulione.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2206"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://hk.gradconnection.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2343"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://hk.gradconnection.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2343"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://hum.uchicago.edu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4008"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://huma.b.uchicago.edu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4008"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://humx1.uchicago.edu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4008"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://img.dlsite.jp.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "78"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://img.dlsite.jp:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "78"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://nyti.ms.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1079"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://nyti.ms:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1079"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://old.honeynet.org.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2437"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://old.honeynet.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2437"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://old.honeynet.org/other-path",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2437"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://old.honeynet.org:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2437"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://pimg.tw.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "210"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://pimg.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "210"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://pimg.tw:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "210"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://raindrop.io.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3378"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://raindrop.io/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3378"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://raindrop.io:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3378"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://riseup.net.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "222"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://riseup.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "222"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://riseup.net:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "222"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://securityinabox.org.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3516"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://securityinabox.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3516"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://securityinabox.org:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3516"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://sf.net.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3532"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://sf.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3532"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://sf.net:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3532"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://sipml5.org.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1038"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://sipml5.org:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1038"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://ss.4sqi.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2157"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://ssa.b.4sqi.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2157"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://ssx1.4sqi.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2157"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://tarr.uspto.gov.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1155"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://tarr.uspto.gov:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1155"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://thegioitinhoc.vn.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3783"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://thegioitinhoc.vn:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3783"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://tl.gd.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3970"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://tl.gd:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3970"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://tw-blog.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3939"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://tw-blog.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3939"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://tw-blog.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3939"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://uygur.fc2web.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2123"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://uygur.fc2web.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2123"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://uymaarip.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4061"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://uymaarip.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4061"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://viu.tv.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "254"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://viu.tv/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "255"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://viu.tv/other-path",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "255"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://viu.tv:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "255"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://w3s.link.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4156"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://w3s.link/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4156"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://w3s.link/ipfs",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4156"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://w3s.link/ipfs/sub",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4156"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://w3s.link/other-path",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4156"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://w3s.link:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4156"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://wordpress.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4249"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://wordpress.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4249"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://wordpress.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4249"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.0rz.tw.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1218"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.0rz.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1218"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.8-d.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1261"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.8-d.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1261"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.85cc.us.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1262"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.85cc.us/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1262"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.991.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.991.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.99cn.info.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1272"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.99cn.info/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1272"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.aamacau.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1304"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.aamacau.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1304"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.acg18.me.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1311"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.acg18.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1311"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.addons.mozilla.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "172"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.addons.mozilla.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "173"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.adpl.org.hk.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1319"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.adpl.org.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1319"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.adult.friendfinder.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2198"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.adult.friendfinder.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2198"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.afantibbs.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1326"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.afantibbs.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1326"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.akademiye.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1338"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.akademiye.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1338"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.alanhou.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1342"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.alanhou.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1342"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.amitabhafoundation.us.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1361"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.amitabhafoundation.us/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1361"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.andygod.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1365"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.andygod.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1365"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.antiwave.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1380"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.antiwave.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1380"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.anysex.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1381"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.anysex.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1381"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.aofriend.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1384"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.aofriend.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1384"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.appshopper.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1399"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.appshopper.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1399"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.atchinese.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1433"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.atchinese.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1433"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.bangchen.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1489"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.bangchen.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1489"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.baramangaonline.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1494"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.baramangaonline.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1494"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.bartender.dowjones.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1948"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.bartender.dowjones.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1948"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.bbs.cantonese.asia.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1659"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.bbs.cantonese.asia/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1659"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.bbs.hanminzu.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2375"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.bbs.hanminzu.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2375"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.bell.wiki.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1506"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.bell.wiki/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1506"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.biliworld.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1530"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.biliworld.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1530"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.bit.do.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1531"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.bit.do/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1531"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.bit.ly.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1532"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.bit.ly/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1532"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.blog.excite.co.jp.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2052"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.blog.excite.co.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2052"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.blog.jp.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1547"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.blog.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1547"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.blog.ranxiang.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3380"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.blog.ranxiang.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3380"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.blog.soylent.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3930"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.blog.soylent.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3930"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.blogtd.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1553"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.blogtd.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1553"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.busayari.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1607"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.busayari.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1607"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.busu.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1610"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.busu.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1610"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.cacnw.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1653"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cacnw.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1653"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.casatibet.org.mx.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1668"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.casatibet.org.mx/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1668"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.catchgod.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1673"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.catchgod.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1673"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cdn.search.xxx/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "225"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.cdna.b.search.xxx/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "225"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.cdnx1.search.xxx/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "225"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.centurys.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1706"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.centurys.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1706"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.certificate.revocationcheck.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3407"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.certificate.revocationcheck.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3407"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cgdepot.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1689"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cgdepot.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1689"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.china-review.com.ua.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1747"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.china-review.com.ua/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1747"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.china.ucanews.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4007"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.china.ucanews.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4007"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.chinanewscenter.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1745"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.chinanewscenter.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1745"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.chinman.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1761"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.chinman.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1761"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.chrdnet.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1763"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.chrdnet.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1763"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.city365.ca.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1772"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.city365.ca/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1772"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cn-proxy.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1795"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cn-proxy.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1795"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cn.fmnnow.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2156"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cn.fmnnow.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2156"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cn.shafaqna.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3539"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cn.shafaqna.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3539"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cos-moe.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1814"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cos-moe.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1814"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cosplayjav.pl.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1815"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cosplayjav.pl/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1815"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cq99.us.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1819"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.cq99.us/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1819"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.crocotube.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1827"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.crocotube.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1827"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.d-fukyu.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1874"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.d-fukyu.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1874"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.d2bay.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1876"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.d2bay.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1876"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.daidostup.ru.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1881"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.daidostup.ru/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1881"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.dalailama.mn.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1886"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.dalailama.mn/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1886"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.dalailamacenter.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1888"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.dalailamacenter.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1888"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.david-kilgour.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1895"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.david-kilgour.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1895"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.deck.ly.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3947"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.deck.ly/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3947"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.digiland.tw.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1916"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.digiland.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1916"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.dmm.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "82"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.dmm.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "82"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.dmm.com/other-path",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "82"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.dmm.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "82"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.dscn.info.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1958"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.dscn.info/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1958"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.dstk.dk.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1959"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.dstk.dk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1959"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.duga.jp.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1964"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.duga.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1964"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.dw-world.de.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1973"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.dw-world.de/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1973"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.dynupdate.no-ip.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3046"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.dynupdate.no-ip.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3046"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.e-hentaidb.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1991"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.e-hentaidb.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1991"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.e-zone.com.hk.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1992"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.e-zone.com.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1992"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.earlytibet.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1994"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.earlytibet.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1994"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.eastturkistan.net.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1997"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.eastturkistan.net:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1997"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.efukt.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2006"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.efukt.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2006"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.emule-ed2k.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2012"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.emule-ed2k.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2012"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.emulefans.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2013"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.emulefans.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2013"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.eromon.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2042"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.eromon.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2042"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.facesoftibetanselfimmolators.info.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2088"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.facesoftibetanselfimmolators.info/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2088"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.faith100.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2091"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.faith100.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2091"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.falunau.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2096"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.falunau.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2096"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.fbcdn.akamaihd.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1337"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.fbcdna.b.akamaihd.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1337"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.fbcdnx1.akamaihd.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1337"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.feeds.fileforum.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2135"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.feeds.fileforum.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2135"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.feitianacademy.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2126"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.feitianacademy.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2126"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ff.im.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2131"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ff.im/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2131"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.fhreports.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2132"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.fhreports.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2132"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.firearmsworld.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2139"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.firearmsworld.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2139"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.fleursdeslettres.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2148"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.fleursdeslettres.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2148"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.forum.cyberctm.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1850"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.forum.cyberctm.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1850"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.foxgay.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2158"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.foxgay.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2158"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.fpmt.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2169"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.fpmt.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2169"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.freakshare.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2174"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.freakshare.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2174"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.freetibetanheroes.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2187"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.freetibetanheroes.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2187"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.freevpn.me.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2189"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.freevpn.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2189"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.fulione.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2206"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.fulione.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2206"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.g6hentai.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2231"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.g6hentai.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2231"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gaopi.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2244"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gaopi.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2244"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gaywatch.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2249"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gaywatch.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2249"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gcpnews.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2254"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gcpnews.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2254"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gelbooru.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2257"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gelbooru.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2257"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.giantessnight.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2277"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.giantessnight.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2277"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gmp4.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2225"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gmp4.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2225"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gojet.krtco.com.tw.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2701"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gojet.krtco.com.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2701"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gu-chu-sum.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2347"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gu-chu-sum.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2347"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.guaguass.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2348"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.guaguass.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2348"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gvlib.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.gvlib.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.h-moe.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2370"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.h-moe.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2370"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hdzog.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2379"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hdzog.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2379"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hec.su.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2382"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hec.su/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2382"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hegre-art.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2386"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hegre-art.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2386"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hitomi.la.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2414"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hitomi.la/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2414"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hk-pub.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2415"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hk-pub.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2415"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hk.gradconnection.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2343"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.hk.gradconnection.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2343"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.hkcoc.weather.com.hk.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4183"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hkcoc.weather.com.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4183"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.homeservershow.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2436"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.homeservershow.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2436"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hornytrip.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2443"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hornytrip.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2443"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ht.ly.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3137"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ht.ly/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3137"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.htl.li.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3138"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.htl.li/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3138"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.huashangnews.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2466"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.huashangnews.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2466"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.hum.uchicago.edu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4008"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.huma.b.uchicago.edu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4008"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.humx1.uchicago.edu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4008"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.imb.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2539"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.imb.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2539"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.img.dlsite.jp.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "78"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.img.dlsite.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "78"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.iportal.me.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2579"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.iportal.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2579"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.islam.org.hk.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2587"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.islam.org.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2587"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.itweet.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2600"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.itweet.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2600"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.jihadology.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2635"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.jihadology.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2635"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.jkb.cc.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2639"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.jkb.cc/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2639"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.jmscult.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2642"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.jmscult.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2642"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.juoaa.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2652"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.juoaa.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2652"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.kiwi.kz.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2690"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.kiwi.kz/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2690"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.lastcombat.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2741"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.lastcombat.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2741"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.lhakar.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2752"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.lhakar.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2752"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.library.usc.cuhk.edu.hk.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1841"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.library.usc.cuhk.edu.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1841"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.link-o-rama.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2765"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.link-o-rama.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2765"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.looktoronto.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2786"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.looktoronto.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2786"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.lyfhk.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2797"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.lyfhk.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2797"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.maiplus.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2834"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.maiplus.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2834"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.martsangkagyuofficial.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2841"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.martsangkagyuofficial.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2841"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mash.to.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3139"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mash.to/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3139"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mcaf.ee.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2847"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mcaf.ee/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2847"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mindrolling.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2884"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mindrolling.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2884"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mingpaony.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2896"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mingpaony.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2896"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mingpaosf.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2897"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mingpaosf.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2897"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mjlsh.usc.cuhk.edu.hk.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1842"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mjlsh.usc.cuhk.edu.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1842"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mo.nightlife141.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "190"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mo.nightlife141.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "190"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.moby.to.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2918"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.moby.to/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2918"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.motherless.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2937"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.motherless.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2937"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mswe1.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2945"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.mswe1.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2945"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.nbtvpn.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3006"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.nbtvpn.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3006"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.newcenturymc.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3017"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.newcenturymc.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3017"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.npnt.me.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3056"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.npnt.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3056"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.nradio.me.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3057"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.nradio.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3057"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.nvtongzhisheng.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3069"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.nvtongzhisheng.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3069"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.nyaa.eu.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3070"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.nyaa.eu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3070"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.nyti.ms.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1079"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.nyti.ms/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1079"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.ofile.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3094"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ofile.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3094"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.old.honeynet.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2437"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.old.honeynet.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2437"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.online.recoveryversion.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3396"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.online.recoveryversion.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3396"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.onlytweets.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3113"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.onlytweets.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3113"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.onthehunt.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3114"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.onthehunt.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3114"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.opus-gaming.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3122"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.opus-gaming.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3122"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.owl.li.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3136"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.owl.li/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3136"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.pemulihan.or.id.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3202"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.pemulihan.or.id/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3202"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.pimg.tw.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "210"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.pornhubdeutsch.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.pornhubdeutsch.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.pornsharing.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3272"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.pornsharing.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3272"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.qmp4.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3336"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.qmp4.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3336"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.quran.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.quran.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.radiko.jp.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "218"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.radiko.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "218"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.raindrop.io.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3378"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.raindrop.io/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3378"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.raizoji.or.jp.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3379"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.raizoji.or.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3379"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.readydown.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3392"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.readydown.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3392"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.redditlist.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "416"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.redditlist.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "416"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.riseup.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "222"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.riseup.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "222"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.rxhj.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3446"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.rxhj.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3446"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.saintyculture.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3491"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.saintyculture.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3491"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.sbme.me.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3503"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.sbme.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3503"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.secure.hustler.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "126"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.secure.hustler.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "126"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.securityinabox.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3516"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.securityinabox.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3516"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.shwchurch3.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3555"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.shwchurch3.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3555"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.sipml5.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1038"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.sipml5.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1038"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.skype.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3576"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.skype.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3577"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.skype.com/other-path",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3577"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.skype.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3577"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.socrec.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3593"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.socrec.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3593"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.softwaredownload.gitbooks.io.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2281"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.softwaredownload.gitbooks.io/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2281"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.soubory.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3610"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.soubory.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3610"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ss.4sqi.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2157"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.ssa.b.4sqi.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2157"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.ssglobal.co.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3635"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ssglobal.co/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3635"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ssx1.4sqi.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2157"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.startuplivingchina.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3644"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.startuplivingchina.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3644"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.superzooi.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3675"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.superzooi.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3675"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.suprememastertv.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3676"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.suprememastertv.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3676"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.taa-usa.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3736"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.taa-usa.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3736"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tablesgenerator.com.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3738"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.tablesgenerator.com:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3738"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.taiwanonline.cc.evil-example.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3747"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.taiwanonline.cc:8080/p",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3747"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.taoism.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3753"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.taoism.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3753"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tarr.uspto.gov.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1155"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.tarr.uspto.gov/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1155"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.tbssqh.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3760"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tbssqh.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3760"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.thedalailamamovie.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3777"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.thedalailamamovie.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3777"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.thegioitinhoc.vn.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3783"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.thegioitinhoc.vn/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3783"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.theync.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3799"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.theync.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3799"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tibet3rdpole.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3820"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tibet3rdpole.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3820"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tibetancommunityuk.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3827"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tibetancommunityuk.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3827"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tibetansports.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3828"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tibetansports.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3828"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tibetanwomen.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3829"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tibetanwomen.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3829"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.timdir.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3858"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.timdir.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3858"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tl.gd.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3970"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.tl.gd/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3970"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.tmi.me.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3870"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tmi.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3870"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tmpp.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3871"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tmpp.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3871"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tnp.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3873"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tnp.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3873"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.toppornsites.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3878"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.toppornsites.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3878"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.torrentproject.se.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3888"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.torrentproject.se/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3888"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tosh.comedycentral.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1802"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tosh.comedycentral.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1802"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tubeislam.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3907"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tubeislam.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3907"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tumutanzi.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3910"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tumutanzi.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3910"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tunein.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3912"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tunein.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3912"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tushycash.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3920"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tushycash.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3920"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tv.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3931"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tv.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3931"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tw-blog.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3939"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tw-blog.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3939"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tw01.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3924"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tw01.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3924"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tweetcs.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3946"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tweetcs.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3946"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tweez.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3954"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.tweez.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3954"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.twicountry.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3959"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.twicountry.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3959"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.twiends.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3960"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.twiends.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3960"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.twifan.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3961"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.twifan.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3961"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.twt.tl.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3975"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.twt.tl/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3975"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.twtkr.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3987"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.twtkr.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3987"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ub0.cc.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2341"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ub0.cc/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2341"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ubddns.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4004"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.ubddns.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4004"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.unblockdmm.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4021"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.unblockdmm.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4021"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.uncyclopedia.hk.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4023"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.uncyclopedia.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4023"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.uncyclopedia.tw.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4024"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.uncyclopedia.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4024"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.upornia.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4035"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.upornia.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4035"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.uygur.fc2web.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2123"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.uygur.fc2web.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2123"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.uymaarip.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4061"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.uymaarip.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4061"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.viu.tv.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "254"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.viu.tv/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "255"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.vllcs.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4100"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.vllcs.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4100"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.vovo2000.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4106"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.vovo2000.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4106"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.vpn.cmu.edu.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1790"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.vpn.cmu.edu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1790"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.vpn.sv.cmu.edu.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1791"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.vpn.sv.cmu.edu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1791"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.vpnaccount.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4111"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.vpnaccount.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4111"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.vpncoupons.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4114"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.vpncoupons.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4114"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.w3s.link.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4156"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.w3s.link/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4156"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.webwarper.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4187"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.webwarper.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4187"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.weisuo.ws.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4192"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.weisuo.ws/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4192"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.wemigrate.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4194"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.wemigrate.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4194"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.wiki.gamerp.jp.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2238"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.wiki.gamerp.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2238"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.woyaolian.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.woyaolian.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.antd.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1378"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.antd.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1378"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.cmoinc.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1787"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.cmoinc.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1787"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.dmm.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "82"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.www.dmm.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "82"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.www.eastturkistan.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1997"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.www.eastturkistan.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1997"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.www.gmiddle.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2298"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.gmiddle.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2298"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.gmiddle.net.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2299"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.gmiddle.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2299"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.hustlercash.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "128"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.hustlercash.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "127"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.idlcoyote.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2518"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.idlcoyote.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2518"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.kindleren.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2683"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.kindleren.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2682"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.m-sport.co.uk.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "153"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.m-sport.co.uk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "153"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.monlamit.org.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2928"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.monlamit.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2928"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.oxid.it.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3142"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.oxid.it/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3142"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.s4miniarchive.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3484"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.s4miniarchive.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3484"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.skype.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3576"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.www.skype.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3577"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.www.tablesgenerator.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3738"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.www.tablesgenerator.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3738"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.www.taiwanonline.cc.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3747"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.www.taiwanonline.cc/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3747"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "http://www.www.websnapr.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4186"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.websnapr.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4186"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.zensur.freerk.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2197"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.www.zensur.freerk.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2197"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.xianjian.tw.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4301"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.xianjian.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4301"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.xing.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4306"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.xing.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4306"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.xxx.xxx.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4323"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.xxx.xxx/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4323"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.xxxymovies.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4325"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.xxxymovies.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4325"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.yeyeclub.com.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.yeyeclub.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.zhenxiang.biz.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4406"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.zhenxiang.biz/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4406"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.zhongguo.ca.cdn-mirror.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4407"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://www.zhongguo.ca/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4407"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://xiipdigital.usembassy.gov/",
+  "oracle": true,
+  "sim": false,
+  "responsible": [
+   "iipdigital.usembassy.gov",
+   "@@/^https?:\\/\\/(?=.*?(2x3|ni5|j5o))[a-z0-9.-]+\\.xn--ngstr-lra8j\\.com$",
+   "@@||*.tokenplus.app"
+  ],
+  "precision": [
+   "approximated",
+   "exact",
+   "narrowed"
+  ]
+ },
+ {
+  "url": "http://xwww.aolnews.com/",
+  "oracle": true,
+  "sim": false,
+  "responsible": [
+   "@@/^https?:\\/\\/(?=.*?(2x3|ni5|j5o))[a-z0-9.-]+\\.xn--ngstr-lra8j\\.com$",
+   "@@||*.tokenplus.app",
+   "www.aolnews.com"
+  ],
+  "precision": [
+   "approximated",
+   "exact",
+   "narrowed"
+  ]
+ },
+ {
+  "url": "http://xwww.hustlercash.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "127"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "http://xwww.kindleren.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2682"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://0rz.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1218"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://2.bahamut.com.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1479"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://8-d.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1261"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://85.17.73.31/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "27"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://85cc.us/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1262"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://991.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://99cn.info/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1272"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.0rz.tw/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1218"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.2.bahamut.com.tw/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1479"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.8-d.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1261"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.85cc.us/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1262"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.991.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.99cn.info/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1272"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.aamacau.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1304"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.acg18.me/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1311"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.addons.mozilla.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "173"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.adpl.org.hk/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1319"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.adult.friendfinder.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2198"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.afantibbs.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1326"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.akademiye.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1338"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.alanhou.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1342"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.amitabhafoundation.us/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1361"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.andygod.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1365"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.antiwave.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1380"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.anysex.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1381"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.aofriend.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1384"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.appshopper.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1399"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.atchinese.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1433"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.bangchen.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1489"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.baramangaonline.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1494"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.bartender.dowjones.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1948"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.bbs.cantonese.asia/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1659"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.bbs.hanminzu.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2375"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.bell.wiki/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1506"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.biliworld.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1530"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.bit.do/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1531"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.bit.ly/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1532"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.blog.excite.co.jp/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2052"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.blog.jp/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1547"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.blog.ranxiang.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3380"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.blog.soylent.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3930"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.blogtd.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1553"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.busayari.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1607"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.busu.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1610"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.cacnw.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1653"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.casatibet.org.mx/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1668"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.catchgod.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1673"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.centurys.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1706"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.certificate.revocationcheck.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3407"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.cgdepot.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1689"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.china-review.com.ua/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1747"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.china.ucanews.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4007"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.chinanewscenter.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1745"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.chinman.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1761"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.chrdnet.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1763"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.city365.ca/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1772"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.cn-proxy.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1795"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.cn.fmnnow.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2156"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.cn.shafaqna.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3539"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.cos-moe.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1814"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.cosplayjav.pl/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1815"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.cq99.us/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1819"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.crocotube.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1827"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.d-fukyu.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1874"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.d2bay.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1876"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.daidostup.ru/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1881"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.dalailama.mn/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1886"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.dalailamacenter.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1888"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.david-kilgour.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1895"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.deck.ly/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3947"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.digiland.tw/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1916"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.dscn.info/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1958"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.dstk.dk/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1959"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.duga.jp/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1964"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.dw-world.de/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1973"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.dynupdate.no-ip.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3046"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.e-hentaidb.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1991"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.e-zone.com.hk/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1992"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.earlytibet.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1994"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.efukt.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2006"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.emule-ed2k.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2012"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.emulefans.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2013"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.eromon.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2042"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.facesoftibetanselfimmolators.info/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2088"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.faith100.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2091"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.falunau.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2096"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.feeds.fileforum.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2135"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.feitianacademy.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2126"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.ff.im/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2131"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.fhreports.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2132"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.firearmsworld.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2139"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.fleursdeslettres.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2148"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.forum.cyberctm.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1850"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.foxgay.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2158"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.fpmt.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2169"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.freakshare.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2174"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.freetibetanheroes.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2187"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.freevpn.me/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2189"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.fulione.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2206"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.g6hentai.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2231"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.gaopi.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2244"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.gaywatch.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2249"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.gcpnews.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2254"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.gelbooru.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2257"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.giantessnight.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2277"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.gmp4.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2225"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.gojet.krtco.com.tw/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2701"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.gu-chu-sum.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2347"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.guaguass.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2348"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.gvlib.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.h-moe.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2370"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.hdzog.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2379"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.hec.su/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2382"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.hegre-art.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2386"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.hitomi.la/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2414"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.hk-pub.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2415"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.hk.gradconnection.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2343"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.hkcoc.weather.com.hk/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4183"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.homeservershow.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2436"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.hornytrip.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2443"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.ht.ly/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3137"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.htl.li/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3138"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.huashangnews.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2466"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.hustlercash.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "127"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.imb.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2539"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.img.dlsite.jp/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "78"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.iportal.me/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2579"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.islam.org.hk/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2587"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.itweet.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2600"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.jihadology.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2635"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.jkb.cc/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2639"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.jmscult.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2642"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.juoaa.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2652"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.kindleren.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2682"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.kiwi.kz/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2690"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.lastcombat.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2741"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.lhakar.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2752"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.library.usc.cuhk.edu.hk/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1841"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.link-o-rama.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2765"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.looktoronto.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2786"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.lyfhk.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2797"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.maiplus.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2834"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.martsangkagyuofficial.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2841"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.mash.to/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3139"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.mcaf.ee/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2847"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.mindrolling.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2884"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.mingpaony.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2896"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.mingpaosf.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2897"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.mjlsh.usc.cuhk.edu.hk/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1842"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.mo.nightlife141.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "190"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.moby.to/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2918"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.motherless.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2937"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.mswe1.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2945"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.nbtvpn.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3006"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.newcenturymc.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3017"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.npnt.me/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3056"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.nradio.me/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3057"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.nvtongzhisheng.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3069"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.nyaa.eu/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3070"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.nyti.ms/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1079"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.ofile.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3094"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.old.honeynet.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2437"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.online.recoveryversion.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3396"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.onlytweets.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3113"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.onthehunt.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3114"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.opus-gaming.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3122"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.owl.li/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3136"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.pemulihan.or.id/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3202"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.pimg.tw/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "210"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.pornhubdeutsch.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.pornsharing.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3272"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.qmp4.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3336"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.quran.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.radiko.jp/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "218"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.raindrop.io/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3378"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.raizoji.or.jp/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3379"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.readydown.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3392"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.redditlist.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "416"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.riseup.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "222"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.rxhj.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3446"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.saintyculture.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3491"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.sbme.me/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3503"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.secure.hustler.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "126"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.securityinabox.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3516"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.sf.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3532"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.shwchurch3.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3555"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.sipml5.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1038"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.socrec.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3593"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.softwaredownload.gitbooks.io/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2281"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.soubory.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3610"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.ssglobal.co/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3635"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.startuplivingchina.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3644"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.superzooi.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3675"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.suprememastertv.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3676"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.taa-usa.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3736"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.taoism.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3753"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tarr.uspto.gov/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1155"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.tbssqh.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3760"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.thedalailamamovie.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3777"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.thegioitinhoc.vn/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3783"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.theync.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3799"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tibet3rdpole.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3820"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tibetancommunityuk.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3827"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tibetansports.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3828"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tibetanwomen.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3829"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.timdir.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3858"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tl.gd/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3970"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.tmi.me/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3870"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tmpp.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3871"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tnp.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3873"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.toppornsites.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3878"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.torrentproject.se/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3888"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tosh.comedycentral.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1802"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tubeislam.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3907"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tumutanzi.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3910"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tunein.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3912"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tushycash.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3920"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tuzaijidi.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3923"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.tv.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3931"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tw-blog.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3939"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tw01.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3924"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tweetcs.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3946"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tweez.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3954"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.twicountry.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3959"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.twiends.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3960"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.twifan.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3961"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.twt.tl/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3975"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.twtkr.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3987"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.ub0.cc/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2341"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.ubddns.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4004"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.unblockdmm.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4021"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.uncyclopedia.hk/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4023"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.uncyclopedia.tw/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4024"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.upornia.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4035"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.uygur.fc2web.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2123"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.uymaarip.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4061"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.viu.tv/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "255"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.vllcs.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4100"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.vovo2000.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4106"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.vpn.cmu.edu/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1790"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.vpn.sv.cmu.edu/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1791"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.vpnaccount.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4111"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.vpncoupons.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4114"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.w3s.link/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4156"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.webwarper.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4187"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.weisuo.ws/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4192"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.wemigrate.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4194"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.wiki.gamerp.jp/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2238"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.wordpress.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4249"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.woyaolian.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.antd.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1378"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.cmoinc.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1787"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.dmm.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "82"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.www.eastturkistan.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1997"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.www.gmiddle.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2298"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.gmiddle.net/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2299"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.hustlercash.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "127"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.idlcoyote.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2518"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.kindleren.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2682"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.m-sport.co.uk/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "153"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.monlamit.org/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2928"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.oxid.it/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3142"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.s4miniarchive.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3484"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.skype.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3577"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.www.tablesgenerator.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3738"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.www.taiwanonline.cc/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3747"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://a.b.www.websnapr.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4186"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.www.zensur.freerk.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2197"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.xianjian.tw/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4301"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.xing.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4306"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.xxx.xxx/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4323"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.xxxymovies.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4325"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.yeyeclub.com/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.zhenxiang.biz/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4406"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.zhongguo.ca/deep/path?q=1",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4407"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://aamacau.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1304"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://acg18.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1311"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://addons.mozilla.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "173"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://adpl.org.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1319"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://adult.friendfinder.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2198"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://afantibbs.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1326"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://akademiye.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1338"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://alanhou.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1342"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://amitabhafoundation.us/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1361"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://andygod.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1365"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://antiwave.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1380"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://anysex.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1381"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://aofriend.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1384"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://appshopper.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1399"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://atchinese.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1433"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://bangchen.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1489"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://baramangaonline.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1494"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://bbs.cantonese.asia/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1659"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://bbs.hanminzu.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2375"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://bell.wiki/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1506"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://biliworld.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1530"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://bit.do/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1531"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://bit.ly/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1532"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://blog.excite.co.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2052"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://blog.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1547"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://blog.ranxiang.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3380"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://blog.soylent.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3930"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://blogtd.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1553"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://busayari.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1607"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://busu.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1610"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://cacnw.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1653"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://casatibet.org.mx/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1668"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://catchgod.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1673"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://centurys.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1706"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://certificate.revocationcheck.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3407"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://cgdepot.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1689"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://china-review.com.ua/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1747"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://china.ucanews.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4007"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://chinman.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1761"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://chrdnet.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1763"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://city365.ca/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1772"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://cn-proxy.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1795"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://cn.fmnnow.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2156"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://cn.shafaqna.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3539"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://cos-moe.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1814"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://cosplayjav.pl/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1815"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://cq99.us/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1819"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://crocotube.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1827"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://d-fukyu.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1874"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://d2bay.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1876"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://daidostup.ru/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1881"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://dalailama.mn/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1886"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://dalailamacenter.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1888"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://david-kilgour.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1895"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://deck.ly/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3947"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://digiland.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1916"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://dscn.info/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1958"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://dstk.dk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1959"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://duga.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1964"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://dw-world.de/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1973"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://dynupdate.no-ip.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3046"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://e-hentaidb.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1991"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://e-zone.com.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1992"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://earlytibet.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1994"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://efukt.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2006"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://emule-ed2k.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2012"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://emulefans.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2013"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://eromon.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2042"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://facesoftibetanselfimmolators.info/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2088"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://faith100.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2091"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://falunau.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2096"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://feeds.fileforum.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2135"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://feitianacademy.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2126"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://ff.im/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2131"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://fhreports.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2132"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://firearmsworld.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2139"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://fleursdeslettres.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2148"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://forum.cyberctm.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1850"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://foxgay.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2158"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://fpmt.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2169"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://freakshare.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2174"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://freetibetanheroes.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2187"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://freevpn.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2189"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://g6hentai.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2231"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://gaopi.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2244"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://gaywatch.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2249"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://gcpnews.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2254"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://gelbooru.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2257"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://giantessnight.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2277"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://gmp4.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2225"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://gojet.krtco.com.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2701"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://gu-chu-sum.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2347"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://guaguass.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2348"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://gvlib.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://h-moe.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2370"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://hdzog.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2379"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://hec.su/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2382"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://hegre-art.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2386"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://hitomi.la/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2414"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://hk-pub.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2415"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://hk.gradconnection.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2343"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://hkcoc.weather.com.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4183"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://homeservershow.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2436"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://hornytrip.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2443"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://ht.ly/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3137"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://htl.li/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3138"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://huashangnews.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2466"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://hustlercash.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "127"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://imb.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2539"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://img.dlsite.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "78"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://iportal.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2579"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://islam.org.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2587"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://itweet.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2600"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://jihadology.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2635"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://jkb.cc/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2639"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://jmscult.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2642"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://juoaa.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2652"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://kindleren.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2682"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://kiwi.kz/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2690"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://lastcombat.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2741"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://lhakar.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2752"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://library.usc.cuhk.edu.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1841"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://link-o-rama.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2765"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://looktoronto.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2786"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://lyfhk.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2797"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://maiplus.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2834"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://martsangkagyuofficial.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2841"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://mash.to/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3139"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://mcaf.ee/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2847"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://mindrolling.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2884"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://mingpaony.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2896"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://mingpaosf.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2897"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://mjlsh.usc.cuhk.edu.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1842"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://mo.nightlife141.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "190"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://moby.to/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2918"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://motherless.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2937"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://mswe1.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2945"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://nbtvpn.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3006"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://newcenturymc.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3017"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://npnt.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3056"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://nradio.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3057"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://nvtongzhisheng.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3069"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://nyaa.eu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3070"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://nyti.ms/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1079"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://ofile.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3094"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://old.honeynet.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2437"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://online.recoveryversion.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3396"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://onlytweets.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3113"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://onthehunt.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3114"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://opus-gaming.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3122"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://owl.li/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3136"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://pemulihan.or.id/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3202"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://pimg.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "210"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://pornhubdeutsch.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://pornsharing.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3272"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://qmp4.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3336"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://quran.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://radiko.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "218"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://raizoji.or.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3379"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://readydown.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3392"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://redditlist.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "416"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://rxhj.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3446"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://saintyculture.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3491"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://sbme.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3503"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://secure.hustler.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "126"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://sf.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3532"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://shwchurch3.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3555"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://sipml5.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1038"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://socrec.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3593"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://softwaredownload.gitbooks.io/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2281"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://soubory.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3610"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://ssglobal.co/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3635"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://startuplivingchina.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3644"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://superzooi.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3675"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://suprememastertv.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3676"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://taa-usa.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3736"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://taoism.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3753"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tarr.uspto.gov/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1155"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://tbssqh.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3760"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://thedalailamamovie.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3777"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://thegioitinhoc.vn/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3783"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://theync.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3799"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tibet3rdpole.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3820"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tibetancommunityuk.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3827"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tibetansports.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3828"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tibetanwomen.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3829"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://timdir.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3858"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tl.gd/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3970"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://tmi.me/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3870"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tmpp.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3871"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tnp.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3873"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://toppornsites.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3878"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://torrentproject.se/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3888"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tosh.comedycentral.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1802"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tubeislam.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3907"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tumutanzi.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3910"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tunein.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3912"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tushycash.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3920"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tuzaijidi.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3923"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://tv.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3931"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tw01.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3924"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tweetcs.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3946"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tweez.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3954"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://twicountry.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3959"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://twiends.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3960"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://twifan.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3961"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://twt.tl/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3975"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://twtkr.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3987"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://ub0.cc/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2341"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://ubddns.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4004"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://unblockdmm.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4021"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://uncyclopedia.hk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4023"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://uncyclopedia.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4024"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://upornia.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4035"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://uygur.fc2web.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2123"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://uymaarip.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4061"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://viu.tv/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "255"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://vllcs.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4100"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://vovo2000.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4106"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://vpn.cmu.edu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1790"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://vpn.sv.cmu.edu/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1791"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://vpnaccount.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4111"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://vpncoupons.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4114"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://w3s.link/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4156"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://webwarper.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4187"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://weisuo.ws/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4192"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://wemigrate.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4194"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://wiki.gamerp.jp/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2238"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://wordpress.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4249"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://woyaolian.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4270"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.antd.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1378"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.cmoinc.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1787"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.dmm.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "82"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://www.eastturkistan.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "1997"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://www.gmiddle.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2298"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.gmiddle.net/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2299"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.hustlercash.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "127"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.idlcoyote.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2518"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.kindleren.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2682"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.m-sport.co.uk/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "153"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.monlamit.org/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2928"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.oxid.it/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3142"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.s4miniarchive.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3484"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.skype.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3577"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://www.tablesgenerator.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3738"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://www.taiwanonline.cc/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3747"
+  ],
+  "precision": [
+   "widened"
+  ]
+ },
+ {
+  "url": "https://www.websnapr.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4186"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://www.zensur.freerk.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "2197"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://xianjian.tw/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4301"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://xing.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4306"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://xxx.xxx/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4323"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://xxxymovies.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4325"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://yeyeclub.com/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4352"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://zhenxiang.biz/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4406"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://zhongguo.ca/",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "4407"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ }
+]
