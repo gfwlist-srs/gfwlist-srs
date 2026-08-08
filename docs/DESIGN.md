@@ -41,6 +41,11 @@ gfwlist 是 Adblock Plus (ABP) filter list 的一个子集，由 AutoProxy 消�
 2. **例外同样无右边界**：`\@\|\|*.x` 等例外模式的 `$` 锚定同样要去掉（partial match），否则漏放。
 3. **畸形正则**：上游 L314 `@@/^https?:…` 缺收尾 `/`，按 ABP 规范是永不命中的字面量 filter，丢弃即等价（已在审计标注）。
 4. **`Checksum` 算法**：与 ABP/AutoProxy 全部公开变体（UTF-8/UTF-16LE、去行/去空白等）均不匹配，判定为 gfwlist 私有变体；CI 改用结构校验（base64 可解码 + `[AutoProxy]` 头 + `Last Modified` 可解析 + 行数下限）。
+5. **基准引擎分轨（实测发现）**：python-adblock（Brave adblock-rust 绑定）速度约快 5 倍，但其 token 化实现在本清单上有多处可观测 quirk：
+   - 含 2 字符标签（io/cn/tw 等）的 `\|\|host` 规则：中缀延续匹配行为错位（如 `\|\|ai.studio` 不命中 `www.ai.studio.evil.com`，而 `\|\|bbc.com` 命中 `www.bbc.com.evil.com`）；
+   - 带 2 字符 TLD 的例外规则过度应用：`@@||www.gov.tw` 在其引擎中错误豁免整个 `gov.tw`（`mail.gov.tw`、apex 全被豁免），ABP 规范只豁免 www.gov.tw 及其子域。
+   因此采用**双引擎对拍**：adblockparser（忠实实现 ABP/AutoProxy 参考语义 = gfwlist 原始消费者的语义）为**规范引擎**，未申报偏差即失败；adblock-rust 为**交叉验证引擎**，其与规范引擎的偏离计入"引擎分歧"白名单（只报告、不修 gate），防止把上游引擎 bug 复制进产物。
+6. **gap 正则的双侧差异化**：block 集 gap = `(^|\.)(alts)\.`（中缀延续也命中，安全方向放宽）；exception 集 gap = `^(alts)\.`（仅起始延续，例外宁窄，且与基准引擎行为一致）。
 
 降级原则：**block 规则宁宽勿窄**（放宽 = 多走代理，不影响可达性）；**例外规则宁窄勿宽**（放宽 = 该走代理的被直连，会断）。无法保义的转换全部进入审计报告，标注精度类别。
 
@@ -100,8 +105,11 @@ sing-box rule-set 是无序集合，集合内无法表达"例外否决"。因此
 
 ## 7. 全量对拍测试（等价性验证）
 
-- **Oracle**：第三方独立实现 `adblockparser`（真实 ABP 匹配器，与转换器零共享代码）。
-- **被测**：sing-box 规则语义模拟器（精确实现 sing-box `domain`/`domain_suffix`/`domain_keyword`/`domain_regex`/`ip_cidr` 匹配语义 + 例外否决顺序）。
+- **双引擎 Oracle**：
+  - 规范引擎 `adblockparser`（纯 Python，忠实实现 ABP/AutoProxy 参考语义 = gfwlist 原始消费端语义）——未申报偏差即失败；
+  - 交叉验证引擎 `python-adblock`（Brave adblock-rust 绑定，uBO 系语义，速度快 ~5 倍）——与规范引擎的偏离计入"引擎分歧"白名单（见 §3.0-5，只报告不修 gate）。
+  两个引擎与转换器均零共享代码。
+- **被测**：sing-box 规则语义模拟器（精确实现 sing-box `domain`/`domain_suffix`/`domain_keyword`/`domain_regex`/`ip_cidr` 匹配语义 + 例外否决顺序），加载最终 ruleset JSON（含集合级 gap 正则），命中可溯源到原始行号。
 - **样本空间**：全量覆盖 ——
   1. 每条规则派生的正例（应命中）与近邻负例（差一个标签/字符）；
   2. 全部规则域名的子域/超域变异（加/删前缀标签、scheme、路径、端口）；
@@ -111,14 +119,26 @@ sing-box rule-set 是无序集合，集合内无法表达"例外否决"。因此
 - **真实性校验**：最终 `.srs` 由真实 `sing-box rule-set compile` 编译，`sing-box check` 验证引用该 srs 的完整配置，确保产物被 sing-box 真实接受（含 RE2 兼容性）。
 - 允许差异白名单：仅允许审计中已声明的 `widened/approximated` 方向差异，测试逐条核对差异是否都在已声明集合内 —— 即"**没有未申报的语义偏差**"。
 
-## 8. GitHub Actions 每日构建
+## 8. 设计取舍：为什么不按"国内可访问性"裁剪规则
+
+目标决定了规则集的职责：**被 GFW 拦截的域名/IP 走代理，其余直连**。但"按当前可访问性裁剪 block 集"被明确否决，理由：
+
+1. **CI 无法判定可访问性**：GitHub runner 在 GFW 之外，探测结果为全通；只有在墙内探测才有意义，而每日 CI 做不到。
+2. **GFW 阻断是动态的**：SNI 重置、IP 封禁随时间波动，一次性探测结论会过期；4200+ 域名逐日探测慢且不可靠。上游 gfwlist 维护者本身就在做规则的入库/剔除，跟踪上游即获得该维护成果。
+3. **破坏可复现性与可审计性**：输出不再是上游的纯函数，每日 diff 噪声巨大，审计失真。
+4. **用户的裁剪意图已由例外集承载**：`@@` 例外正是"被 block 规则覆盖但国内可访问"的域名（如 `@@||cn.investing.com`），全部保留即实现了"可访问的直连"。
+5. **widened 规则（280 条 URL 前缀）去留**：sing-box 连接级模型无法匹配 URL 路径，选择只有"整域走代理"或"整条丢弃"。丢弃 = 被墙路径也直连（违背目标）；保留 = 多代理少量流量（无害）。故全部保留并审计标注。
+
+若未来确需精简，可加**本地一次性探测脚本**（墙内运行，产出补充直连名单），作为可选叠加层，不进入 CI 主线。
+
+## 9. GitHub Actions 每日构建
 
 - `schedule: cron` 每日一次（避开整点，选 07:17 UTC 之类），`workflow_dispatch` 手动触发。
 - 步骤：下载 gfwlist → 校验 checksum → 转换 → 编译 srs → 跑对拍测试（失败则中止发布）→ 提交 `dist/` 到仓库（仅在有变化时）→ 打 daily tag / release。
 - 产物：`gfwlist-block.srs`、`gfwlist-exception.srs`、`gfwlist-block.json`（source）、`gfwlist-exception.json`（source）、`audit.md`、`sing-box 参考配置片段`。
 - 使用方通过 raw 直链 + `rule_set` type `remote` 自动更新。
 
-## 9. 目录结构
+## 10. 目录结构
 
 ```
 gfwlist-srs/

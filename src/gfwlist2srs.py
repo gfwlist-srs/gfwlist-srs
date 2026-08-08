@@ -342,18 +342,19 @@ def conflict_notes(block: dict, exception: dict) -> list[str]:
                 notes.append(f"exception suffix `{es}` 完全覆盖 block suffix `{bs}` (由路由顺序保义)")
     return notes
 
-def add_gap_regex(rules: dict[str, list[str]]) -> str | None:
-    """ABP `||host` 语义 = host 作为连续标签序列出现, 右侧不要求边界
-    (example.com.evil.com 也命中)。domain_suffix 要求右边界, 缺口为
-    "host 后还有标签" 的情形。用一条合并正则精确补齐该缺口:
-        (^|\\.)(h1|h2|...)\\.
-    与 domain_suffix 合取后与 ABP `||host` 语义完全等价。
+def add_gap_regex(rules: dict[str, list[str]], middle: bool) -> str | None:
+    """ABP 系引擎中 `||host` 除后缀匹配外还有"延续匹配" (host 后还有标签,
+    如 example.com.evil.com)。domain_suffix 要求右边界, 缺口用合并正则补齐:
+      middle=True  (block):     (^|\\.)(h1|h2|...)\\.   —— 中缀延续也算 (安全方向放宽)
+      middle=False (exception): ^(h1|h2|...)\\.         —— 仅起始延续 (例外宁窄,
+                                   且与基准引擎 adblock-rust 实测行为一致)
+    与 domain_suffix 合取后与基准引擎语义对齐 (残余差异归入已声明的引擎分歧类)。
     返回 gap 正则 (供审计), 无 suffix 时返回 None。"""
     suffixes = rules.get("domain_suffix", [])
     if not suffixes:
         return None
     alt = "|".join(re.escape(s) for s in sorted(suffixes))
-    gap = "(^|\\.)(" + alt + ")\\."
+    gap = ("(^|\\.)(" if middle else "^(") + alt + ")\\."
     rules.setdefault("domain_regex", []).append(gap)
     return gap
 
@@ -382,8 +383,8 @@ def main() -> int:
     block_rules, b_log = optimize(block_rules)
     exc_rules, e_log = optimize(exc_rules)
     conflicts = conflict_notes(block_rules, exc_rules)
-    block_gap = add_gap_regex(block_rules)
-    exc_gap = add_gap_regex(exc_rules)
+    block_gap = add_gap_regex(block_rules, middle=True)
+    exc_gap = add_gap_regex(exc_rules, middle=False)
 
     def ruleset(rules: dict) -> dict:
         return {"version": 3, "rules": [rules] if rules else []}

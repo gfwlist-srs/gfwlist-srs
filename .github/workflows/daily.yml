@@ -33,8 +33,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install test oracle dependency
-        run: pip install adblockparser
+      - name: Install test oracle dependencies
+        run: pip install adblock adblockparser
 
       - name: Download gfwlist
         run: |

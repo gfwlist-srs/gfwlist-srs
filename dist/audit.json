@@ -61996,7 +61996,7 @@
     "encoding_note": "domain_suffix + 一条合并 gap 正则 `(^|\\.)(suffix...)\\.` 联合编码 ABP `||host` 的左边界/无右边界语义, 二者合取与原版精确等价; gap 正则是集合级产物, 不归属单一行。",
     "gap_regex_chars": {
       "block": 62165,
-      "exception": 666
+      "exception": 661
     }
   }
 }

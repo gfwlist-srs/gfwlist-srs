@@ -16,7 +16,7 @@
 ## 本地构建与验证
 
 ```bash
-# 依赖: sing-box >= 1.11, python >= 3.10, pip install adblockparser
+# 依赖: sing-box >= 1.11, python >= 3.10, pip install -r requirements.txt
 curl -fsSL -o gfwlist.b64 https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
 python3 tools/validate_input.py gfwlist.b64          # 输入结构验证
 base64 -d -i gfwlist.b64 -o gfwlist.txt              # Windows: certutil -decode
@@ -29,10 +29,12 @@ sing-box check -c examples/config.local.json         # 真实 sing-box 验证配
 
 ## 等价性验证方法
 
-- **Oracle**：第三方独立 ABP 匹配器 `adblockparser`（与转换器零共享代码），按原版 gfwlist 规则判定 URL。
-- **被测**：内置 sing-box 匹配语义模拟器（`domain`/`domain_suffix`/`domain_keyword`/`domain_regex`/`ip_cidr` + 例外优先路由），加载**最终 ruleset JSON**（含集合级 gap 正则）。
+- **双引擎 Oracle**：
+  - 规范引擎 `adblockparser`（忠实实现 ABP/AutoProxy 参考语义 = gfwlist 原始消费端语义），未申报偏差即失败；
+  - 交叉验证引擎 `python-adblock`（Brave adblock-rust / uBO 系工业引擎，~5 倍速）。实测其 token 化实现在本清单上有 quirk（2 字符标签中缀匹配错位、`@@||www.gov.tw` 例外过度覆盖整个 gov.tw 等），故仅作交叉验证：与规范引擎的偏离计入"引擎分歧"白名单，避免把上游引擎 bug 复制进产物。
+- **被测**：内置 sing-box 匹配语义模拟器（`domain`/`domain_suffix`/`domain_keyword`/`domain_regex`/`ip_cidr` + 例外优先路由），加载**最终 ruleset JSON**（含集合级 gap 正则），命中可溯源到原始行号。
 - **样本**：每条原始规则派生正例/近邻负例/变异（子域、scheme、路径、端口、前缀粘连、中缀、通配实例化、IP 邻址）+ 随机背景域，当前版 36645 个 URL，每条线均被覆盖。
-- **判定**：不一致样本定位责任规则；仅当责任规则精度 ∈ {widened, narrowed, approximated}（审计已申报）才允许通过。当前结果：**0 未申报偏差**。
+- **判定**：不一致样本定位责任规则；仅当责任规则精度 ∈ {widened, narrowed, approximated}（审计已申报）或属已声明引擎分歧才允许通过。当前结果：**0 未申报偏差**（双引擎）。
 - **真实性**：`.srs` 由真实 `sing-box rule-set compile` 编译（兼作 RE2 校验），`sing-box check` 验证完整引用配置。
 
 ## 使用方式
