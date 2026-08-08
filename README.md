@@ -1,5 +1,8 @@
 # gfwlist → sing-box headless-rule (.srs)
 
+[![daily build](https://github.com/gfwlist-srs/gfwlist-srs/actions/workflows/daily.yml/badge.svg)](https://github.com/gfwlist-srs/gfwlist-srs/actions/workflows/daily.yml)
+[![jsdelivr](https://data.jsdelivr.com/v1/package/gh/gfwlist-srs/gfwlist-srs/badge)](https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/)
+
 将官方 [gfwlist](https://github.com/gfwlist/gfwlist) 转换为 sing-box 标准 headless rule-set
 （`.srs` 二进制 + JSON source），目标：**语义等价 · 高性能 · 可审计**。
 设计与映射推导见 [docs/DESIGN.md](docs/DESIGN.md)。
@@ -40,7 +43,7 @@ sing-box check -c examples/config.local.json         # 真实 sing-box 验证配
 ## 使用方式
 
 双规则集：例外集必须放在阻断集**之前**（先命中先放行 = AutoProxy `@@` 否决语义）。
-参考 [examples/config.json](examples/config.json)（remote rule_set，每日自动更新）：
+产物通过 jsDelivr CDN 分发（国内访问友好），完整示例见 [examples/config.json](examples/config.json)：
 
 ```jsonc
 "route": {
@@ -50,14 +53,19 @@ sing-box check -c examples/config.local.json         # 真实 sing-box 验证配
   ],
   "rule_set": [
     { "type": "remote", "tag": "gfwlist-exception", "format": "binary",
-      "url": "https://raw.githubusercontent.com/<owner>/<repo>/main/dist/gfwlist-exception.srs",
+      "url": "https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-exception.srs",
       "update_interval": "24h" },
     { "type": "remote", "tag": "gfwlist-block", "format": "binary",
-      "url": "https://raw.githubusercontent.com/<owner>/<repo>/main/dist/gfwlist-block.srs",
+      "url": "https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block.srs",
       "update_interval": "24h" }
   ]
 }
 ```
+
+> CDN 说明：jsDelivr 对 `@main` 分支引用有缓存（通常数分钟至数小时）。
+> 本仓库的每日工作流在每次更新 dist 后会主动 purge 这两个文件的 CDN 缓存，
+> 因此客户端按 `update_interval` 拉取即可拿到当日最新版。
+> 备用直链（无 CDN）：`https://raw.githubusercontent.com/gfwlist-srs/gfwlist-srs/main/dist/gfwlist-block.srs`
 
 ## 已知语义偏差（全部审计申报，详见 dist/audit.md）
 

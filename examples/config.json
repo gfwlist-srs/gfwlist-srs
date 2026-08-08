@@ -46,7 +46,7 @@
         "type": "remote",
         "tag": "gfwlist-exception",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/<owner>/<repo>/main/dist/gfwlist-exception.srs",
+        "url": "https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-exception.srs",
         "download_detour": "direct",
         "update_interval": "24h"
       },
@@ -54,7 +54,7 @@
         "type": "remote",
         "tag": "gfwlist-block",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/<owner>/<repo>/main/dist/gfwlist-block.srs",
+        "url": "https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block.srs",
         "download_detour": "direct",
         "update_interval": "24h"
       }
