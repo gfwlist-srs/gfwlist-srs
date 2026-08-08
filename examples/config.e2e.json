@@ -1,0 +1,33 @@
+{
+  "log": { "level": "debug", "timestamp": true },
+  "inbounds": [
+    { "type": "mixed", "tag": "in", "listen": "127.0.0.1", "listen_port": 17890 }
+  ],
+  "outbounds": [
+    { "type": "direct", "tag": "direct" }
+  ],
+  "route": {
+    "rules": [
+      { "rule_set": "gfwlist-exception", "action": "route", "outbound": "direct" },
+      { "rule_set": "gfwlist-block", "action": "route", "outbound": "direct" }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "gfwlist-exception",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-exception.srs",
+        "download_detour": "direct"
+      },
+      {
+        "type": "remote",
+        "tag": "gfwlist-block",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block.srs",
+        "download_detour": "direct"
+      }
+    ],
+    "final": "direct",
+    "auto_detect_interface": true
+  }
+}
