@@ -455,8 +455,9 @@ def main() -> int:
         undeclared.append((url, eng, ob, sb, resp, precs))
     (dist_dir / "mismatches.json").write_text(json.dumps([
         {"url": u, "engine": e, "oracle": ob, "sim": sb,
-         "responsible": [str(r) for r in resp], "precision": sorted(precs)}
-        for u, e, ob, sb, resp, precs in mismatches], indent=1, ensure_ascii=False))
+         "responsible": sorted(str(r) for r in resp), "precision": sorted(precs)}
+        for u, e, ob, sb, resp, precs in sorted(mismatches)],
+        indent=1, ensure_ascii=False))
     print("[result] 偏差方向分布:", json.dumps(direction_stats, ensure_ascii=False))
 
     print(f"[result] 已申报偏差 {declared_count}, 引擎分歧(白名单) {engine_divergence}, "
