@@ -1,11 +1,32 @@
-# gfwlist → sing-box headless-rule (.srs)
+# gfwlist → 多目标分流规则集
 
 [![daily build](https://github.com/gfwlist-srs/gfwlist-srs/actions/workflows/daily.yml/badge.svg)](https://github.com/gfwlist-srs/gfwlist-srs/actions/workflows/daily.yml)
 [![jsdelivr](https://data.jsdelivr.com/v1/package/gh/gfwlist-srs/gfwlist-srs/badge)](https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/)
 
-将官方 [gfwlist](https://github.com/gfwlist/gfwlist) 转换为 sing-box 标准 headless rule-set
-（`.srs` 二进制 + JSON source），目标：**语义等价 · 高性能 · 可审计**。
+> **使命：只有国内无法访问的域名/IP 才走代理，其余全部走本地网络 ——
+> 以最小的代理节点消耗，换取最好的访问体验。**
+
+以官方 [gfwlist](https://github.com/gfwlist/gfwlist) 为唯一数据源，每日自动构建，
+为 **sing-box / Shadowrocket / Surge / Loon / Clash(Mihomo) / Xray(v2rayN) / Quantumult X**
+交付语义一致的分流规则集。工程目标：**语义等价 · 高性能 · 可审计**。
 设计与映射推导见 [docs/DESIGN.md](docs/DESIGN.md)。
+
+## 使命如何在设计中兑现
+
+| 使命要求 | 项目机制 |
+|---|---|
+| 该走代理的**一个不漏** | gfwlist 全集忠实转换，双引擎 oracle 对拍门禁：**0 未申报偏差**才允许发布；任何"漏代理"(narrowed) 都不允许出现在 block 侧 |
+| 可访问的**不被误代理** | 上游 `@@` 例外（白名单）完整保留且**永远先于阻断规则求值**——被 block 覆盖但国内可访问的域名（如 `cn.investing.com`）直连；这是 gfwlist 内置的"国内可访问"裁注意图，我们系统性兑现 |
+| 多代理的**必须申报** | 对拍是**双向**的：未申报的 widened（多走代理）同样使构建失败；仅存的 widened（280 条 URL 前缀规则整域走代理）逐条审计可查 |
+| 其余流量**默认直连** | 全部产物只含 block/exception 两类规则；各工具参考配置统一 `final:direct` / `FINAL,DIRECT` / `MATCH,DIRECT` 兜底 |
+| 规则本身**不成为瓶颈** | 域名树 + 集合级单条正则，匹配 ~µs/域名；4260 条正则合并为 1 条 |
+| 国内域名**DNS 不绕路** | sing-box 专用 `gfwlist-block-domain` 纯域名集：仅被墙域名单走加密远端解析，其余本地 DNS（避免国内站点被绕到远端 CDN 节点） |
+
+**一条诚实的边界**：gfwlist 是社区维护的"受影响名单"，不是墙内实时可达性清单。
+"按当前可访问性再裁剪"被明确否决（DESIGN §8：CI 在墙外无法探测、GFW 阻断是动态的、
+上游维护本身即裁剪、裁剪会破坏可复现与可审计）——因此本项目保证的是
+**忠实于 gfwlist 的最小代理集**，而非实时精确的最小集；`@@` 例外机制 +
+用户本地直连叠加层承载剩余的裁剪需求。
 
 ## 多目标架构（IR 管线）
 
@@ -209,7 +230,9 @@ domain 令牌全部显式带 `domain:`/`regexp:` 前缀（Xray 裸字符串是 k
 
 ## GitHub Actions
 
-`.github/workflows/daily.yml`：每日 01:17 UTC（北京 09:17）自动 下载→验证→转换（sing-box + Shadowrocket + Surge/Clash/Xray/QX 六目标）→编译→**六路对拍门禁**→提交 dist。对拍失败则不发布。
+`.github/workflows/daily.yml`：每日 01:17 UTC（北京 09:17）自动构建。三段式并行流水线：
+`build`（下载→验证→六目标转换→编译）→ `gate`（**六路对拍门禁矩阵并行**）→ `publish`
+（全部门禁通过才提交 dist 并 purge CDN）。任一门禁失败则不发布。
 
 ## Shadowrocket 目标设计（与 sing-box 目标的关系）
 

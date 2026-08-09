@@ -18,6 +18,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # ------------------------------------------------ build: 下载 → 校验 → 转换(六目标) → 编译
   build:
     runs-on: ubuntu-latest
     steps:
@@ -36,9 +37,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install test oracle dependencies
-        run: pip install adblock adblockparser
 
       - name: Download gfwlist
         run: |
@@ -63,21 +61,91 @@ jobs:
           sing-box rule-set compile dist/gfwlist-block-domain.json -o dist/gfwlist-block-domain.srs
           sing-box rule-set compile dist/gfwlist-exception.json -o dist/gfwlist-exception.srs
 
-      - name: Differential test (equivalence gate)
-        run: python3 tests/differential_test.py gfwlist.txt dist
-
-      - name: Differential test — Shadowrocket (equivalence gate)
-        run: python3 tests/differential_shadowrocket.py gfwlist.txt dist
-
-      - name: Differential test — surge/clash/xray/qx (equivalence gates)
-        run: |
-          python3 tests/differential_targets.py gfwlist.txt dist surge
-          python3 tests/differential_targets.py gfwlist.txt dist clash
-          python3 tests/differential_targets.py gfwlist.txt dist xray
-          python3 tests/differential_targets.py gfwlist.txt dist qx
-
       - name: sing-box config check
         run: sing-box check -c examples/config.local.json
+
+      - name: Upload dist (build output)
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          retention-days: 7
+
+      - name: Upload gfwlist input (gate 复用)
+        uses: actions/upload-artifact@v4
+        with:
+          name: gfwlist-input
+          path: gfwlist.txt
+          retention-days: 7
+
+  # ------------------------------------------------ gate: 六路对拍门禁 (并行)
+  gate:
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { target: singbox,      cmd: "python3 tests/differential_test.py gfwlist.txt dist",          out: "mismatches.json" }
+          - { target: shadowrocket, cmd: "python3 tests/differential_shadowrocket.py gfwlist.txt dist",  out: "mismatches-shadowrocket.json" }
+          - { target: surge,        cmd: "python3 tests/differential_targets.py gfwlist.txt dist surge", out: "mismatches-surge.json" }
+          - { target: clash,        cmd: "python3 tests/differential_targets.py gfwlist.txt dist clash", out: "mismatches-clash.json" }
+          - { target: xray,         cmd: "python3 tests/differential_targets.py gfwlist.txt dist xray",  out: "mismatches-xray.json" }
+          - { target: qx,           cmd: "python3 tests/differential_targets.py gfwlist.txt dist qx",    out: "mismatches-qx.json" }
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test oracle dependencies
+        run: pip install adblock adblockparser
+
+      - name: Download dist
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+
+      - name: Download gfwlist input
+        uses: actions/download-artifact@v4
+        with:
+          name: gfwlist-input
+
+      - name: Differential gate — ${{ matrix.target }}
+        run: ${{ matrix.cmd }}
+
+      - name: Upload mismatch report
+        uses: actions/upload-artifact@v4
+        with:
+          name: mismatches-${{ matrix.target }}
+          path: dist/${{ matrix.out }}
+          retention-days: 7
+
+  # ------------------------------------------------ publish: 全部门禁通过后提交 dist
+  publish:
+    needs: [build, gate]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download dist
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+
+      - name: Merge mismatch reports
+        uses: actions/download-artifact@v4
+        with:
+          pattern: mismatches-*
+          path: /tmp/mm
+          merge-multiple: true
+
+      - name: Merge mismatch reports into dist
+        run: cp /tmp/mm/*.json dist/
 
       - name: Commit dist if changed
         id: commit
@@ -98,16 +166,13 @@ jobs:
       - name: Purge jsDelivr cache
         if: steps.commit.outputs.changed == 'true'
         run: |
-          curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block.srs" || true
-          curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block-domain.srs" || true
-          curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-exception.srs" || true
-          curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-ir.json" || true
-          for f in gfwlist-block.list gfwlist-exception.list \
+          for f in gfwlist-block.srs gfwlist-block-domain.srs gfwlist-exception.srs \
+                   gfwlist-shadowrocket.conf gfwlist-ir.json \
+                   gfwlist-block.list gfwlist-exception.list \
                    gfwlist-clash-block.yaml gfwlist-clash-exception.yaml \
                    gfwlist-xray.json gfwlist-quantumultx.list; do
             curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/$f" || true
           done
-          curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-shadowrocket.conf" || true
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
