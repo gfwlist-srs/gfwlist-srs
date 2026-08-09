@@ -54,6 +54,9 @@ jobs:
       - name: Convert gfwlist -> Shadowrocket conf + audit
         run: python3 src/gfwlist2shadowrocket.py gfwlist.txt dist
 
+      - name: Convert gfwlist -> multi-target (surge/clash/xray/qx) + audit
+        run: python3 src/gfwlist2targets.py gfwlist.txt dist
+
       - name: Compile .srs
         run: |
           sing-box rule-set compile dist/gfwlist-block.json -o dist/gfwlist-block.srs
@@ -65,6 +68,13 @@ jobs:
 
       - name: Differential test — Shadowrocket (equivalence gate)
         run: python3 tests/differential_shadowrocket.py gfwlist.txt dist
+
+      - name: Differential test — surge/clash/xray/qx (equivalence gates)
+        run: |
+          python3 tests/differential_targets.py gfwlist.txt dist surge
+          python3 tests/differential_targets.py gfwlist.txt dist clash
+          python3 tests/differential_targets.py gfwlist.txt dist xray
+          python3 tests/differential_targets.py gfwlist.txt dist qx
 
       - name: sing-box config check
         run: sing-box check -c examples/config.local.json
@@ -92,6 +102,11 @@ jobs:
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block-domain.srs" || true
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-exception.srs" || true
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-ir.json" || true
+          for f in gfwlist-block.list gfwlist-exception.list \
+                   gfwlist-clash-block.yaml gfwlist-clash-exception.yaml \
+                   gfwlist-xray.json gfwlist-quantumultx.list; do
+            curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/$f" || true
+          done
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-shadowrocket.conf" || true
 
       - name: Upload artifacts

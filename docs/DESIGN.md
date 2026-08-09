@@ -238,3 +238,29 @@ IR sets 的字段（`domain_suffix`/`domain_keyword`/`domain_regex`/`ip_cidr`）
 
 重构以**字节级回归**为准入：同一输入下全部既有 dist 产物必须零变化
 （仅新增 gfwlist-ir.json），且双对拍门禁数字与重构前一致。
+
+## 13. 多目标适配器（2026-08-09 ②期）
+
+`src/gfwlist2targets.py`：画像驱动的四目标适配器，消费 IR，产出
+Surge 系 / Clash 系 / Xray 系 / Quantumult X 规则。`tests/differential_targets.py`
+为通用对拍门禁（归一化模拟器 + 产物↔审计逐行一致性校验 + 能力收窄复核）。
+
+### 13.1 目标画像与方言
+
+| 目标 | 产物 | 正则方言 | 例外语义 | 备注 |
+|------|------|----------|----------|------|
+| surge | `gfwlist-{exception,block}.list` | URL-REGEX（复用 Shadowrocket 重写） | 两文件分别引用，例外先 | Surge/Loon RULE-SET、Shadowrocket 规则分组共用 |
+| clash | `gfwlist-clash-{exception,block}.yaml` | DOMAIN-REGEX = host RE2（与 sing-box 同） | 两 provider，RULE-SET 例外先 | classical 行为；mihomo/Premium/Stash/FlClash |
+| xray | `gfwlist-xray.json` | `regexp:` = host RE2（同） | rules 数组例外 direct 在前 | v2rayN 自定义路由格式；令牌显式 `domain:` 前缀（裸串=keyword 陷阱） |
+| qx | `gfwlist-quantumultx.list` | ❌ 无域正则能力 | 行内策略列，例外 direct 在前 | 正则+gap 丢弃，能力收窄申报 |
+
+### 13.2 门禁机制
+
+- **归一化模拟器**：suffix（标签边界）/ keyword / ip（no-resolve：仅 IP 字面量）/
+  host_regex / url_regex；例外集先命中先生效；suffix 走标签索引加速（语义等价）。
+- **能力收窄复核**（qx）：sim_full（含被丢弃正则的完整语义）与 oracle 一致而目标
+  sim 不一致的样本 = 能力收窄（已申报）；此判定先于昂贵的责任溯源计算（qx 全量
+  对拍从 >5min 降至 ~1min）。
+- **一致性校验**：产物文件与 audit-targets.json 逐行比对（防生成器/写出 drift）。
+- surge 门禁的偏差分布与 Shadowrocket 门禁**逐样本一致**（同方言交叉验证）；
+  clash/xray 与 sing-box 门禁同方言同分布。

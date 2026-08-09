@@ -12,10 +12,10 @@
 ```
 gfwlist.txt → 解析 (parse_line) → 保义清洗 (去重/子集消除) → gfwlist-ir.json
                                                                 │
-                          ┌───────────────┬─────────────────────┤
-                          ▼               ▼                     ▼
-                    sing-box 适配器  Shadowrocket 适配器   (更多目标适配中:
-                    .json/.srs      .conf                 Clash/Xray/QX/…)
+              ┌───────────┬───────────────┬─────────┬─────────┼─────────┐
+              ▼           ▼               ▼         ▼         ▼         ▼
+          sing-box   Shadowrocket     Surge系    Clash系   Xray系   Quantumult X
+          .json/.srs   .conf          .list      .yaml     .json     .list
 ```
 
 - **IR 层**（`src/gfwparse.py`）目标无关：逐行 ABP 语义解析、降级决策、精度标签申报、
@@ -33,6 +33,11 @@ gfwlist.txt → 解析 (parse_line) → 保义清洗 (去重/子集消除) → g
 | `gfwlist-block-domain.srs` / `.json` | 阻断规则集的纯域名变体（去掉唯一的 1 条 `ip_cidr`，供 **DNS 规则**引用，见下） |
 | `gfwlist-exception.srs` / `.json` | 例外（白名单）规则集 |
 | `gfwlist-shadowrocket.conf` | Shadowrocket 完整配置（例外 DIRECT 在前，阻断 PROXY 在后） |
+| `gfwlist-exception.list` / `gfwlist-block.list` | Surge 系裸规则集（无策略列）：Surge/Loon RULE-SET、Shadowrocket 规则分组 |
+| `gfwlist-clash-exception.yaml` / `gfwlist-clash-block.yaml` | Clash 系 classical rule-provider（mihomo/Clash Premium/Stash/FlClash） |
+| `gfwlist-xray.json` | Xray 系路由规则（Xray/v2ray/v2rayN/v2rayNG/NekoBox/Passwall） |
+| `gfwlist-quantumultx.list` | Quantumult X（无域正则能力，正则/gap 已丢弃并申报 narrowed） |
+| `audit-targets.json` | 多目标审计（逐规则溯源 + 精度标签 + 产物一致性校验基准） |
 | `audit.md` / `audit.json` | 逐行转换审计（分类、决策、精度标签） |
 | `audit-shadowrocket.md` / `.json` | Shadowrocket 目标侧审计（含 conf↔审计逐行一致性校验） |
 | `mismatches.json` / `mismatches-shadowrocket.json` | 最近一次全量对拍的偏差明细（全部已申报） |
@@ -138,6 +143,61 @@ https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-shadowrock
 备用直链：`https://raw.githubusercontent.com/gfwlist-srs/gfwlist-srs/main/dist/gfwlist-shadowrocket.conf`
 已建有主配置时，也可只复制该文件的 `[Rule]` 段合并进自己的配置（务必保持例外规则在阻断规则之前）。
 
+## Surge / Loon 使用方式
+
+引用两个 RULE-SET（**例外必须在阻断之前**，策略分别在引用行指定）：
+
+```ini
+[Rule]
+RULE-SET,https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-exception.list,DIRECT
+RULE-SET,https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block.list,PROXY
+FINAL,DIRECT
+```
+
+Shadowrocket 也可用「配置 → 规则分组」按同样顺序订阅这两个 URL（例外组选 DIRECT）。
+
+## Clash / Mihomo 使用方式（Stash / ClashVerge / FlClash 等通用）
+
+```yaml
+rule-providers:
+  gfwlist-exception:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-clash-exception.yaml
+    interval: 86400
+    path: ./rule-providers/gfwlist-exception.yaml
+  gfwlist-block:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-clash-block.yaml
+    interval: 86400
+    path: ./rule-providers/gfwlist-block.yaml
+
+rules:
+  - RULE-SET,gfwlist-exception,DIRECT   # 例外必须在阻断之前
+  - RULE-SET,gfwlist-block,PROXY
+  - MATCH,DIRECT
+```
+
+classical 行为保留全部 `DOMAIN-REGEX`（host 语境 RE2，与 sing-box 同方言），无精度损失。
+
+## Xray / v2rayN 使用方式（v2rayNG / NekoBox / Passwall 通用）
+
+`gfwlist-xray.json` 是 v2rayN 自定义路由规则文件（rules 为标准 Xray RuleObject，
+例外 `direct` 在前、阻断 `proxy` 在后）。v2rayN：设置 → 自定义路由规则 → 导入 URL
+或粘贴文件内容；原生 Xray 则把 `rules` 数组合并进 `routing.rules` 开头。
+domain 令牌全部显式带 `domain:`/`regexp:` 前缀（Xray 裸字符串是 keyword 子串语义，
+无前缀会严重误伤）。
+
+## Quantumult X 使用方式
+
+`gfwlist-quantumultx.list` 追加到 `[filter_local]`，或作为 `[filter_remote]` 订阅
+（例外 `direct` 在前）。注意：Quantumult X **没有域正则能力**，10 条域正则与
+集合级 gap 规则已丢弃（narrowed，审计已申报）——影响仅为 `||host` 延续形态
+（`host.evil.com`）与 9 条特殊正则域名的覆盖，对拍门禁按"能力收窄"白名单验证。
+
 ## 已知语义偏差（全部审计申报，详见 dist/audit.md）
 
 | 方向 | 来源 | 影响 |
@@ -149,7 +209,7 @@ https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-shadowrock
 
 ## GitHub Actions
 
-`.github/workflows/daily.yml`：每日 01:17 UTC（北京 09:17）自动 下载→验证→转换（sing-box + Shadowrocket 双目标）→编译→**双对拍门禁**→提交 dist。对拍失败则不发布。
+`.github/workflows/daily.yml`：每日 01:17 UTC（北京 09:17）自动 下载→验证→转换（sing-box + Shadowrocket + Surge/Clash/Xray/QX 六目标）→编译→**六路对拍门禁**→提交 dist。对拍失败则不发布。
 
 ## Shadowrocket 目标设计（与 sing-box 目标的关系）
 
