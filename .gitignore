@@ -3,3 +3,4 @@ gfwlist.b64
 __pycache__/
 *.pyc
 .DS_Store
+bench/

@@ -394,6 +394,14 @@ def main() -> int:
     (outdir / "gfwlist-exception.json").write_text(
         json.dumps(ruleset(exc_rules), indent=2, ensure_ascii=False) + "\n")
 
+    # 纯域名变体 (供 DNS 规则引用): 去掉 ip_cidr。
+    # sing-box 1.14+ 中, DNS 规则引用含 ip_cidr 的规则集会触发旧版
+    # "address filter" 模式 (1.16 将移除); 而 ip_cidr 对 DNS 查询本无意义
+    # (问题名不可能是 IP 网段), 因此提供纯域名集用于 DNS 分流。
+    block_domain_rules = {k: v for k, v in block_rules.items() if k != "ip_cidr"}
+    (outdir / "gfwlist-block-domain.json").write_text(
+        json.dumps(ruleset(block_domain_rules), indent=2, ensure_ascii=False) + "\n")
+
     # --- 审计 ---
     summary = {
         "input_lines": len(lines),

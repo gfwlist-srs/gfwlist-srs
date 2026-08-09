@@ -6,7 +6,8 @@
       { "type": "tls", "tag": "remote-dns", "server": "8.8.8.8", "detour": "proxy" }
     ],
     "rules": [
-      { "rule_set": "gfwlist-block", "server": "remote-dns" }
+      { "rule_set": "gfwlist-exception", "server": "local-dns" },
+      { "rule_set": "gfwlist-block-domain", "server": "remote-dns" }
     ]
   },
   "inbounds": [
@@ -55,6 +56,14 @@
         "tag": "gfwlist-block",
         "format": "binary",
         "url": "https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block.srs",
+        "download_detour": "direct",
+        "update_interval": "24h"
+      },
+      {
+        "type": "remote",
+        "tag": "gfwlist-block-domain",
+        "format": "binary",
+        "url": "https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block-domain.srs",
         "download_detour": "direct",
         "update_interval": "24h"
       }

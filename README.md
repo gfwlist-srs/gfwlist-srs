@@ -12,6 +12,7 @@
 | 文件 | 说明 |
 |------|------|
 | `gfwlist-block.srs` / `.json` | 阻断规则集（编译后 / source） |
+| `gfwlist-block-domain.srs` / `.json` | 阻断规则集的纯域名变体（去掉唯一的 1 条 `ip_cidr`，供 **DNS 规则**引用，见下） |
 | `gfwlist-exception.srs` / `.json` | 例外（白名单）规则集 |
 | `gfwlist-shadowrocket.conf` | Shadowrocket 完整配置（例外 DIRECT 在前，阻断 PROXY 在后） |
 | `audit.md` / `audit.json` | 逐行转换审计（分类、决策、精度标签） |
@@ -28,6 +29,7 @@ base64 -d -i gfwlist.b64 -o gfwlist.txt              # Windows: certutil -decode
 python3 src/gfwlist2srs.py gfwlist.txt dist          # 转换 + 审计
 python3 src/gfwlist2shadowrocket.py gfwlist.txt dist # Shadowrocket 目标转换 + 审计
 sing-box rule-set compile dist/gfwlist-block.json -o dist/gfwlist-block.srs
+sing-box rule-set compile dist/gfwlist-block-domain.json -o dist/gfwlist-block-domain.srs
 sing-box rule-set compile dist/gfwlist-exception.json -o dist/gfwlist-exception.srs
 python3 tests/differential_test.py gfwlist.txt dist  # sing-box 全量对拍（门禁）
 python3 tests/differential_shadowrocket.py gfwlist.txt dist  # Shadowrocket 全量对拍（门禁）
@@ -67,9 +69,30 @@ sing-box check -c examples/config.local.json         # 真实 sing-box 验证配
 ```
 
 > CDN 说明：jsDelivr 对 `@main` 分支引用有缓存（通常数分钟至数小时）。
-> 本仓库的每日工作流在每次更新 dist 后会主动 purge 这两个文件的 CDN 缓存，
+> 本仓库的每日工作流在每次更新 dist 后会主动 purge 这些文件的 CDN 缓存，
 > 因此客户端按 `update_interval` 拉取即可拿到当日最新版。
 > 备用直链（无 CDN）：`https://raw.githubusercontent.com/gfwlist-srs/gfwlist-srs/main/dist/gfwlist-block.srs`
+
+### DNS 规则请引用 `gfwlist-block-domain`
+
+`gfwlist-block` 内含 1 条 `ip_cidr`（`85.17.73.31/32`）。在 **DNS rules** 里直接引用它会让
+sing-box 1.14 进入 legacy address-filter 模式（弃用警告，1.16 将拒绝）；而配套的
+`rule_set_ip_cidr_match_source: true` 会把规则集变成对**查询来源 IP** 的条件，导致规则永不命中
+（表现为 Google 等域名走本地 DNS 被 GFW 投毒）。因此：
+
+- **DNS rules** 引用 `gfwlist-block-domain`（纯域名变体，对 DNS 查询无语义损失 ——
+  DNS 查询本来就没有目标 IP 可匹配 `ip_cidr`）；
+- **route rules** 仍引用完整的 `gfwlist-block`（保留 `ip_cidr`，让对该 IP 的直连连接也走代理）。
+
+```jsonc
+"dns": {
+  "rules": [
+    { "rule_set": "gfwlist-exception",     "action": "route", "server": "local-dns"  },
+    { "rule_set": "gfwlist-block-domain",  "action": "route", "server": "remote-dns" }
+  ],
+  "ruleset": "..." // rule_set 声明与 route 中相同，仅 url 换成 gfwlist-block-domain.srs
+}
+```
 
 ## Shadowrocket 使用方式
 

@@ -72,6 +72,12 @@ sing-box rule-set 是无序集合，集合内无法表达"例外否决"。因此
 
 - 产物一 `gfwlist-block.srs`：全部 block 规则
 - 产物二 `gfwlist-exception.srs`：全部例外规则
+- 产物三 `gfwlist-block-domain.srs`：`gfwlist-block` 的**纯域名变体**（去掉唯一的 1 条 `ip_cidr`）。
+  专供 **DNS rules** 引用：DNS 查询没有目标 IP，`ip_cidr` 在 DNS 语境本无语义；
+  而引用含 `ip_cidr` 的规则集会让 sing-box 1.14 进入 legacy address-filter 模式
+  （弃用警告，1.16 拒绝），其配套字段 `rule_set_ip_cidr_match_source: true` 会把
+  `ip_cidr` 项变成对**查询来源 IP** 的必要条件，导致整条 DNS 规则永不命中（实测 Google 等
+  域名因此落回 local DNS 被投毒）。route rules 仍引用完整的 `gfwlist-block`。
 - 参考配置中例外集规则放在 block 集规则**之前**，先命中先放行 —— 与 AutoProxy 的 `@@` 否决语义等价。
 
 ## 4. 正则翻译管线（通用，不写死）
@@ -135,7 +141,7 @@ sing-box rule-set 是无序集合，集合内无法表达"例外否决"。因此
 
 - `schedule: cron` 每日一次（避开整点，选 07:17 UTC 之类），`workflow_dispatch` 手动触发。
 - 步骤：下载 gfwlist → 校验 checksum → 转换 → 编译 srs → 跑对拍测试（失败则中止发布）→ 提交 `dist/` 到仓库（仅在有变化时）→ 打 daily tag / release。
-- 产物：`gfwlist-block.srs`、`gfwlist-exception.srs`、`gfwlist-block.json`（source）、`gfwlist-exception.json`（source）、`audit.md`、`sing-box 参考配置片段`。
+- 产物：`gfwlist-block.srs`、`gfwlist-block-domain.srs`（DNS 专用纯域名变体）、`gfwlist-exception.srs`、对应 `.json`（source）、`gfwlist-shadowrocket.conf`、`audit.md`、`sing-box 参考配置片段`。
 - 使用方通过 raw 直链 + `rule_set` type `remote` 自动更新。
 
 ## 10. 目录结构

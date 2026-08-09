@@ -57,6 +57,7 @@ jobs:
       - name: Compile .srs
         run: |
           sing-box rule-set compile dist/gfwlist-block.json -o dist/gfwlist-block.srs
+          sing-box rule-set compile dist/gfwlist-block-domain.json -o dist/gfwlist-block-domain.srs
           sing-box rule-set compile dist/gfwlist-exception.json -o dist/gfwlist-exception.srs
 
       - name: Differential test (equivalence gate)
@@ -88,6 +89,7 @@ jobs:
         if: steps.commit.outputs.changed == 'true'
         run: |
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block.srs" || true
+          curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block-domain.srs" || true
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-exception.srs" || true
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-shadowrocket.conf" || true
 
