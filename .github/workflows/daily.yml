@@ -51,6 +51,9 @@ jobs:
       - name: Convert gfwlist -> rule-set json + audit
         run: python3 src/gfwlist2srs.py gfwlist.txt dist
 
+      - name: Convert gfwlist -> Shadowrocket conf + audit
+        run: python3 src/gfwlist2shadowrocket.py gfwlist.txt dist
+
       - name: Compile .srs
         run: |
           sing-box rule-set compile dist/gfwlist-block.json -o dist/gfwlist-block.srs
@@ -58,6 +61,9 @@ jobs:
 
       - name: Differential test (equivalence gate)
         run: python3 tests/differential_test.py gfwlist.txt dist
+
+      - name: Differential test — Shadowrocket (equivalence gate)
+        run: python3 tests/differential_shadowrocket.py gfwlist.txt dist
 
       - name: sing-box config check
         run: sing-box check -c examples/config.local.json
@@ -83,6 +89,7 @@ jobs:
         run: |
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block.srs" || true
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-exception.srs" || true
+          curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-shadowrocket.conf" || true
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4

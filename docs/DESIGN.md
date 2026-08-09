@@ -144,11 +144,55 @@ sing-box rule-set 是无序集合，集合内无法表达"例外否决"。因此
 gfwlist-srs/
 ├── docs/DESIGN.md            # 本文档
 ├── src/gfwlist2srs.py        # 转换器（通用，无写死）
+├── src/gfwlist2shadowrocket.py  # Shadowrocket 目标翻译（复用同一解析/优化管线）
 ├── tests/
 │   ├── oracle_abp.py         # adblockparser 封装（独立 oracle）
 │   ├── singbox_sim.py        # sing-box 匹配语义模拟器
-│   └── differential_test.py  # 全量对拍 + 未申报偏差检测
+│   ├── differential_test.py  # sing-box 全量对拍 + 未申报偏差检测
+│   └── differential_shadowrocket.py  # Shadowrocket 全量对拍（共用样本/oracle）
 ├── tools/census.py           # 上游语法普查（设计验证用）
-├── dist/                     # 构建产物（json/srs/audit）
+├── dist/                     # 构建产物（json/srs/conf/audit）
 └── .github/workflows/daily.yml
 ```
+
+## 11. Shadowrocket 目标（2026-08-09 扩展）
+
+同一策略的第二目标。`src/gfwlist2shadowrocket.py` 复用 §3–§5 的解析与优化管线
+（逐行决策与 sing-box 版逐字一致），仅做目标侧翻译。
+
+### 11.1 Shadowrocket 规则能力面
+
+- 规则按 conf 文件顺序逐条求值，**先命中先生效**；
+- `DOMAIN` / `DOMAIN-SUFFIX`（标签边界，与 sing-box `domain_suffix` 同语义）/ `DOMAIN-KEYWORD`；
+- `IP-CIDR,x/32,POLICY,no-resolve`（no-resolve：仅匹配 IP 字面量目标，不触发解析）；
+- `URL-REGEX` —— 匹配对象是**整条 URL**（非 host），正则 search 语义；
+- 内置策略 `PROXY`（当前选中节点）/ `DIRECT` / `REJECT`。
+
+### 11.2 映射表（目标侧翻译）
+
+| sing-box 中间形态 | Shadowrocket | 精度 | 说明 |
+|------------------|--------------|------|------|
+| `domain_suffix` | `DOMAIN-SUFFIX` | 不变 | 标签边界语义相同 |
+| `domain_keyword` | `DOMAIN-KEYWORD` | 不变 | |
+| `ip_cidr` | `IP-CIDR,…,no-resolve` | 不变 | |
+| 域正则（block） | `URL-REGEX`：`(^|\.)` → `(?:^|://|\.)` | exact→**widened** | `://` 补 apex 起始边界；代价：path 中 `.` 也构成边界（path 含 `suffix.` 片段误命中，放宽=block 安全方向） |
+| 域正则（exception） | `URL-REGEX`：`(^|\.)` → `(?:^|://)`，`.*` → `[^/]*` | 不变（exact） | host 内等价，且禁止跨越 path（例外宁窄） |
+| block gap 正则 | `(?:^|://|\.)(alts)\.` | exact→**widened** | 同上 path 边界放宽，已申报 |
+| exception gap 正则 | `(?:^|://)(alts)\.` | 不变（exact） | 仅 host 起始延续，与 sing-box `^(alts)\.` 同语义 |
+| 例外否决语义 | 例外规则以 `DIRECT` 置于全部 `PROXY` 规则之前 | 系统级等价 | 与双规则集架构同理，用文件内顺序表达 |
+
+### 11.3 性能设计
+
+- 4305 条规则中 4292 条是 `DOMAIN-SUFFIX`（Shadowrocket 走高效域匹配）；
+- 12 条 `URL-REGEX` 全部排在各自集合**末尾**，仅当 `DOMAIN-SUFFIX` 全部未命中时才求值；
+- 两条集合级 gap 超长正则（4200+ 分支）可整行删除，代价：`||host` 延续形态
+  （`host.evil.com`）退回标签边界语义（收窄，即放弃 ABP 无右边界语义）。
+
+### 11.4 验证
+
+- 对拍复用同一样本生成与双引擎 oracle；模拟器按 conf 顺序求值，
+  并**校验 conf 文件与审计 sr_rules 逐行一致**（防生成器/写出 drift）；
+- 当前全量 36645 样本：Shadowrocket 模拟器与 sing-box 模拟器逐样本行为**完全一致**
+  （偏差集合相同，仅 6 条责任溯源标签位移），0 未申报偏差；
+- 产物：`dist/gfwlist-shadowrocket.conf`（完整配置：[General] + [Rule] + [Host]）、
+  `audit-shadowrocket.{json,md}`、`mismatches-shadowrocket.json`。

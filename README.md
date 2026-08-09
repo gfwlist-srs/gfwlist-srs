@@ -13,8 +13,10 @@
 |------|------|
 | `gfwlist-block.srs` / `.json` | 阻断规则集（编译后 / source） |
 | `gfwlist-exception.srs` / `.json` | 例外（白名单）规则集 |
+| `gfwlist-shadowrocket.conf` | Shadowrocket 完整配置（例外 DIRECT 在前，阻断 PROXY 在后） |
 | `audit.md` / `audit.json` | 逐行转换审计（分类、决策、精度标签） |
-| `mismatches.json` | 最近一次全量对拍的偏差明细（全部已申报） |
+| `audit-shadowrocket.md` / `.json` | Shadowrocket 目标侧审计（含 conf↔审计逐行一致性校验） |
+| `mismatches.json` / `mismatches-shadowrocket.json` | 最近一次全量对拍的偏差明细（全部已申报） |
 
 ## 本地构建与验证
 
@@ -24,9 +26,11 @@ curl -fsSL -o gfwlist.b64 https://raw.githubusercontent.com/gfwlist/gfwlist/mast
 python3 tools/validate_input.py gfwlist.b64          # 输入结构验证
 base64 -d -i gfwlist.b64 -o gfwlist.txt              # Windows: certutil -decode
 python3 src/gfwlist2srs.py gfwlist.txt dist          # 转换 + 审计
+python3 src/gfwlist2shadowrocket.py gfwlist.txt dist # Shadowrocket 目标转换 + 审计
 sing-box rule-set compile dist/gfwlist-block.json -o dist/gfwlist-block.srs
 sing-box rule-set compile dist/gfwlist-exception.json -o dist/gfwlist-exception.srs
-python3 tests/differential_test.py gfwlist.txt dist  # 全量对拍（门禁）
+python3 tests/differential_test.py gfwlist.txt dist  # sing-box 全量对拍（门禁）
+python3 tests/differential_shadowrocket.py gfwlist.txt dist  # Shadowrocket 全量对拍（门禁）
 sing-box check -c examples/config.local.json         # 真实 sing-box 验证配置
 ```
 
@@ -67,6 +71,32 @@ sing-box check -c examples/config.local.json         # 真实 sing-box 验证配
 > 因此客户端按 `update_interval` 拉取即可拿到当日最新版。
 > 备用直链（无 CDN）：`https://raw.githubusercontent.com/gfwlist-srs/gfwlist-srs/main/dist/gfwlist-block.srs`
 
+## Shadowrocket 使用方式
+
+`dist/gfwlist-shadowrocket.conf` 是完整配置（`[General]` + `[Rule]` + `[Host]`），
+与 sing-box 版共用同一解析/优化管线和同一套等价性验证：
+
+- **例外语义**：例外（`@@`）规则以 `DIRECT` 置于全部 `PROXY` 规则之前，
+  Shadowrocket 按序先命中先生效 —— 与 AutoProxy `@@` 否决语义等价；
+- **映射**：`domain_suffix → DOMAIN-SUFFIX`、`domain_keyword → DOMAIN-KEYWORD`、
+  `ip_cidr → IP-CIDR,…,no-resolve`、域正则 → `URL-REGEX`（目标侧重写见下）；
+- **URL 语境重写**：`URL-REGEX` 匹配整条 URL 而非 host。block 侧域正则/gap 的
+  `(^|\.)` 前缀扩展为 `(?:^|://|\.)`，URL path 中的 `.` 也会构成边界
+  （path 含 `suffix.` 片段的 URL 可能误命中 → 放宽，block 安全方向，已申报）；
+  exception 侧前缀为 `(?:^|://)` 且 `.* → [^/]*`，不会跨入 path（例外宁窄，host 内等价）；
+- **性能**：两条集合级 gap `URL-REGEX`（4200+ 分支的超长正则）排在各自集合末尾，
+  仅当全部 `DOMAIN-SUFFIX` 未命中时才求值。若实测介意其开销可整行删除，
+  代价是 `||host` 的延续形态（`host.evil.com`）退回标签边界语义（收窄）。
+
+Shadowrocket：配置 → 添加配置 → 从 URL 下载，填入：
+
+```
+https://cdn.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-shadowrocket.conf
+```
+
+备用直链：`https://raw.githubusercontent.com/gfwlist-srs/gfwlist-srs/main/dist/gfwlist-shadowrocket.conf`
+已建有主配置时，也可只复制该文件的 `[Rule]` 段合并进自己的配置（务必保持例外规则在阻断规则之前）。
+
 ## 已知语义偏差（全部审计申报，详见 dist/audit.md）
 
 | 方向 | 来源 | 影响 |
@@ -74,7 +104,16 @@ sing-box check -c examples/config.local.json         # 真实 sing-box 验证配
 | widened | 280 条 URL 前缀规则的 scheme/path 条件在连接级模型中不存在 | 被墙站全协议走代理（无害） |
 | approximated | 2 条裸子串规则 → 域后缀；247 条无尾斜杠 URL 前缀规则的"向右延续"语义 | 仅理论边界差异 |
 | narrowed | 1 条畸形正则（L314，缺收尾 `/`） | 按 ABP 规范该规则本就永不命中，丢弃等价 |
+| widened（Shadowrocket 目标侧） | 10 条域正则 → `URL-REGEX` 的 `(^|\.) → (?:^|://|\.)` 前缀扩展 + 2 条 gap 正则 | URL path 中 `.` 边界可能误命中（多走代理，无害） |
 
 ## GitHub Actions
 
-`.github/workflows/daily.yml`：每日 01:17 UTC（北京 09:17）自动 下载→验证→转换→编译→**对拍门禁**→提交 dist。对拍失败则不发布。
+`.github/workflows/daily.yml`：每日 01:17 UTC（北京 09:17）自动 下载→验证→转换（sing-box + Shadowrocket 双目标）→编译→**双对拍门禁**→提交 dist。对拍失败则不发布。
+
+## Shadowrocket 目标设计（与 sing-box 目标的关系）
+
+Shadowrocket 版与 sing-box 版**共用同一解析/优化管线**（`parse_line` + `optimize`），
+只做目标侧翻译（`src/gfwlist2shadowrocket.py`），因此逐行决策天然一致。
+对拍门禁（`tests/differential_shadowrocket.py`）共用同一样本生成与双引擎 oracle；
+当前全量 36645 样本下，Shadowrocket 模拟器与 sing-box 模拟器**逐样本行为完全一致**
+（偏差集合相同，仅 6 条责任溯源标签位移），0 未申报偏差。详见 docs/DESIGN.md §11。
