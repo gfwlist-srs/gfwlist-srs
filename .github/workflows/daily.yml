@@ -91,6 +91,7 @@ jobs:
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block.srs" || true
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-block-domain.srs" || true
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-exception.srs" || true
+          curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-ir.json" || true
           curl -fsS "https://purge.jsdelivr.net/gh/gfwlist-srs/gfwlist-srs@main/dist/gfwlist-shadowrocket.conf" || true
 
       - name: Upload artifacts

@@ -7,10 +7,28 @@
 （`.srs` 二进制 + JSON source），目标：**语义等价 · 高性能 · 可审计**。
 设计与映射推导见 [docs/DESIGN.md](docs/DESIGN.md)。
 
+## 多目标架构（IR 管线）
+
+```
+gfwlist.txt → 解析 (parse_line) → 保义清洗 (去重/子集消除) → gfwlist-ir.json
+                                                                │
+                          ┌───────────────┬─────────────────────┤
+                          ▼               ▼                     ▼
+                    sing-box 适配器  Shadowrocket 适配器   (更多目标适配中:
+                    .json/.srs      .conf                 Clash/Xray/QX/…)
+```
+
+- **IR 层**（`src/gfwparse.py`）目标无关：逐行 ABP 语义解析、降级决策、精度标签申报、
+  去重与子集消除、集合级 gap 正则。语义决策只存在这一层。
+- **目标适配器**只做"词汇表 + 方言"翻译（如 Shadowrocket 的 URL-REGEX 语境重写），
+  不做语义决策 —— 新增一个 VPN 工具 ≈ 新增一个薄适配器 + 一个对拍模拟器。
+- 对拍门禁（双引擎 oracle + 样本生成）全部目标共享。
+
 ## 产物（dist/）
 
 | 文件 | 说明 |
 |------|------|
+| `gfwlist-ir.json` | **公共中间表示 (IR)**：全部目标的公共数据源（规范化规则集 + 逐行决策 + 精度标签），第三方可据此二次转换到任意工具 |
 | `gfwlist-block.srs` / `.json` | 阻断规则集（编译后 / source） |
 | `gfwlist-block-domain.srs` / `.json` | 阻断规则集的纯域名变体（去掉唯一的 1 条 `ip_cidr`，供 **DNS 规则**引用，见下） |
 | `gfwlist-exception.srs` / `.json` | 例外（白名单）规则集 |

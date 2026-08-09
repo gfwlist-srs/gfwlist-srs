@@ -141,7 +141,7 @@ sing-box rule-set 是无序集合，集合内无法表达"例外否决"。因此
 
 - `schedule: cron` 每日一次（避开整点，选 07:17 UTC 之类），`workflow_dispatch` 手动触发。
 - 步骤：下载 gfwlist → 校验 checksum → 转换 → 编译 srs → 跑对拍测试（失败则中止发布）→ 提交 `dist/` 到仓库（仅在有变化时）→ 打 daily tag / release。
-- 产物：`gfwlist-block.srs`、`gfwlist-block-domain.srs`（DNS 专用纯域名变体）、`gfwlist-exception.srs`、对应 `.json`（source）、`gfwlist-shadowrocket.conf`、`audit.md`、`sing-box 参考配置片段`。
+- 产物：`gfwlist-ir.json`（公共 IR）、`gfwlist-block.srs`、`gfwlist-block-domain.srs`（DNS 专用纯域名变体）、`gfwlist-exception.srs`、对应 `.json`（source）、`gfwlist-shadowrocket.conf`、`audit.md`、`sing-box 参考配置片段`。
 - 使用方通过 raw 直链 + `rule_set` type `remote` 自动更新。
 
 ## 10. 目录结构
@@ -149,15 +149,16 @@ sing-box rule-set 是无序集合，集合内无法表达"例外否决"。因此
 ```
 gfwlist-srs/
 ├── docs/DESIGN.md            # 本文档
-├── src/gfwlist2srs.py        # 转换器（通用，无写死）
-├── src/gfwlist2shadowrocket.py  # Shadowrocket 目标翻译（复用同一解析/优化管线）
+├── src/gfwparse.py           # IR 层: 解析 + 保义清洗 + gap 正则 (目标无关, 语义决策唯一所在)
+├── src/gfwlist2srs.py        # sing-box 适配器 (IR → ruleset JSON, 薄)
+├── src/gfwlist2shadowrocket.py  # Shadowrocket 适配器 (IR → .conf, URL 正则方言重写)
 ├── tests/
 │   ├── oracle_abp.py         # adblockparser 封装（独立 oracle）
 │   ├── singbox_sim.py        # sing-box 匹配语义模拟器
 │   ├── differential_test.py  # sing-box 全量对拍 + 未申报偏差检测
 │   └── differential_shadowrocket.py  # Shadowrocket 全量对拍（共用样本/oracle）
 ├── tools/census.py           # 上游语法普查（设计验证用）
-├── dist/                     # 构建产物（json/srs/conf/audit）
+├── dist/                     # 构建产物（ir/json/srs/conf/audit）
 └── .github/workflows/daily.yml
 ```
 
@@ -202,3 +203,38 @@ gfwlist-srs/
   （偏差集合相同，仅 6 条责任溯源标签位移），0 未申报偏差；
 - 产物：`dist/gfwlist-shadowrocket.conf`（完整配置：[General] + [Rule] + [Host]）、
   `audit-shadowrocket.{json,md}`、`mismatches-shadowrocket.json`。
+
+## 12. 多目标 IR 架构（2026-08-09 重构）
+
+为支撑多 VPN 工具目标，管线重构为「IR 层 + 薄适配器」两层：
+
+```
+gfwlist.txt → [IR 层 src/gfwparse.py] → gfwlist-ir.json → [目标适配器] → 各工具产物
+```
+
+### 12.1 职责划分
+
+- **IR 层（目标无关）**：`parse_line`（ABP 语义解析 + 降级决策 + 精度申报）、
+  `optimize`（去重 + 子集消除 + 冲突标注）、集合级 gap 正则。
+  **语义决策只存在这一层**；产物 `gfwlist-ir.json` 是版本化 schema（version 1），
+  包含规范化 sets、gap_regex、逐行 decisions、optimization_log、conflicts。
+- **目标适配器（目标相关）**：只做词汇表翻译与正则方言改写，不做语义决策。
+  新增一个 VPN 工具 ≈ 新增一个薄适配器 + 一个对拍模拟器，不触碰 IR 层。
+
+### 12.2 关键设计：gap 正则不并入 sets
+
+gap 正则是 host 语境的集合级产物。各目标方言不同：sing-box/Clash/Xray 直接并入
+regex 列表（`with_gap_regex` 辅助函数）；Shadowrocket/Surge 系改写为 URL 语境；
+无正则能力的目标（Quantumult X）丢弃并申报 narrowed。因此 IR 中 sets 与
+gap_regex 分离存放，由适配器按需取用。
+
+### 12.3 词汇表是工具中立的
+
+IR sets 的字段（`domain_suffix`/`domain_keyword`/`domain_regex`/`ip_cidr`）是
+**匹配器语义词汇表**而非 sing-box 私有格式：Clash 的 `DOMAIN-SUFFIX`、Xray 的
+`domain:`、Surge 的 `DOMAIN-SUFFIX` 与之语义一一对应，适配器只做关键字映射。
+
+### 12.4 回归门禁
+
+重构以**字节级回归**为准入：同一输入下全部既有 dist 产物必须零变化
+（仅新增 gfwlist-ir.json），且双对拍门禁数字与重构前一致。

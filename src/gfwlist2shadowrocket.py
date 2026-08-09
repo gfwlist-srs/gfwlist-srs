@@ -2,7 +2,7 @@
 """
 gfwlist2shadowrocket — 将 gfwlist 转换为 Shadowrocket 规则配置 (.conf)。
 
-与 gfwlist2srs 共用同一解析/优化管线 (parse_line + optimize)，保证两个目标
+与 sing-box 等所有目标共用同一 IR (src/gfwparse.py 构建)，保证各目标
 的逐行决策一致；本脚本只负责"目标侧翻译"：
 
   sing-box 字段            Shadowrocket 规则
@@ -34,9 +34,9 @@ from dataclasses import asdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from gfwlist2srs import (  # noqa: E402
+from gfwparse import (  # noqa: E402
     APPROX, DROPPED, EXACT, NARROWED, WIDENED,
-    Decision, load_gfwlist, optimize, parse_line,
+    Decision, build_ir, load_gfwlist,
 )
 
 # ---------------------------------------------------------------- 目标侧翻译
@@ -98,18 +98,13 @@ def main() -> int:
             last_modified = m.group(1).strip()
             break
 
-    # --- 与 gfwlist2srs 完全相同的解析与优化 ---
-    decisions: list[Decision] = []
-    block_rules: dict[str, list[str]] = {}
-    exc_rules: dict[str, list[str]] = {}
-    for i, raw in enumerate(lines, 1):
-        d = parse_line(i, raw)
-        decisions.append(d)
-        target = exc_rules if d.exception else block_rules
-        for f, v in d.emitted:
-            target.setdefault(f, []).append(v)
-    block_rules, b_log = optimize(block_rules)
-    exc_rules, e_log = optimize(exc_rules)
+    # --- 消费 IR (解析/清洗/决策全部在 gfwparse 完成) ---
+    # 注意: Shadowrocket 使用 URL 语境正则方言, 集合级 gap 由 sr_gap_regex 自行
+    # 重写, 因此这里取**不含** host 语境 gap 的 sets。
+    ir = build_ir(text, source=src)
+    decisions: list[Decision] = ir.decisions
+    block_rules: dict[str, list[str]] = ir.block_rules
+    exc_rules: dict[str, list[str]] = ir.exc_rules
 
     # --- 翻译成 Shadowrocket 规则 (带溯源与精度标签) ---
     # sr_rule: dict(type, value, policy, suffix, src_line, precision, note)
@@ -231,7 +226,7 @@ def main() -> int:
             },
         },
         "sr_precision_distribution": sr_precision_dist,
-        "optimization_log_shared": b_log + e_log,
+        "optimization_log_shared": ir.optimization_log,
         "target_notes": [
             "URL-REGEX 匹配对象为整条 URL; DOMAIN-* 匹配对象为 host。",
             "block 侧域正则/gap 的 (^|\\.) 前缀扩展为 (?:^|://|\\.), "
