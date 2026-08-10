@@ -163,6 +163,7 @@ host-suffix, agoogleaday.com, proxy
 host-suffix, agro.hk, proxy
 host-suffix, ai.dev, proxy
 host-suffix, ai.studio, proxy
+host-suffix, aihub.top, proxy
 host-suffix, aiosearch.com, proxy
 host-suffix, aiph.net, proxy
 host-suffix, airconsole.com, proxy
@@ -370,6 +371,7 @@ host-suffix, baramangaonline.com, proxy
 host-suffix, barnabu.co.uk, proxy
 host-suffix, bartender.dowjones.com, proxy
 host-suffix, barton.de, proxy
+host-suffix, basemaps.arcgis.com, proxy
 host-suffix, bastillepost.com, proxy
 host-suffix, bayvoice.net, proxy
 host-suffix, bb-chat.tv, proxy
@@ -1105,6 +1107,7 @@ host-suffix, eromanga-kingdom.com, proxy
 host-suffix, eromangadouzin.com, proxy
 host-suffix, eromon.net, proxy
 host-suffix, esg.t91y.com, proxy
+host-suffix, esim.redteago.com, proxy
 host-suffix, eslite.com, proxy
 host-suffix, esurance.com, proxy
 host-suffix, etherdelta.com, proxy
@@ -1127,6 +1130,7 @@ host-suffix, exmormon.org, proxy
 host-suffix, expatshield.com, proxy
 host-suffix, expecthim.com, proxy
 host-suffix, expekt.com, proxy
+host-suffix, experience.arcgis.com, proxy
 host-suffix, exploader.net, proxy
 host-suffix, expressnews.com, proxy
 host-suffix, expressvpn.com, proxy
