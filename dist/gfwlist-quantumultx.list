@@ -2679,6 +2679,7 @@ host-suffix, oklink.com, proxy
 host-suffix, okpool.me, proxy
 host-suffix, okx.com, proxy
 host-suffix, old.honeynet.org, proxy
+host-suffix, oldmapsonline.org, proxy
 host-suffix, olehdtv.com, proxy
 host-suffix, olelive.com, proxy
 host-suffix, olevod.com, proxy
@@ -3089,6 +3090,7 @@ host-suffix, rxhj.net, proxy
 host-suffix, s-cute.com, proxy
 host-suffix, s.yimg.com, proxy
 host-suffix, s3-ap-northeast-1.amazonaws.com, proxy
+host-suffix, s3.dualstack.us-west-2.amazonaws.com, proxy
 host-suffix, sacks.com, proxy
 host-suffix, sacom.hk, proxy
 host-suffix, sadistic-v.com, proxy
@@ -4025,6 +4027,7 @@ host-suffix, wiktionary.org, proxy
 host-suffix, willw.net, proxy
 host-suffix, wilsoncenter.org, proxy
 host-suffix, windscribe.com, proxy
+host-suffix, windy.com, proxy
 host-suffix, wingamestore.com, proxy
 host-suffix, wingy.site, proxy
 host-suffix, wionews.com, proxy
