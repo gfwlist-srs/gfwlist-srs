@@ -254,6 +254,7 @@ host-suffix, api.moomoobull.com, proxy
 host-suffix, api.palworldgame.com, proxy
 host-suffix, api.pureapk.com, proxy
 host-suffix, api.recaptcha.net, proxy
+host-suffix, api.shuaiapi.com, proxy
 host-suffix, api.steampowered.com, proxy
 host-suffix, apiary.io, proxy
 host-suffix, apigee.com, proxy
@@ -4121,6 +4122,7 @@ host-suffix, x.co, proxy
 host-suffix, x.com, proxy
 host-suffix, x.company, proxy
 host-suffix, x3guide.com, proxy
+host-suffix, x86.fr, proxy
 host-suffix, xbabe.com, proxy
 host-suffix, xbookcn.com, proxy
 host-suffix, xbtce.com, proxy
