@@ -1,9 +1,9 @@
 # gfwlist→Shadowrocket 审计报告
 
-- 上游 Last Modified: Sun, 23 Aug 2026 06:47:59 +0000
-- 输入行数: 4482
-- Shadowrocket 规则: {"exception": 34, "block": 4288, "total": 4322, "by_type": {"DOMAIN-SUFFIX": 4309, "DOMAIN-KEYWORD": 0, "IP-CIDR": 1, "URL-REGEX": 12}}
-- 目标侧精度分布: {"exception:exact": 34, "block:exact": 4009, "block:approximated": 237, "block:widened": 42}
+- 上游 Last Modified: Fri, 28 Aug 2026 03:00:43 +0000
+- 输入行数: 4483
+- Shadowrocket 规则: {"exception": 34, "block": 4289, "total": 4323, "by_type": {"DOMAIN-SUFFIX": 4310, "DOMAIN-KEYWORD": 0, "IP-CIDR": 1, "URL-REGEX": 12}}
+- 目标侧精度分布: {"exception:exact": 34, "block:exact": 4010, "block:approximated": 237, "block:widened": 42}
 
 ## 目标侧说明
 - URL-REGEX 匹配对象为整条 URL; DOMAIN-* 匹配对象为 host。
@@ -124,7 +124,7 @@
 | `DOMAIN-SUFFIX,hitomi.la,PROXY` | block | approximated | 2422 |  |
 | `DOMAIN-SUFFIX,hk-pub.com,PROXY` | block | approximated | 2423 |  |
 | `DOMAIN-SUFFIX,hk.gradconnection.com,PROXY` | block | widened | 2351 |  |
-| `DOMAIN-SUFFIX,hkcoc.weather.com.hk,PROXY` | block | approximated | 4199 |  |
+| `DOMAIN-SUFFIX,hkcoc.weather.com.hk,PROXY` | block | approximated | 4200 |  |
 | `DOMAIN-SUFFIX,homeservershow.com,PROXY` | block | approximated | 2444 |  |
 | `DOMAIN-SUFFIX,hornytrip.com,PROXY` | block | approximated | 2451 |  |
 | `DOMAIN-SUFFIX,ht.ly,PROXY` | block | approximated | 3149 |  |
@@ -252,13 +252,13 @@
 | `DOMAIN-SUFFIX,vpn.sv.cmu.edu,PROXY` | block | approximated | 1798 |  |
 | `DOMAIN-SUFFIX,vpnaccount.org,PROXY` | block | approximated | 4126 |  |
 | `DOMAIN-SUFFIX,vpncoupons.com,PROXY` | block | approximated | 4129 |  |
-| `DOMAIN-SUFFIX,w3s.link,PROXY` | block | widened | 4172 |  |
-| `DOMAIN-SUFFIX,webwarper.net,PROXY` | block | approximated | 4203 |  |
-| `DOMAIN-SUFFIX,weisuo.ws,PROXY` | block | approximated | 4208 |  |
-| `DOMAIN-SUFFIX,wemigrate.org,PROXY` | block | approximated | 4210 |  |
+| `DOMAIN-SUFFIX,w3s.link,PROXY` | block | widened | 4173 |  |
+| `DOMAIN-SUFFIX,webwarper.net,PROXY` | block | approximated | 4204 |  |
+| `DOMAIN-SUFFIX,weisuo.ws,PROXY` | block | approximated | 4209 |  |
+| `DOMAIN-SUFFIX,wemigrate.org,PROXY` | block | approximated | 4211 |  |
 | `DOMAIN-SUFFIX,wiki.gamerp.jp,PROXY` | block | approximated | 2246 |  |
-| `DOMAIN-SUFFIX,wordpress.com,PROXY` | block | widened | 4265 |  |
-| `DOMAIN-SUFFIX,woyaolian.org,PROXY` | block | approximated | 4286 |  |
+| `DOMAIN-SUFFIX,wordpress.com,PROXY` | block | widened | 4266 |  |
+| `DOMAIN-SUFFIX,woyaolian.org,PROXY` | block | approximated | 4287 |  |
 | `DOMAIN-SUFFIX,www.antd.org,PROXY` | block | approximated | 1383 |  |
 | `DOMAIN-SUFFIX,www.aolnews.com,PROXY` | block | approximated | 655 |  |
 | `DOMAIN-SUFFIX,www.cmoinc.org,PROXY` | block | approximated | 1794 |  |
@@ -274,15 +274,15 @@
 | `DOMAIN-SUFFIX,www.skype.com,PROXY` | block | widened | 3591 |  |
 | `DOMAIN-SUFFIX,www.tablesgenerator.com,PROXY` | block | widened | 3753 |  |
 | `DOMAIN-SUFFIX,www.taiwanonline.cc,PROXY` | block | widened | 3762 |  |
-| `DOMAIN-SUFFIX,www.websnapr.com,PROXY` | block | approximated | 4202 |  |
+| `DOMAIN-SUFFIX,www.websnapr.com,PROXY` | block | approximated | 4203 |  |
 | `DOMAIN-SUFFIX,www.zensur.freerk.com,PROXY` | block | approximated | 2205 |  |
-| `DOMAIN-SUFFIX,xianjian.tw,PROXY` | block | approximated | 4318 |  |
-| `DOMAIN-SUFFIX,xing.com,PROXY` | block | approximated | 4323 |  |
-| `DOMAIN-SUFFIX,xxx.xxx,PROXY` | block | approximated | 4340 |  |
-| `DOMAIN-SUFFIX,xxxymovies.com,PROXY` | block | approximated | 4342 |  |
-| `DOMAIN-SUFFIX,yeyeclub.com,PROXY` | block | approximated | 4369 |  |
-| `DOMAIN-SUFFIX,zhenxiang.biz,PROXY` | block | approximated | 4423 |  |
-| `DOMAIN-SUFFIX,zhongguo.ca,PROXY` | block | approximated | 4424 |  |
+| `DOMAIN-SUFFIX,xianjian.tw,PROXY` | block | approximated | 4319 |  |
+| `DOMAIN-SUFFIX,xing.com,PROXY` | block | approximated | 4324 |  |
+| `DOMAIN-SUFFIX,xxx.xxx,PROXY` | block | approximated | 4341 |  |
+| `DOMAIN-SUFFIX,xxxymovies.com,PROXY` | block | approximated | 4343 |  |
+| `DOMAIN-SUFFIX,yeyeclub.com,PROXY` | block | approximated | 4370 |  |
+| `DOMAIN-SUFFIX,zhenxiang.biz,PROXY` | block | approximated | 4424 |  |
+| `DOMAIN-SUFFIX,zhongguo.ca,PROXY` | block | approximated | 4425 |  |
 | `IP-CIDR,85.17.73.31/32,PROXY,no-resolve` | block | widened | 27 | no-resolve: 仅匹配 IP 字面量目标 |
 | `URL-REGEX,(?:^\|://\|\.)(000webhost\.com\|0rz\.tw\|1\-apple\.com\.tw\|1000giri\.net\|10...` | block | widened | -1 | 集合级 gap: ABP ||host 无右边界, 补中缀/起始延续; path 中 `.` 边界可能误命中(放宽) |
 | `URL-REGEX,(?:^\|://\|\.).*2\.bahamut\.com\.tw,PROXY` | block | widened | 1485 | (^|\.) -> (?:^|://|\.); path 中 `.` 边界可能误命中(放宽) |
