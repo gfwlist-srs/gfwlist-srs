@@ -1412,6 +1412,7 @@ host-suffix, geti2p.net, proxy
 host-suffix, getlantern.org, proxy
 host-suffix, getmalus.com, proxy
 host-suffix, getmdl.io, proxy
+host-suffix, getmonero.org, proxy
 host-suffix, getoutline.org, proxy
 host-suffix, getsession.org, proxy
 host-suffix, getsync.com, proxy
@@ -2600,6 +2601,7 @@ host-suffix, nga.mil, proxy
 host-suffix, nhentai.net, proxy
 host-suffix, nic.cz.cc, proxy
 host-suffix, nic.gov, proxy
+host-suffix, nicoseiga.jp, proxy
 host-suffix, nicovideo.jp, proxy
 host-suffix, nightswatch.top, proxy
 host-suffix, nikke-en.com, proxy
