@@ -9,7 +9,6 @@ payload:
   - 'DOMAIN-SUFFIX,checkin.gstatic.com'
   - 'DOMAIN-SUFFIX,ci.android.com'
   - 'DOMAIN-SUFFIX,clientservices.googleapis.com'
-  - 'DOMAIN-SUFFIX,cn.investing.com'
   - 'DOMAIN-SUFFIX,connectivitycheck.gstatic.com'
   - 'DOMAIN-SUFFIX,crl.pki.goog'
   - 'DOMAIN-SUFFIX,csi.gstatic.com'
@@ -35,4 +34,4 @@ payload:
   - 'DOMAIN-SUFFIX,www.gstatic.com'
   - 'DOMAIN-SUFFIX,www.typepad.com'
   - 'DOMAIN-REGEX,(^|\.).*\.tokenplus\.app'
-  - 'DOMAIN-REGEX,^(adservice\.google\.com|c\.pki\.goog|cdn\-china\.ampproject\.org|cdn\.ampproject\.org|checkin\.gstatic\.com|ci\.android\.com|clientservices\.googleapis\.com|cn\.investing\.com|connectivitycheck\.gstatic\.com|crl\.pki\.goog|csi\.gstatic\.com|dl\.google\.com|firebase\-settings\.crashlytics\.com|fonts\.googleapis\.com|fonts\.gstatic\.com|g0\.gstatic\.com|g1\.gstatic\.com|g2\.gstatic\.com|i\.pki\.goog|imasdk\.googleapis\.com|o\.pki\.goog|ocsp\.pki\.goog|redirector\.gvt1\.com|safebrowsing\.googleapis\.com|ssl\.gstatic\.com|static\.typepad\.com|tools\.google\.com|update\.googleapis\.com|www\.ampproject\.org|www\.gov\.tw|www\.gstatic\.com|www\.typepad\.com)\.'
+  - 'DOMAIN-REGEX,^(adservice\.google\.com|c\.pki\.goog|cdn\-china\.ampproject\.org|cdn\.ampproject\.org|checkin\.gstatic\.com|ci\.android\.com|clientservices\.googleapis\.com|connectivitycheck\.gstatic\.com|crl\.pki\.goog|csi\.gstatic\.com|dl\.google\.com|firebase\-settings\.crashlytics\.com|fonts\.googleapis\.com|fonts\.gstatic\.com|g0\.gstatic\.com|g1\.gstatic\.com|g2\.gstatic\.com|i\.pki\.goog|imasdk\.googleapis\.com|o\.pki\.goog|ocsp\.pki\.goog|redirector\.gvt1\.com|safebrowsing\.googleapis\.com|ssl\.gstatic\.com|static\.typepad\.com|tools\.google\.com|update\.googleapis\.com|www\.ampproject\.org|www\.gov\.tw|www\.gstatic\.com|www\.typepad\.com)\.'

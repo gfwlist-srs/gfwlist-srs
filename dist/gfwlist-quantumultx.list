@@ -9,7 +9,6 @@ host-suffix, cdn.ampproject.org, direct
 host-suffix, checkin.gstatic.com, direct
 host-suffix, ci.android.com, direct
 host-suffix, clientservices.googleapis.com, direct
-host-suffix, cn.investing.com, direct
 host-suffix, connectivitycheck.gstatic.com, direct
 host-suffix, crl.pki.goog, direct
 host-suffix, csi.gstatic.com, direct
@@ -2981,6 +2980,7 @@ host-suffix, qoos.com, proxy
 host-suffix, qq.co.za, proxy
 host-suffix, qstatus.com, proxy
 host-suffix, qtrac.eu, proxy
+host-suffix, quakemachinex.com, proxy
 host-suffix, questvisual.com, proxy
 host-suffix, quitccp.org, proxy
 host-suffix, quiz.directory, proxy
