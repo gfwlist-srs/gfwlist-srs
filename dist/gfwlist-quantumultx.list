@@ -580,6 +580,7 @@ host-suffix, byrut.org, proxy
 host-suffix, c-est-simple.com, proxy
 host-suffix, c-span.org, proxy
 host-suffix, c-spanvideo.org, proxy
+host-suffix, c.go-mpulse.net, proxy
 host-suffix, c.mi.com, proxy
 host-suffix, c2cx.com, proxy
 host-suffix, c3pool.com, proxy
@@ -2978,6 +2979,7 @@ host-suffix, qiangyou.org, proxy
 host-suffix, qianmo.tw, proxy
 host-suffix, qiwen.lu, proxy
 host-suffix, qmp4.com, proxy
+host-suffix, qobuz.com, proxy
 host-suffix, qoos.com, proxy
 host-suffix, qq.co.za, proxy
 host-suffix, qstatus.com, proxy
