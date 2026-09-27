@@ -1,9 +1,9 @@
 # gfwlist→srs 审计报告
 
-- 输入行数: 4484
-- block 规则: {'domain_suffix': 4297, 'ip_cidr': 1, 'domain_regex': 10}
+- 输入行数: 4485
+- block 规则: {'domain_suffix': 4298, 'ip_cidr': 1, 'domain_regex': 10}
 - exception 规则: {'domain_suffix': 31, 'domain_regex': 2}
-- 精度分布: {"block:dropped": 115, "block:exact": 4049, "block:widened": 41, "block:approximated": 246, "exception:narrowed": 1, "exception:exact": 32}
+- 精度分布: {"block:dropped": 115, "block:exact": 4050, "block:widened": 41, "block:approximated": 246, "exception:narrowed": 1, "exception:exact": 32}
 - 优化消除: 22 条
 - 跨集冲突: 0 条
 
@@ -279,23 +279,23 @@
 | 4040 | url-prefix | approximated | `\|http://uncyclopedia.tw` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=uncyclopedia.tw` |
 | 4051 | url-prefix | approximated | `\|http://upornia.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=upornia.com` |
 | 4077 | url-prefix | widened | `\|http://uymaarip.com/` | scheme 条件 'http://' 被丢弃(放宽) | `domain_suffix=uymaarip.com` |
-| 4116 | url-prefix | approximated | `\|http://vllcs.org` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=vllcs.org` |
-| 4122 | url-prefix | approximated | `\|http://vovo2000.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=vovo2000.com` |
-| 4127 | url-prefix | approximated | `\|http://vpnaccount.org` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=vpnaccount.org` |
-| 4130 | url-prefix | approximated | `\|http://vpncoupons.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=vpncoupons.com` |
-| 4175 | url-prefix|path | widened | `\|https://w3s.link/ipfs` | path 条件 '/ipfs' 被丢弃(放宽); scheme 条件 'https://' 被丢弃(放宽) | `domain_suffix=w3s.link` |
-| 4202 | url-prefix | approximated | `\|http://hkcoc.weather.com.hk` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=hkcoc.weather.com.hk` |
-| 4205 | url-prefix | approximated | `\|http://www.websnapr.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=www.websnapr.com` |
-| 4206 | url-prefix | approximated | `\|http://webwarper.net` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=webwarper.net` |
-| 4211 | url-prefix | approximated | `\|http://weisuo.ws` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=weisuo.ws` |
-| 4213 | url-prefix | approximated | `\|http://wemigrate.org` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=wemigrate.org` |
-| 4268 | url-prefix|wildcard | widened | `\|http://*.wordpress.com` | scheme 条件 'http://' 被丢弃(放宽); `*.` 通配放宽为 domain_suffix(多含 apex) | `domain_suffix=wordpress.com` |
-| 4289 | url-prefix | approximated | `\|http://woyaolian.org` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=woyaolian.org` |
-| 4321 | url-prefix | approximated | `\|http://xianjian.tw` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=xianjian.tw` |
-| 4326 | url-prefix | approximated | `\|http://xing.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=xing.com` |
-| 4343 | url-prefix | approximated | `\|http://xxx.xxx` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=xxx.xxx` |
-| 4345 | url-prefix | approximated | `\|http://xxxymovies.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=xxxymovies.com` |
-| 4370 | url-prefix | approximated | `\|http://yes-news.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=yes-news.com` |
-| 4372 | url-prefix | approximated | `\|http://yeyeclub.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=yeyeclub.com` |
-| 4426 | url-prefix | approximated | `\|http://zhenxiang.biz` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=zhenxiang.biz` |
-| 4427 | url-prefix | approximated | `\|http://zhongguo.ca` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=zhongguo.ca` |
+| 4117 | url-prefix | approximated | `\|http://vllcs.org` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=vllcs.org` |
+| 4123 | url-prefix | approximated | `\|http://vovo2000.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=vovo2000.com` |
+| 4128 | url-prefix | approximated | `\|http://vpnaccount.org` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=vpnaccount.org` |
+| 4131 | url-prefix | approximated | `\|http://vpncoupons.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=vpncoupons.com` |
+| 4176 | url-prefix|path | widened | `\|https://w3s.link/ipfs` | path 条件 '/ipfs' 被丢弃(放宽); scheme 条件 'https://' 被丢弃(放宽) | `domain_suffix=w3s.link` |
+| 4203 | url-prefix | approximated | `\|http://hkcoc.weather.com.hk` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=hkcoc.weather.com.hk` |
+| 4206 | url-prefix | approximated | `\|http://www.websnapr.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=www.websnapr.com` |
+| 4207 | url-prefix | approximated | `\|http://webwarper.net` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=webwarper.net` |
+| 4212 | url-prefix | approximated | `\|http://weisuo.ws` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=weisuo.ws` |
+| 4214 | url-prefix | approximated | `\|http://wemigrate.org` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=wemigrate.org` |
+| 4269 | url-prefix|wildcard | widened | `\|http://*.wordpress.com` | scheme 条件 'http://' 被丢弃(放宽); `*.` 通配放宽为 domain_suffix(多含 apex) | `domain_suffix=wordpress.com` |
+| 4290 | url-prefix | approximated | `\|http://woyaolian.org` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=woyaolian.org` |
+| 4322 | url-prefix | approximated | `\|http://xianjian.tw` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=xianjian.tw` |
+| 4327 | url-prefix | approximated | `\|http://xing.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=xing.com` |
+| 4344 | url-prefix | approximated | `\|http://xxx.xxx` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=xxx.xxx` |
+| 4346 | url-prefix | approximated | `\|http://xxxymovies.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=xxxymovies.com` |
+| 4371 | url-prefix | approximated | `\|http://yes-news.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=yes-news.com` |
+| 4373 | url-prefix | approximated | `\|http://yeyeclub.com` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=yeyeclub.com` |
+| 4427 | url-prefix | approximated | `\|http://zhenxiang.biz` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=zhenxiang.biz` |
+| 4428 | url-prefix | approximated | `\|http://zhongguo.ca` | scheme 条件 'http://' 被丢弃(放宽); ABP URL 前缀语义(可向右延续)与 domain_suffix 边界语义双向近似 | `domain_suffix=zhongguo.ca` |
