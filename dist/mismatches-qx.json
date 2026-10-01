@@ -5879,7 +5879,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2377"
+   "2378"
   ],
   "precision": [
    "widened"
@@ -5891,7 +5891,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2377"
+   "2378"
   ],
   "precision": [
    "widened"
@@ -7415,7 +7415,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3392"
+   "3394"
   ],
   "precision": [
    "widened"
@@ -7427,7 +7427,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3392"
+   "3394"
   ],
   "precision": [
    "widened"
@@ -10983,7 +10983,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4023"
+   "4025"
   ],
   "precision": [
    "widened"
@@ -10995,7 +10995,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4023"
+   "4025"
   ],
   "precision": [
    "widened"
@@ -16823,7 +16823,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3053"
+   "3055"
   ],
   "precision": [
    "widened"
@@ -16835,7 +16835,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3053"
+   "3055"
   ],
   "precision": [
    "widened"
@@ -21319,7 +21319,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2204"
+   "2205"
   ],
   "precision": [
    "approximated"
@@ -21331,7 +21331,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2204"
+   "2205"
   ],
   "precision": [
    "approximated"
@@ -21343,7 +21343,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2204"
+   "2205"
   ],
   "precision": [
    "approximated"
@@ -21355,7 +21355,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2204"
+   "2205"
   ],
   "precision": [
    "approximated"
@@ -21931,6 +21931,22 @@
  },
  {
   "url": "http://fututrustee.com.evil-example.com/",
+  "engine": "adblockparser",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://fuyin116.com.evil-example.com/",
+  "engine": "adblock",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://fuyin116.com.evil-example.com/",
   "engine": "adblockparser",
   "oracle": true,
   "sim": false,
@@ -29579,7 +29595,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2343"
+   "2344"
   ],
   "precision": [
    "widened"
@@ -29591,7 +29607,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2343"
+   "2344"
   ],
   "precision": [
    "widened"
@@ -40486,6 +40502,22 @@
   "precision": []
  },
  {
+  "url": "http://muse.ai.evil-example.com/",
+  "engine": "adblock",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://muse.ai.evil-example.com/",
+  "engine": "adblockparser",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
   "url": "http://music.amazon.com.evil-example.com/",
   "engine": "adblock",
   "oracle": true,
@@ -43523,7 +43555,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -43535,7 +43567,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -43547,7 +43579,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -43559,7 +43591,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -43571,7 +43603,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -43583,7 +43615,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -48707,7 +48739,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3390"
+   "3392"
   ],
   "precision": [
    "widened"
@@ -48719,7 +48751,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3390"
+   "3392"
   ],
   "precision": [
    "widened"
@@ -48731,7 +48763,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3390"
+   "3392"
   ],
   "precision": [
    "widened"
@@ -48743,7 +48775,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3390"
+   "3392"
   ],
   "precision": [
    "widened"
@@ -51107,7 +51139,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3531"
+   "3533"
   ],
   "precision": [
    "approximated"
@@ -51119,7 +51151,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3531"
+   "3533"
   ],
   "precision": [
    "approximated"
@@ -51131,7 +51163,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3531"
+   "3533"
   ],
   "precision": [
    "approximated"
@@ -51143,7 +51175,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3531"
+   "3533"
   ],
   "precision": [
    "approximated"
@@ -51395,7 +51427,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3547"
+   "3549"
   ],
   "precision": [
    "widened"
@@ -51407,7 +51439,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3547"
+   "3549"
   ],
   "precision": [
    "widened"
@@ -51419,7 +51451,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3547"
+   "3549"
   ],
   "precision": [
    "widened"
@@ -51431,7 +51463,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3547"
+   "3549"
   ],
   "precision": [
    "widened"
@@ -56635,7 +56667,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3799"
+   "3801"
   ],
   "precision": [
    "widened"
@@ -56647,7 +56679,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3799"
+   "3801"
   ],
   "precision": [
    "widened"
@@ -58451,7 +58483,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3986"
+   "3988"
   ],
   "precision": [
    "widened"
@@ -58463,7 +58495,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3986"
+   "3988"
   ],
   "precision": [
    "widened"
@@ -59899,7 +59931,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3955"
+   "3957"
   ],
   "precision": [
    "approximated"
@@ -59911,7 +59943,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3955"
+   "3957"
   ],
   "precision": [
    "approximated"
@@ -59923,7 +59955,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3955"
+   "3957"
   ],
   "precision": [
    "approximated"
@@ -59935,7 +59967,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3955"
+   "3957"
   ],
   "precision": [
    "approximated"
@@ -60931,7 +60963,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4007",
+   "4009",
    "||typepad.com"
   ],
   "precision": [
@@ -60944,7 +60976,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4007",
+   "4009",
    "||typepad.com"
   ],
   "precision": [
@@ -62221,7 +62253,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2121"
+   "2122"
   ],
   "precision": [
    "widened"
@@ -62233,7 +62265,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2121"
+   "2122"
   ],
   "precision": [
    "widened"
@@ -62245,7 +62277,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4077"
+   "4079"
   ],
   "precision": [
    "widened"
@@ -62257,7 +62289,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4077"
+   "4079"
   ],
   "precision": [
    "widened"
@@ -64053,7 +64085,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -64065,7 +64097,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -64077,7 +64109,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -64089,7 +64121,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -64101,7 +64133,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -64113,7 +64145,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -64125,7 +64157,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -64137,7 +64169,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -64149,7 +64181,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -64161,7 +64193,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -64225,6 +64257,22 @@
  },
  {
   "url": "http://walletconnect.org.evil-example.com/",
+  "engine": "adblockparser",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://wallhaven.cc.evil-example.com/",
+  "engine": "adblock",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://wallhaven.cc.evil-example.com/",
   "engine": "adblockparser",
   "oracle": true,
   "sim": false,
@@ -66293,7 +66341,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4269"
+   "4272"
   ],
   "precision": [
    "widened"
@@ -66305,7 +66353,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4269"
+   "4272"
   ],
   "precision": [
    "widened"
@@ -66317,7 +66365,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4269"
+   "4272"
   ],
   "precision": [
    "widened"
@@ -66329,7 +66377,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4269"
+   "4272"
   ],
   "precision": [
    "widened"
@@ -68509,7 +68557,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2196"
+   "2197"
   ],
   "precision": [
    "approximated"
@@ -68521,7 +68569,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2196"
+   "2197"
   ],
   "precision": [
    "approximated"
@@ -71957,7 +72005,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2377"
+   "2378"
   ],
   "precision": [
    "widened"
@@ -71969,7 +72017,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2377"
+   "2378"
   ],
   "precision": [
    "widened"
@@ -73421,7 +73469,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3392"
+   "3394"
   ],
   "precision": [
    "widened"
@@ -73433,7 +73481,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3392"
+   "3394"
   ],
   "precision": [
    "widened"
@@ -73461,7 +73509,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3946"
+   "3948"
   ],
   "precision": [
    "approximated"
@@ -73473,7 +73521,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3946"
+   "3948"
   ],
   "precision": [
    "approximated"
@@ -76117,7 +76165,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3419"
+   "3421"
   ],
   "precision": [
    "approximated"
@@ -76129,7 +76177,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3419"
+   "3421"
   ],
   "precision": [
    "approximated"
@@ -76573,7 +76621,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4023"
+   "4025"
   ],
   "precision": [
    "widened"
@@ -76585,7 +76633,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4023"
+   "4025"
   ],
   "precision": [
    "widened"
@@ -77949,7 +77997,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2154"
+   "2155"
   ],
   "precision": [
    "approximated"
@@ -77961,7 +78009,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2154"
+   "2155"
   ],
   "precision": [
    "approximated"
@@ -77989,7 +78037,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3554"
+   "3556"
   ],
   "precision": [
    "approximated"
@@ -78001,7 +78049,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3554"
+   "3556"
   ],
   "precision": [
    "approximated"
@@ -80053,7 +80101,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3963"
+   "3965"
   ],
   "precision": [
    "approximated"
@@ -80065,7 +80113,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3963"
+   "3965"
   ],
   "precision": [
    "approximated"
@@ -81861,7 +81909,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3053"
+   "3055"
   ],
   "precision": [
    "widened"
@@ -81873,7 +81921,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3053"
+   "3055"
   ],
   "precision": [
    "widened"
@@ -83501,7 +83549,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2086"
+   "2087"
   ],
   "precision": [
    "approximated"
@@ -83513,7 +83561,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2086"
+   "2087"
   ],
   "precision": [
    "approximated"
@@ -83557,7 +83605,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2089"
+   "2090"
   ],
   "precision": [
    "approximated"
@@ -83569,7 +83617,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2089"
+   "2090"
   ],
   "precision": [
    "approximated"
@@ -83645,7 +83693,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2094"
+   "2095"
   ],
   "precision": [
    "approximated"
@@ -83657,7 +83705,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2094"
+   "2095"
   ],
   "precision": [
    "approximated"
@@ -84205,7 +84253,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2133"
+   "2134"
   ],
   "precision": [
    "approximated"
@@ -84217,7 +84265,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2133"
+   "2134"
   ],
   "precision": [
    "approximated"
@@ -84261,7 +84309,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2124"
+   "2125"
   ],
   "precision": [
    "approximated"
@@ -84273,7 +84321,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2124"
+   "2125"
   ],
   "precision": [
    "approximated"
@@ -84349,7 +84397,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2129"
+   "2130"
   ],
   "precision": [
    "approximated"
@@ -84361,7 +84409,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2129"
+   "2130"
   ],
   "precision": [
    "approximated"
@@ -84373,7 +84421,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2130"
+   "2131"
   ],
   "precision": [
    "approximated"
@@ -84385,7 +84433,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2130"
+   "2131"
   ],
   "precision": [
    "approximated"
@@ -84557,7 +84605,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2137"
+   "2138"
   ],
   "precision": [
    "approximated"
@@ -84569,7 +84617,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2137"
+   "2138"
   ],
   "precision": [
    "approximated"
@@ -84677,7 +84725,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2146"
+   "2147"
   ],
   "precision": [
    "approximated"
@@ -84689,7 +84737,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2146"
+   "2147"
   ],
   "precision": [
    "approximated"
@@ -85117,7 +85165,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2156"
+   "2157"
   ],
   "precision": [
    "approximated"
@@ -85129,7 +85177,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2156"
+   "2157"
   ],
   "precision": [
    "approximated"
@@ -85157,7 +85205,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2167"
+   "2168"
   ],
   "precision": [
    "approximated"
@@ -85169,7 +85217,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2167"
+   "2168"
   ],
   "precision": [
    "approximated"
@@ -85237,7 +85285,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2172"
+   "2173"
   ],
   "precision": [
    "approximated"
@@ -85249,7 +85297,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2172"
+   "2173"
   ],
   "precision": [
    "approximated"
@@ -85565,7 +85613,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2185"
+   "2186"
   ],
   "precision": [
    "approximated"
@@ -85577,7 +85625,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2185"
+   "2186"
   ],
   "precision": [
    "approximated"
@@ -85613,7 +85661,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2187"
+   "2188"
   ],
   "precision": [
    "approximated"
@@ -85625,7 +85673,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2187"
+   "2188"
   ],
   "precision": [
    "approximated"
@@ -85965,7 +86013,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2204"
+   "2205"
   ],
   "precision": [
    "approximated"
@@ -85977,7 +86025,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2204"
+   "2205"
   ],
   "precision": [
    "approximated"
@@ -86536,6 +86584,22 @@
   "precision": []
  },
  {
+  "url": "http://www.fuyin116.com.cdn-mirror.net/",
+  "engine": "adblock",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://www.fuyin116.com.cdn-mirror.net/",
+  "engine": "adblockparser",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
   "url": "http://www.fw.cm.cdn-mirror.net/",
   "engine": "adblockparser",
   "oracle": true,
@@ -86637,7 +86701,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2231"
+   "2232"
   ],
   "precision": [
    "approximated"
@@ -86649,7 +86713,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2231"
+   "2232"
   ],
   "precision": [
    "approximated"
@@ -86805,7 +86869,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2244"
+   "2245"
   ],
   "precision": [
    "approximated"
@@ -86817,7 +86881,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2244"
+   "2245"
   ],
   "precision": [
    "approximated"
@@ -86925,7 +86989,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2249"
+   "2250"
   ],
   "precision": [
    "approximated"
@@ -86937,7 +87001,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2249"
+   "2250"
   ],
   "precision": [
    "approximated"
@@ -87005,7 +87069,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2254"
+   "2255"
   ],
   "precision": [
    "approximated"
@@ -87017,7 +87081,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2254"
+   "2255"
   ],
   "precision": [
    "approximated"
@@ -87085,7 +87149,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2257"
+   "2258"
   ],
   "precision": [
    "approximated"
@@ -87097,7 +87161,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2257"
+   "2258"
   ],
   "precision": [
    "approximated"
@@ -87645,7 +87709,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2277"
+   "2278"
   ],
   "precision": [
    "approximated"
@@ -87657,7 +87721,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2277"
+   "2278"
   ],
   "precision": [
    "approximated"
@@ -88085,7 +88149,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2225"
+   "2226"
   ],
   "precision": [
    "approximated"
@@ -88097,7 +88161,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2225"
+   "2226"
   ],
   "precision": [
    "approximated"
@@ -88261,7 +88325,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2702"
+   "2703"
   ],
   "precision": [
    "approximated"
@@ -88273,7 +88337,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2702"
+   "2703"
   ],
   "precision": [
    "approximated"
@@ -91493,7 +91557,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2347"
+   "2348"
   ],
   "precision": [
    "approximated"
@@ -91505,7 +91569,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2347"
+   "2348"
   ],
   "precision": [
    "approximated"
@@ -91517,7 +91581,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2348"
+   "2349"
   ],
   "precision": [
    "approximated"
@@ -91529,7 +91593,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2348"
+   "2349"
   ],
   "precision": [
    "approximated"
@@ -91613,7 +91677,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2352"
+   "2353"
   ],
   "precision": [
    "approximated"
@@ -91625,7 +91689,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2352"
+   "2353"
   ],
   "precision": [
    "approximated"
@@ -91733,7 +91797,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2372"
+   "2373"
   ],
   "precision": [
    "approximated"
@@ -91745,7 +91809,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2372"
+   "2373"
   ],
   "precision": [
    "approximated"
@@ -91957,7 +92021,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2381"
+   "2382"
   ],
   "precision": [
    "approximated"
@@ -91969,7 +92033,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2381"
+   "2382"
   ],
   "precision": [
    "approximated"
@@ -91997,7 +92061,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2384"
+   "2385"
   ],
   "precision": [
    "approximated"
@@ -92009,7 +92073,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2384"
+   "2385"
   ],
   "precision": [
    "approximated"
@@ -92061,7 +92125,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2388"
+   "2389"
   ],
   "precision": [
    "approximated"
@@ -92073,7 +92137,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2388"
+   "2389"
   ],
   "precision": [
    "approximated"
@@ -92613,7 +92677,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2416"
+   "2417"
   ],
   "precision": [
    "approximated"
@@ -92625,7 +92689,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2416"
+   "2417"
   ],
   "precision": [
    "approximated"
@@ -92661,7 +92725,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2417"
+   "2418"
   ],
   "precision": [
    "approximated"
@@ -92673,7 +92737,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2417"
+   "2418"
   ],
   "precision": [
    "approximated"
@@ -92685,7 +92749,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2343"
+   "2344"
   ],
   "precision": [
    "widened"
@@ -92697,7 +92761,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2343"
+   "2344"
   ],
   "precision": [
    "widened"
@@ -92837,7 +92901,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4203"
+   "4206"
   ],
   "precision": [
    "approximated"
@@ -92849,7 +92913,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4203"
+   "4206"
   ],
   "precision": [
    "approximated"
@@ -93181,7 +93245,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2437"
+   "2438"
   ],
   "precision": [
    "approximated"
@@ -93193,7 +93257,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2437"
+   "2438"
   ],
   "precision": [
    "approximated"
@@ -93293,7 +93357,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2444"
+   "2445"
   ],
   "precision": [
    "approximated"
@@ -93305,7 +93369,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2444"
+   "2445"
   ],
   "precision": [
    "approximated"
@@ -93669,7 +93733,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3145"
+   "3147"
   ],
   "precision": [
    "approximated"
@@ -93681,7 +93745,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3145"
+   "3147"
   ],
   "precision": [
    "approximated"
@@ -93709,7 +93773,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3146"
+   "3148"
   ],
   "precision": [
    "approximated"
@@ -93721,7 +93785,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3146"
+   "3148"
   ],
   "precision": [
    "approximated"
@@ -93805,7 +93869,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2467"
+   "2468"
   ],
   "precision": [
    "approximated"
@@ -93817,7 +93881,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2467"
+   "2468"
   ],
   "precision": [
    "approximated"
@@ -94933,7 +94997,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2540"
+   "2541"
   ],
   "precision": [
    "approximated"
@@ -94945,7 +95009,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2540"
+   "2541"
   ],
   "precision": [
    "approximated"
@@ -95733,7 +95797,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2580"
+   "2581"
   ],
   "precision": [
    "approximated"
@@ -95745,7 +95809,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2580"
+   "2581"
   ],
   "precision": [
    "approximated"
@@ -95917,7 +95981,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2588"
+   "2589"
   ],
   "precision": [
    "approximated"
@@ -95929,7 +95993,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2588"
+   "2589"
   ],
   "precision": [
    "approximated"
@@ -96157,7 +96221,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2601"
+   "2602"
   ],
   "precision": [
    "approximated"
@@ -96169,7 +96233,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2601"
+   "2602"
   ],
   "precision": [
    "approximated"
@@ -96669,7 +96733,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2636"
+   "2637"
   ],
   "precision": [
    "approximated"
@@ -96681,7 +96745,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2636"
+   "2637"
   ],
   "precision": [
    "approximated"
@@ -96797,7 +96861,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2640"
+   "2641"
   ],
   "precision": [
    "approximated"
@@ -96809,7 +96873,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2640"
+   "2641"
   ],
   "precision": [
    "approximated"
@@ -96837,7 +96901,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2643"
+   "2644"
   ],
   "precision": [
    "approximated"
@@ -96849,7 +96913,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2643"
+   "2644"
   ],
   "precision": [
    "approximated"
@@ -97061,7 +97125,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2653"
+   "2654"
   ],
   "precision": [
    "approximated"
@@ -97073,7 +97137,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2653"
+   "2654"
   ],
   "precision": [
    "approximated"
@@ -97685,7 +97749,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2691"
+   "2692"
   ],
   "precision": [
    "approximated"
@@ -97697,7 +97761,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2691"
+   "2692"
   ],
   "precision": [
    "approximated"
@@ -98245,7 +98309,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2743"
+   "2744"
   ],
   "precision": [
    "approximated"
@@ -98257,7 +98321,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2743"
+   "2744"
   ],
   "precision": [
    "approximated"
@@ -98541,7 +98605,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2754"
+   "2755"
   ],
   "precision": [
    "approximated"
@@ -98553,7 +98617,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2754"
+   "2755"
   ],
   "precision": [
    "approximated"
@@ -98909,7 +98973,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2767"
+   "2768"
   ],
   "precision": [
    "approximated"
@@ -98921,7 +98985,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2767"
+   "2768"
   ],
   "precision": [
    "approximated"
@@ -99421,7 +99485,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2788"
+   "2789"
   ],
   "precision": [
    "approximated"
@@ -99433,7 +99497,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2788"
+   "2789"
   ],
   "precision": [
    "approximated"
@@ -99693,7 +99757,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2799"
+   "2800"
   ],
   "precision": [
    "approximated"
@@ -99705,7 +99769,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2799"
+   "2800"
   ],
   "precision": [
    "approximated"
@@ -99917,7 +99981,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2839"
+   "2841"
   ],
   "precision": [
    "approximated"
@@ -99929,7 +99993,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2839"
+   "2841"
   ],
   "precision": [
    "approximated"
@@ -100085,7 +100149,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2846"
+   "2848"
   ],
   "precision": [
    "approximated"
@@ -100097,7 +100161,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2846"
+   "2848"
   ],
   "precision": [
    "approximated"
@@ -100149,7 +100213,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3147"
+   "3149"
   ],
   "precision": [
    "approximated"
@@ -100161,7 +100225,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3147"
+   "3149"
   ],
   "precision": [
    "approximated"
@@ -100373,7 +100437,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2852"
+   "2854"
   ],
   "precision": [
    "approximated"
@@ -100385,7 +100449,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2852"
+   "2854"
   ],
   "precision": [
    "approximated"
@@ -101109,7 +101173,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2889"
+   "2891"
   ],
   "precision": [
    "approximated"
@@ -101121,7 +101185,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2889"
+   "2891"
   ],
   "precision": [
    "approximated"
@@ -101317,7 +101381,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2901"
+   "2903"
   ],
   "precision": [
    "approximated"
@@ -101329,7 +101393,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2901"
+   "2903"
   ],
   "precision": [
    "approximated"
@@ -101341,7 +101405,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2902"
+   "2904"
   ],
   "precision": [
    "approximated"
@@ -101353,7 +101417,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2902"
+   "2904"
   ],
   "precision": [
    "approximated"
@@ -101789,7 +101853,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2923"
+   "2925"
   ],
   "precision": [
    "approximated"
@@ -101801,7 +101865,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2923"
+   "2925"
   ],
   "precision": [
    "approximated"
@@ -102173,7 +102237,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2942"
+   "2944"
   ],
   "precision": [
    "approximated"
@@ -102185,7 +102249,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2942"
+   "2944"
   ],
   "precision": [
    "approximated"
@@ -102365,7 +102429,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2950"
+   "2952"
   ],
   "precision": [
    "approximated"
@@ -102377,7 +102441,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2950"
+   "2952"
   ],
   "precision": [
    "approximated"
@@ -102441,6 +102505,14 @@
  },
  {
   "url": "http://www.multiply.com.cdn-mirror.net/",
+  "engine": "adblockparser",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://www.muse.ai.cdn-mirror.net/",
   "engine": "adblockparser",
   "oracle": true,
   "sim": false,
@@ -103101,7 +103173,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3012"
+   "3014"
   ],
   "precision": [
    "approximated"
@@ -103113,7 +103185,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3012"
+   "3014"
   ],
   "precision": [
    "approximated"
@@ -103349,7 +103421,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3023"
+   "3025"
   ],
   "precision": [
    "approximated"
@@ -103361,7 +103433,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3023"
+   "3025"
   ],
   "precision": [
    "approximated"
@@ -104373,7 +104445,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3063"
+   "3065"
   ],
   "precision": [
    "approximated"
@@ -104385,7 +104457,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3063"
+   "3065"
   ],
   "precision": [
    "approximated"
@@ -104413,7 +104485,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3064"
+   "3066"
   ],
   "precision": [
    "approximated"
@@ -104425,7 +104497,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3064"
+   "3066"
   ],
   "precision": [
    "approximated"
@@ -104613,7 +104685,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3076"
+   "3078"
   ],
   "precision": [
    "approximated"
@@ -104625,7 +104697,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3076"
+   "3078"
   ],
   "precision": [
    "approximated"
@@ -104637,7 +104709,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3077"
+   "3079"
   ],
   "precision": [
    "approximated"
@@ -104649,7 +104721,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3077"
+   "3079"
   ],
   "precision": [
    "approximated"
@@ -105005,7 +105077,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3102"
+   "3104"
   ],
   "precision": [
    "approximated"
@@ -105017,7 +105089,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3102"
+   "3104"
   ],
   "precision": [
    "approximated"
@@ -105181,7 +105253,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -105193,7 +105265,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -105485,7 +105557,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3408"
+   "3410"
   ],
   "precision": [
    "approximated"
@@ -105497,7 +105569,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3408"
+   "3410"
   ],
   "precision": [
    "approximated"
@@ -105541,7 +105613,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3121"
+   "3123"
   ],
   "precision": [
    "approximated"
@@ -105553,7 +105625,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3121"
+   "3123"
   ],
   "precision": [
    "approximated"
@@ -105565,7 +105637,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3122"
+   "3124"
   ],
   "precision": [
    "approximated"
@@ -105577,7 +105649,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3122"
+   "3124"
   ],
   "precision": [
    "approximated"
@@ -105837,7 +105909,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3130"
+   "3132"
   ],
   "precision": [
    "approximated"
@@ -105849,7 +105921,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3130"
+   "3132"
   ],
   "precision": [
    "approximated"
@@ -106101,7 +106173,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3144"
+   "3146"
   ],
   "precision": [
    "approximated"
@@ -106113,7 +106185,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3144"
+   "3146"
   ],
   "precision": [
    "approximated"
@@ -106773,7 +106845,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3210"
+   "3212"
   ],
   "precision": [
    "approximated"
@@ -106785,7 +106857,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3210"
+   "3212"
   ],
   "precision": [
    "approximated"
@@ -107997,7 +108069,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3278"
+   "3280"
   ],
   "precision": [
    "approximated"
@@ -108009,7 +108081,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3278"
+   "3280"
   ],
   "precision": [
    "approximated"
@@ -108053,7 +108125,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3280"
+   "3282"
   ],
   "precision": [
    "approximated"
@@ -108065,7 +108137,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3280"
+   "3282"
   ],
   "precision": [
    "approximated"
@@ -109165,7 +109237,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3346"
+   "3348"
   ],
   "precision": [
    "approximated"
@@ -109177,7 +109249,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3346"
+   "3348"
   ],
   "precision": [
    "approximated"
@@ -109349,7 +109421,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3362"
+   "3364"
   ],
   "precision": [
    "approximated"
@@ -109361,7 +109433,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3362"
+   "3364"
   ],
   "precision": [
    "approximated"
@@ -109613,7 +109685,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3390"
+   "3392"
   ],
   "precision": [
    "widened"
@@ -109625,7 +109697,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3390"
+   "3392"
   ],
   "precision": [
    "widened"
@@ -109637,7 +109709,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3391"
+   "3393"
   ],
   "precision": [
    "approximated"
@@ -109649,7 +109721,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3391"
+   "3393"
   ],
   "precision": [
    "approximated"
@@ -109933,7 +110005,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3404"
+   "3406"
   ],
   "precision": [
    "approximated"
@@ -109945,7 +110017,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3404"
+   "3406"
   ],
   "precision": [
    "approximated"
@@ -111005,7 +111077,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3458"
+   "3460"
   ],
   "precision": [
    "approximated"
@@ -111017,7 +111089,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3458"
+   "3460"
   ],
   "precision": [
    "approximated"
@@ -111205,7 +111277,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3506"
+   "3508"
   ],
   "precision": [
    "approximated"
@@ -111217,7 +111289,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3506"
+   "3508"
   ],
   "precision": [
    "approximated"
@@ -111381,7 +111453,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3518"
+   "3520"
   ],
   "precision": [
    "approximated"
@@ -111393,7 +111465,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3518"
+   "3520"
   ],
   "precision": [
    "approximated"
@@ -111749,7 +111821,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3531"
+   "3533"
   ],
   "precision": [
    "approximated"
@@ -111761,7 +111833,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3531"
+   "3533"
   ],
   "precision": [
    "approximated"
@@ -112469,7 +112541,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3570"
+   "3572"
   ],
   "precision": [
    "approximated"
@@ -112481,7 +112553,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3570"
+   "3572"
   ],
   "precision": [
    "approximated"
@@ -112917,7 +112989,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -112929,7 +113001,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -112941,7 +113013,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -112953,7 +113025,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -112965,7 +113037,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -112977,7 +113049,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -113349,7 +113421,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3608"
+   "3610"
   ],
   "precision": [
    "approximated"
@@ -113361,7 +113433,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3608"
+   "3610"
   ],
   "precision": [
    "approximated"
@@ -113429,7 +113501,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2281"
+   "2282"
   ],
   "precision": [
    "approximated"
@@ -113441,7 +113513,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2281"
+   "2282"
   ],
   "precision": [
    "approximated"
@@ -113693,7 +113765,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3625"
+   "3627"
   ],
   "precision": [
    "approximated"
@@ -113705,7 +113777,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3625"
+   "3627"
   ],
   "precision": [
    "approximated"
@@ -114253,7 +114325,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3650"
+   "3652"
   ],
   "precision": [
    "approximated"
@@ -114265,7 +114337,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3650"
+   "3652"
   ],
   "precision": [
    "approximated"
@@ -114469,7 +114541,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3659"
+   "3661"
   ],
   "precision": [
    "approximated"
@@ -114481,7 +114553,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3659"
+   "3661"
   ],
   "precision": [
    "approximated"
@@ -115189,7 +115261,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3690"
+   "3692"
   ],
   "precision": [
    "approximated"
@@ -115201,7 +115273,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3690"
+   "3692"
   ],
   "precision": [
    "approximated"
@@ -115245,7 +115317,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3691"
+   "3693"
   ],
   "precision": [
    "approximated"
@@ -115257,7 +115329,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3691"
+   "3693"
   ],
   "precision": [
    "approximated"
@@ -115597,7 +115669,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3752"
+   "3754"
   ],
   "precision": [
    "approximated"
@@ -115609,7 +115681,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3752"
+   "3754"
   ],
   "precision": [
    "approximated"
@@ -115629,7 +115701,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3754"
+   "3756"
   ],
   "precision": [
    "widened"
@@ -115641,7 +115713,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3754"
+   "3756"
   ],
   "precision": [
    "widened"
@@ -115821,7 +115893,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3763"
+   "3765"
   ],
   "precision": [
    "widened"
@@ -115833,7 +115905,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3763"
+   "3765"
   ],
   "precision": [
    "widened"
@@ -115941,7 +116013,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3769"
+   "3771"
   ],
   "precision": [
    "approximated"
@@ -115953,7 +116025,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3769"
+   "3771"
   ],
   "precision": [
    "approximated"
@@ -116125,7 +116197,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3776"
+   "3778"
   ],
   "precision": [
    "approximated"
@@ -116137,7 +116209,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3776"
+   "3778"
   ],
   "precision": [
    "approximated"
@@ -116781,7 +116853,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3793"
+   "3795"
   ],
   "precision": [
    "approximated"
@@ -116793,7 +116865,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3793"
+   "3795"
   ],
   "precision": [
    "approximated"
@@ -116877,7 +116949,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3799"
+   "3801"
   ],
   "precision": [
    "widened"
@@ -116889,7 +116961,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3799"
+   "3801"
   ],
   "precision": [
    "widened"
@@ -117189,7 +117261,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3815"
+   "3817"
   ],
   "precision": [
    "approximated"
@@ -117201,7 +117273,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3815"
+   "3817"
   ],
   "precision": [
    "approximated"
@@ -117597,7 +117669,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3836"
+   "3838"
   ],
   "precision": [
    "approximated"
@@ -117609,7 +117681,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3836"
+   "3838"
   ],
   "precision": [
    "approximated"
@@ -117669,7 +117741,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3843"
+   "3845"
   ],
   "precision": [
    "approximated"
@@ -117681,7 +117753,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3843"
+   "3845"
   ],
   "precision": [
    "approximated"
@@ -117741,7 +117813,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3844"
+   "3846"
   ],
   "precision": [
    "approximated"
@@ -117753,7 +117825,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3844"
+   "3846"
   ],
   "precision": [
    "approximated"
@@ -117765,7 +117837,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3845"
+   "3847"
   ],
   "precision": [
    "approximated"
@@ -117777,7 +117849,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3845"
+   "3847"
   ],
   "precision": [
    "approximated"
@@ -118349,7 +118421,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3874"
+   "3876"
   ],
   "precision": [
    "approximated"
@@ -118361,7 +118433,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3874"
+   "3876"
   ],
   "precision": [
    "approximated"
@@ -118565,7 +118637,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3986"
+   "3988"
   ],
   "precision": [
    "widened"
@@ -118577,7 +118649,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3986"
+   "3988"
   ],
   "precision": [
    "widened"
@@ -118613,7 +118685,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3886"
+   "3888"
   ],
   "precision": [
    "approximated"
@@ -118625,7 +118697,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3886"
+   "3888"
   ],
   "precision": [
    "approximated"
@@ -118637,7 +118709,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3887"
+   "3889"
   ],
   "precision": [
    "approximated"
@@ -118649,7 +118721,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3887"
+   "3889"
   ],
   "precision": [
    "approximated"
@@ -118725,7 +118797,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3889"
+   "3891"
   ],
   "precision": [
    "approximated"
@@ -118737,7 +118809,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3889"
+   "3891"
   ],
   "precision": [
    "approximated"
@@ -118893,7 +118965,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3894"
+   "3896"
   ],
   "precision": [
    "approximated"
@@ -118905,7 +118977,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3894"
+   "3896"
   ],
   "precision": [
    "approximated"
@@ -119053,7 +119125,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3904"
+   "3906"
   ],
   "precision": [
    "approximated"
@@ -119065,7 +119137,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3904"
+   "3906"
   ],
   "precision": [
    "approximated"
@@ -119501,7 +119573,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3923"
+   "3925"
   ],
   "precision": [
    "approximated"
@@ -119513,7 +119585,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3923"
+   "3925"
   ],
   "precision": [
    "approximated"
@@ -119605,7 +119677,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3926"
+   "3928"
   ],
   "precision": [
    "approximated"
@@ -119617,7 +119689,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3926"
+   "3928"
   ],
   "precision": [
    "approximated"
@@ -119645,7 +119717,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3928"
+   "3930"
   ],
   "precision": [
    "approximated"
@@ -119657,7 +119729,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3928"
+   "3930"
   ],
   "precision": [
    "approximated"
@@ -119805,7 +119877,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3936"
+   "3938"
   ],
   "precision": [
    "approximated"
@@ -119817,7 +119889,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3936"
+   "3938"
   ],
   "precision": [
    "approximated"
@@ -119861,7 +119933,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3947"
+   "3949"
   ],
   "precision": [
    "approximated"
@@ -119873,7 +119945,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3947"
+   "3949"
   ],
   "precision": [
    "approximated"
@@ -119965,7 +120037,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3955"
+   "3957"
   ],
   "precision": [
    "approximated"
@@ -119977,7 +120049,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3955"
+   "3957"
   ],
   "precision": [
    "approximated"
@@ -120005,7 +120077,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3940"
+   "3942"
   ],
   "precision": [
    "approximated"
@@ -120017,7 +120089,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3940"
+   "3942"
   ],
   "precision": [
    "approximated"
@@ -120133,7 +120205,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3962"
+   "3964"
   ],
   "precision": [
    "approximated"
@@ -120145,7 +120217,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3962"
+   "3964"
   ],
   "precision": [
    "approximated"
@@ -120253,7 +120325,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3970"
+   "3972"
   ],
   "precision": [
    "approximated"
@@ -120265,7 +120337,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3970"
+   "3972"
   ],
   "precision": [
    "approximated"
@@ -120365,7 +120437,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3975"
+   "3977"
   ],
   "precision": [
    "approximated"
@@ -120377,7 +120449,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3975"
+   "3977"
   ],
   "precision": [
    "approximated"
@@ -120389,7 +120461,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3976"
+   "3978"
   ],
   "precision": [
    "approximated"
@@ -120401,7 +120473,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3976"
+   "3978"
   ],
   "precision": [
    "approximated"
@@ -120413,7 +120485,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3977"
+   "3979"
   ],
   "precision": [
    "approximated"
@@ -120425,7 +120497,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3977"
+   "3979"
   ],
   "precision": [
    "approximated"
@@ -120853,7 +120925,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3991"
+   "3993"
   ],
   "precision": [
    "approximated"
@@ -120865,7 +120937,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3991"
+   "3993"
   ],
   "precision": [
    "approximated"
@@ -120877,7 +120949,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4003"
+   "4005"
   ],
   "precision": [
    "approximated"
@@ -120889,7 +120961,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4003"
+   "4005"
   ],
   "precision": [
    "approximated"
@@ -120997,7 +121069,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2341"
+   "2342"
   ],
   "precision": [
    "approximated"
@@ -121009,7 +121081,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2341"
+   "2342"
   ],
   "precision": [
    "approximated"
@@ -121021,7 +121093,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4020"
+   "4022"
   ],
   "precision": [
    "approximated"
@@ -121033,7 +121105,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4020"
+   "4022"
   ],
   "precision": [
    "approximated"
@@ -121261,7 +121333,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4037"
+   "4039"
   ],
   "precision": [
    "approximated"
@@ -121273,7 +121345,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4037"
+   "4039"
   ],
   "precision": [
    "approximated"
@@ -121293,7 +121365,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4039"
+   "4041"
   ],
   "precision": [
    "approximated"
@@ -121305,7 +121377,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4039"
+   "4041"
   ],
   "precision": [
    "approximated"
@@ -121317,7 +121389,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4040"
+   "4042"
   ],
   "precision": [
    "approximated"
@@ -121329,7 +121401,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4040"
+   "4042"
   ],
   "precision": [
    "approximated"
@@ -121541,7 +121613,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4051"
+   "4053"
   ],
   "precision": [
    "approximated"
@@ -121553,7 +121625,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4051"
+   "4053"
   ],
   "precision": [
    "approximated"
@@ -122085,7 +122157,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2121"
+   "2122"
   ],
   "precision": [
    "widened"
@@ -122097,7 +122169,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2121"
+   "2122"
   ],
   "precision": [
    "widened"
@@ -122109,7 +122181,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4077"
+   "4079"
   ],
   "precision": [
    "widened"
@@ -122121,7 +122193,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4077"
+   "4079"
   ],
   "precision": [
    "widened"
@@ -122813,7 +122885,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4117"
+   "4119"
   ],
   "precision": [
    "approximated"
@@ -122825,7 +122897,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4117"
+   "4119"
   ],
   "precision": [
    "approximated"
@@ -123093,7 +123165,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4123"
+   "4125"
   ],
   "precision": [
    "approximated"
@@ -123105,7 +123177,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4123"
+   "4125"
   ],
   "precision": [
    "approximated"
@@ -123253,7 +123325,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4128"
+   "4130"
   ],
   "precision": [
    "approximated"
@@ -123265,7 +123337,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4128"
+   "4130"
   ],
   "precision": [
    "approximated"
@@ -123293,7 +123365,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4131"
+   "4133"
   ],
   "precision": [
    "approximated"
@@ -123305,7 +123377,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4131"
+   "4133"
   ],
   "precision": [
    "approximated"
@@ -123789,7 +123861,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -123801,7 +123873,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -123857,6 +123929,14 @@
  },
  {
   "url": "http://www.walletconnect.org.cdn-mirror.net/",
+  "engine": "adblockparser",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://www.wallhaven.cc.cdn-mirror.net/",
   "engine": "adblockparser",
   "oracle": true,
   "sim": false,
@@ -124437,7 +124517,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4207"
+   "4210"
   ],
   "precision": [
    "approximated"
@@ -124449,7 +124529,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4207"
+   "4210"
   ],
   "precision": [
    "approximated"
@@ -124565,7 +124645,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4212"
+   "4215"
   ],
   "precision": [
    "approximated"
@@ -124577,7 +124657,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4212"
+   "4215"
   ],
   "precision": [
    "approximated"
@@ -124597,7 +124677,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4214"
+   "4217"
   ],
   "precision": [
    "approximated"
@@ -124609,7 +124689,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4214"
+   "4217"
   ],
   "precision": [
    "approximated"
@@ -124965,7 +125045,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2238"
+   "2239"
   ],
   "precision": [
    "approximated"
@@ -124977,7 +125057,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2238"
+   "2239"
   ],
   "precision": [
    "approximated"
@@ -125981,7 +126061,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4290"
+   "4293"
   ],
   "precision": [
    "approximated"
@@ -125993,7 +126073,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4290"
+   "4293"
   ],
   "precision": [
    "approximated"
@@ -126333,7 +126413,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2298"
+   "2299"
   ],
   "precision": [
    "approximated"
@@ -126345,7 +126425,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2298"
+   "2299"
   ],
   "precision": [
    "approximated"
@@ -126357,7 +126437,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2299"
+   "2300"
   ],
   "precision": [
    "approximated"
@@ -126369,7 +126449,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2299"
+   "2300"
   ],
   "precision": [
    "approximated"
@@ -126413,7 +126493,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2519"
+   "2520"
   ],
   "precision": [
    "approximated"
@@ -126425,7 +126505,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2519"
+   "2520"
   ],
   "precision": [
    "approximated"
@@ -126437,7 +126517,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -126449,7 +126529,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -126493,7 +126573,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2933"
+   "2935"
   ],
   "precision": [
    "approximated"
@@ -126505,7 +126585,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2933"
+   "2935"
   ],
   "precision": [
    "approximated"
@@ -126541,7 +126621,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3150"
+   "3152"
   ],
   "precision": [
    "approximated"
@@ -126553,7 +126633,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3150"
+   "3152"
   ],
   "precision": [
    "approximated"
@@ -126573,7 +126653,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3499"
+   "3501"
   ],
   "precision": [
    "approximated"
@@ -126585,7 +126665,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3499"
+   "3501"
   ],
   "precision": [
    "approximated"
@@ -126605,7 +126685,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -126617,7 +126697,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -126629,7 +126709,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3754"
+   "3756"
   ],
   "precision": [
    "widened"
@@ -126641,7 +126721,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3754"
+   "3756"
   ],
   "precision": [
    "widened"
@@ -126653,7 +126733,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3763"
+   "3765"
   ],
   "precision": [
    "widened"
@@ -126665,7 +126745,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3763"
+   "3765"
   ],
   "precision": [
    "widened"
@@ -126685,7 +126765,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4206"
+   "4209"
   ],
   "precision": [
    "approximated"
@@ -126697,7 +126777,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4206"
+   "4209"
   ],
   "precision": [
    "approximated"
@@ -126717,7 +126797,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2195"
+   "2196"
   ],
   "precision": [
    "approximated"
@@ -126729,7 +126809,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2195"
+   "2196"
   ],
   "precision": [
    "approximated"
@@ -127085,7 +127165,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4322"
+   "4325"
   ],
   "precision": [
    "approximated"
@@ -127097,7 +127177,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4322"
+   "4325"
   ],
   "precision": [
    "approximated"
@@ -127221,7 +127301,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4327"
+   "4330"
   ],
   "precision": [
    "approximated"
@@ -127233,7 +127313,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4327"
+   "4330"
   ],
   "precision": [
    "approximated"
@@ -127781,7 +127861,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4344"
+   "4347"
   ],
   "precision": [
    "approximated"
@@ -127793,7 +127873,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4344"
+   "4347"
   ],
   "precision": [
    "approximated"
@@ -127813,7 +127893,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4346"
+   "4349"
   ],
   "precision": [
    "approximated"
@@ -127825,7 +127905,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4346"
+   "4349"
   ],
   "precision": [
    "approximated"
@@ -128141,7 +128221,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4373"
+   "4376"
   ],
   "precision": [
    "approximated"
@@ -128153,7 +128233,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4373"
+   "4376"
   ],
   "precision": [
    "approximated"
@@ -129173,7 +129253,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4427"
+   "4430"
   ],
   "precision": [
    "approximated"
@@ -129185,7 +129265,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4427"
+   "4430"
   ],
   "precision": [
    "approximated"
@@ -129237,7 +129317,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4428"
+   "4431"
   ],
   "precision": [
    "approximated"
@@ -129249,7 +129329,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4428"
+   "4431"
   ],
   "precision": [
    "approximated"
@@ -130759,7 +130839,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4007",
+   "4009",
    "||typepad.com"
   ],
   "precision": [
@@ -131099,7 +131179,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -131111,7 +131191,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -131183,7 +131263,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4007",
+   "4009",
    "||typepad.com"
   ],
   "precision": [
@@ -133692,7 +133772,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2196"
+   "2197"
   ],
   "precision": [
    "approximated"
@@ -133704,7 +133784,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2196"
+   "2197"
   ],
   "precision": [
    "approximated"
@@ -134065,7 +134145,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2377"
+   "2378"
   ],
   "precision": [
    "widened"
@@ -134077,7 +134157,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2377"
+   "2378"
   ],
   "precision": [
    "widened"
@@ -134233,7 +134313,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3392"
+   "3394"
   ],
   "precision": [
    "widened"
@@ -134245,7 +134325,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3392"
+   "3394"
   ],
   "precision": [
    "widened"
@@ -134257,7 +134337,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3946"
+   "3948"
   ],
   "precision": [
    "approximated"
@@ -134269,7 +134349,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3946"
+   "3948"
   ],
   "precision": [
    "approximated"
@@ -134449,7 +134529,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3419"
+   "3421"
   ],
   "precision": [
    "approximated"
@@ -134461,7 +134541,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3419"
+   "3421"
   ],
   "precision": [
    "approximated"
@@ -134521,7 +134601,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4023"
+   "4025"
   ],
   "precision": [
    "widened"
@@ -134533,7 +134613,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4023"
+   "4025"
   ],
   "precision": [
    "widened"
@@ -134665,7 +134745,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2154"
+   "2155"
   ],
   "precision": [
    "approximated"
@@ -134677,7 +134757,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2154"
+   "2155"
   ],
   "precision": [
    "approximated"
@@ -134689,7 +134769,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3554"
+   "3556"
   ],
   "precision": [
    "approximated"
@@ -134701,7 +134781,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3554"
+   "3556"
   ],
   "precision": [
    "approximated"
@@ -134953,7 +135033,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3963"
+   "3965"
   ],
   "precision": [
    "approximated"
@@ -134965,7 +135045,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3963"
+   "3965"
   ],
   "precision": [
    "approximated"
@@ -135097,7 +135177,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3053"
+   "3055"
   ],
   "precision": [
    "widened"
@@ -135109,7 +135189,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3053"
+   "3055"
   ],
   "precision": [
    "widened"
@@ -135289,7 +135369,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2086"
+   "2087"
   ],
   "precision": [
    "approximated"
@@ -135301,7 +135381,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2086"
+   "2087"
   ],
   "precision": [
    "approximated"
@@ -135313,7 +135393,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2089"
+   "2090"
   ],
   "precision": [
    "approximated"
@@ -135325,7 +135405,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2089"
+   "2090"
   ],
   "precision": [
    "approximated"
@@ -135337,7 +135417,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2094"
+   "2095"
   ],
   "precision": [
    "approximated"
@@ -135349,7 +135429,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2094"
+   "2095"
   ],
   "precision": [
    "approximated"
@@ -135361,7 +135441,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2133"
+   "2134"
   ],
   "precision": [
    "approximated"
@@ -135373,7 +135453,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2133"
+   "2134"
   ],
   "precision": [
    "approximated"
@@ -135385,7 +135465,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2124"
+   "2125"
   ],
   "precision": [
    "approximated"
@@ -135397,7 +135477,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2124"
+   "2125"
   ],
   "precision": [
    "approximated"
@@ -135409,7 +135489,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2129"
+   "2130"
   ],
   "precision": [
    "approximated"
@@ -135421,7 +135501,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2129"
+   "2130"
   ],
   "precision": [
    "approximated"
@@ -135433,7 +135513,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2130"
+   "2131"
   ],
   "precision": [
    "approximated"
@@ -135445,7 +135525,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2130"
+   "2131"
   ],
   "precision": [
    "approximated"
@@ -135457,7 +135537,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2137"
+   "2138"
   ],
   "precision": [
    "approximated"
@@ -135469,7 +135549,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2137"
+   "2138"
   ],
   "precision": [
    "approximated"
@@ -135481,7 +135561,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2146"
+   "2147"
   ],
   "precision": [
    "approximated"
@@ -135493,7 +135573,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2146"
+   "2147"
   ],
   "precision": [
    "approximated"
@@ -135529,7 +135609,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2156"
+   "2157"
   ],
   "precision": [
    "approximated"
@@ -135541,7 +135621,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2156"
+   "2157"
   ],
   "precision": [
    "approximated"
@@ -135553,7 +135633,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2167"
+   "2168"
   ],
   "precision": [
    "approximated"
@@ -135565,7 +135645,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2167"
+   "2168"
   ],
   "precision": [
    "approximated"
@@ -135577,7 +135657,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2172"
+   "2173"
   ],
   "precision": [
    "approximated"
@@ -135589,7 +135669,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2172"
+   "2173"
   ],
   "precision": [
    "approximated"
@@ -135601,7 +135681,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2185"
+   "2186"
   ],
   "precision": [
    "approximated"
@@ -135613,7 +135693,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2185"
+   "2186"
   ],
   "precision": [
    "approximated"
@@ -135625,7 +135705,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2187"
+   "2188"
   ],
   "precision": [
    "approximated"
@@ -135637,7 +135717,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2187"
+   "2188"
   ],
   "precision": [
    "approximated"
@@ -135649,7 +135729,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2204"
+   "2205"
   ],
   "precision": [
    "approximated"
@@ -135661,7 +135741,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2204"
+   "2205"
   ],
   "precision": [
    "approximated"
@@ -135673,7 +135753,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2231"
+   "2232"
   ],
   "precision": [
    "approximated"
@@ -135685,7 +135765,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2231"
+   "2232"
   ],
   "precision": [
    "approximated"
@@ -135697,7 +135777,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2244"
+   "2245"
   ],
   "precision": [
    "approximated"
@@ -135709,7 +135789,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2244"
+   "2245"
   ],
   "precision": [
    "approximated"
@@ -135721,7 +135801,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2249"
+   "2250"
   ],
   "precision": [
    "approximated"
@@ -135733,7 +135813,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2249"
+   "2250"
   ],
   "precision": [
    "approximated"
@@ -135745,7 +135825,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2254"
+   "2255"
   ],
   "precision": [
    "approximated"
@@ -135757,7 +135837,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2254"
+   "2255"
   ],
   "precision": [
    "approximated"
@@ -135769,7 +135849,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2257"
+   "2258"
   ],
   "precision": [
    "approximated"
@@ -135781,7 +135861,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2257"
+   "2258"
   ],
   "precision": [
    "approximated"
@@ -135793,7 +135873,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2277"
+   "2278"
   ],
   "precision": [
    "approximated"
@@ -135805,7 +135885,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2277"
+   "2278"
   ],
   "precision": [
    "approximated"
@@ -135817,7 +135897,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2225"
+   "2226"
   ],
   "precision": [
    "approximated"
@@ -135829,7 +135909,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2225"
+   "2226"
   ],
   "precision": [
    "approximated"
@@ -135841,7 +135921,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2702"
+   "2703"
   ],
   "precision": [
    "approximated"
@@ -135853,7 +135933,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2702"
+   "2703"
   ],
   "precision": [
    "approximated"
@@ -135891,7 +135971,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2347"
+   "2348"
   ],
   "precision": [
    "approximated"
@@ -135903,7 +135983,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2347"
+   "2348"
   ],
   "precision": [
    "approximated"
@@ -135915,7 +135995,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2348"
+   "2349"
   ],
   "precision": [
    "approximated"
@@ -135927,7 +136007,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2348"
+   "2349"
   ],
   "precision": [
    "approximated"
@@ -135939,7 +136019,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2352"
+   "2353"
   ],
   "precision": [
    "approximated"
@@ -135951,7 +136031,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2352"
+   "2353"
   ],
   "precision": [
    "approximated"
@@ -135963,7 +136043,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2372"
+   "2373"
   ],
   "precision": [
    "approximated"
@@ -135975,7 +136055,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2372"
+   "2373"
   ],
   "precision": [
    "approximated"
@@ -135987,7 +136067,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2381"
+   "2382"
   ],
   "precision": [
    "approximated"
@@ -135999,7 +136079,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2381"
+   "2382"
   ],
   "precision": [
    "approximated"
@@ -136011,7 +136091,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2384"
+   "2385"
   ],
   "precision": [
    "approximated"
@@ -136023,7 +136103,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2384"
+   "2385"
   ],
   "precision": [
    "approximated"
@@ -136035,7 +136115,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2388"
+   "2389"
   ],
   "precision": [
    "approximated"
@@ -136047,7 +136127,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2388"
+   "2389"
   ],
   "precision": [
    "approximated"
@@ -136059,7 +136139,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2416"
+   "2417"
   ],
   "precision": [
    "approximated"
@@ -136071,7 +136151,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2416"
+   "2417"
   ],
   "precision": [
    "approximated"
@@ -136083,7 +136163,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2417"
+   "2418"
   ],
   "precision": [
    "approximated"
@@ -136095,7 +136175,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2417"
+   "2418"
   ],
   "precision": [
    "approximated"
@@ -136107,7 +136187,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2343"
+   "2344"
   ],
   "precision": [
    "widened"
@@ -136119,7 +136199,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2343"
+   "2344"
   ],
   "precision": [
    "widened"
@@ -136131,7 +136211,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4203"
+   "4206"
   ],
   "precision": [
    "approximated"
@@ -136143,7 +136223,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4203"
+   "4206"
   ],
   "precision": [
    "approximated"
@@ -136155,7 +136235,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2437"
+   "2438"
   ],
   "precision": [
    "approximated"
@@ -136167,7 +136247,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2437"
+   "2438"
   ],
   "precision": [
    "approximated"
@@ -136179,7 +136259,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2444"
+   "2445"
   ],
   "precision": [
    "approximated"
@@ -136191,7 +136271,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2444"
+   "2445"
   ],
   "precision": [
    "approximated"
@@ -136203,7 +136283,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3145"
+   "3147"
   ],
   "precision": [
    "approximated"
@@ -136215,7 +136295,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3145"
+   "3147"
   ],
   "precision": [
    "approximated"
@@ -136227,7 +136307,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3146"
+   "3148"
   ],
   "precision": [
    "approximated"
@@ -136239,7 +136319,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3146"
+   "3148"
   ],
   "precision": [
    "approximated"
@@ -136251,7 +136331,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2467"
+   "2468"
   ],
   "precision": [
    "approximated"
@@ -136263,7 +136343,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2467"
+   "2468"
   ],
   "precision": [
    "approximated"
@@ -136299,7 +136379,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2540"
+   "2541"
   ],
   "precision": [
    "approximated"
@@ -136311,7 +136391,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2540"
+   "2541"
   ],
   "precision": [
    "approximated"
@@ -136347,7 +136427,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2580"
+   "2581"
   ],
   "precision": [
    "approximated"
@@ -136359,7 +136439,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2580"
+   "2581"
   ],
   "precision": [
    "approximated"
@@ -136371,7 +136451,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2588"
+   "2589"
   ],
   "precision": [
    "approximated"
@@ -136383,7 +136463,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2588"
+   "2589"
   ],
   "precision": [
    "approximated"
@@ -136395,7 +136475,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2601"
+   "2602"
   ],
   "precision": [
    "approximated"
@@ -136407,7 +136487,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2601"
+   "2602"
   ],
   "precision": [
    "approximated"
@@ -136419,7 +136499,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2636"
+   "2637"
   ],
   "precision": [
    "approximated"
@@ -136431,7 +136511,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2636"
+   "2637"
   ],
   "precision": [
    "approximated"
@@ -136443,7 +136523,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2640"
+   "2641"
   ],
   "precision": [
    "approximated"
@@ -136455,7 +136535,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2640"
+   "2641"
   ],
   "precision": [
    "approximated"
@@ -136467,7 +136547,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2643"
+   "2644"
   ],
   "precision": [
    "approximated"
@@ -136479,7 +136559,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2643"
+   "2644"
   ],
   "precision": [
    "approximated"
@@ -136491,7 +136571,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2653"
+   "2654"
   ],
   "precision": [
    "approximated"
@@ -136503,7 +136583,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2653"
+   "2654"
   ],
   "precision": [
    "approximated"
@@ -136515,7 +136595,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -136527,7 +136607,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -136539,7 +136619,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2691"
+   "2692"
   ],
   "precision": [
    "approximated"
@@ -136551,7 +136631,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2691"
+   "2692"
   ],
   "precision": [
    "approximated"
@@ -136563,7 +136643,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2743"
+   "2744"
   ],
   "precision": [
    "approximated"
@@ -136575,7 +136655,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2743"
+   "2744"
   ],
   "precision": [
    "approximated"
@@ -136587,7 +136667,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2754"
+   "2755"
   ],
   "precision": [
    "approximated"
@@ -136599,7 +136679,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2754"
+   "2755"
   ],
   "precision": [
    "approximated"
@@ -136635,7 +136715,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2767"
+   "2768"
   ],
   "precision": [
    "approximated"
@@ -136647,7 +136727,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2767"
+   "2768"
   ],
   "precision": [
    "approximated"
@@ -136659,7 +136739,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2788"
+   "2789"
   ],
   "precision": [
    "approximated"
@@ -136671,7 +136751,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2788"
+   "2789"
   ],
   "precision": [
    "approximated"
@@ -136683,7 +136763,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2799"
+   "2800"
   ],
   "precision": [
    "approximated"
@@ -136695,7 +136775,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2799"
+   "2800"
   ],
   "precision": [
    "approximated"
@@ -136707,7 +136787,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2839"
+   "2841"
   ],
   "precision": [
    "approximated"
@@ -136719,7 +136799,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2839"
+   "2841"
   ],
   "precision": [
    "approximated"
@@ -136731,7 +136811,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2846"
+   "2848"
   ],
   "precision": [
    "approximated"
@@ -136743,7 +136823,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2846"
+   "2848"
   ],
   "precision": [
    "approximated"
@@ -136755,7 +136835,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3147"
+   "3149"
   ],
   "precision": [
    "approximated"
@@ -136767,7 +136847,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3147"
+   "3149"
   ],
   "precision": [
    "approximated"
@@ -136779,7 +136859,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2852"
+   "2854"
   ],
   "precision": [
    "approximated"
@@ -136791,7 +136871,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2852"
+   "2854"
   ],
   "precision": [
    "approximated"
@@ -136803,7 +136883,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2889"
+   "2891"
   ],
   "precision": [
    "approximated"
@@ -136815,7 +136895,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2889"
+   "2891"
   ],
   "precision": [
    "approximated"
@@ -136827,7 +136907,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2901"
+   "2903"
   ],
   "precision": [
    "approximated"
@@ -136839,7 +136919,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2901"
+   "2903"
   ],
   "precision": [
    "approximated"
@@ -136851,7 +136931,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2902"
+   "2904"
   ],
   "precision": [
    "approximated"
@@ -136863,7 +136943,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2902"
+   "2904"
   ],
   "precision": [
    "approximated"
@@ -136923,7 +137003,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2923"
+   "2925"
   ],
   "precision": [
    "approximated"
@@ -136935,7 +137015,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2923"
+   "2925"
   ],
   "precision": [
    "approximated"
@@ -136947,7 +137027,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2942"
+   "2944"
   ],
   "precision": [
    "approximated"
@@ -136959,7 +137039,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2942"
+   "2944"
   ],
   "precision": [
    "approximated"
@@ -136971,7 +137051,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2950"
+   "2952"
   ],
   "precision": [
    "approximated"
@@ -136983,7 +137063,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2950"
+   "2952"
   ],
   "precision": [
    "approximated"
@@ -136995,7 +137075,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3012"
+   "3014"
   ],
   "precision": [
    "approximated"
@@ -137007,7 +137087,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3012"
+   "3014"
   ],
   "precision": [
    "approximated"
@@ -137019,7 +137099,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3023"
+   "3025"
   ],
   "precision": [
    "approximated"
@@ -137031,7 +137111,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3023"
+   "3025"
   ],
   "precision": [
    "approximated"
@@ -137043,7 +137123,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3063"
+   "3065"
   ],
   "precision": [
    "approximated"
@@ -137055,7 +137135,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3063"
+   "3065"
   ],
   "precision": [
    "approximated"
@@ -137067,7 +137147,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3064"
+   "3066"
   ],
   "precision": [
    "approximated"
@@ -137079,7 +137159,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3064"
+   "3066"
   ],
   "precision": [
    "approximated"
@@ -137091,7 +137171,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3076"
+   "3078"
   ],
   "precision": [
    "approximated"
@@ -137103,7 +137183,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3076"
+   "3078"
   ],
   "precision": [
    "approximated"
@@ -137115,7 +137195,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3077"
+   "3079"
   ],
   "precision": [
    "approximated"
@@ -137127,7 +137207,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3077"
+   "3079"
   ],
   "precision": [
    "approximated"
@@ -137163,7 +137243,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3102"
+   "3104"
   ],
   "precision": [
    "approximated"
@@ -137175,7 +137255,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3102"
+   "3104"
   ],
   "precision": [
    "approximated"
@@ -137187,7 +137267,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -137199,7 +137279,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -137211,7 +137291,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3408"
+   "3410"
   ],
   "precision": [
    "approximated"
@@ -137223,7 +137303,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3408"
+   "3410"
   ],
   "precision": [
    "approximated"
@@ -137235,7 +137315,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3121"
+   "3123"
   ],
   "precision": [
    "approximated"
@@ -137247,7 +137327,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3121"
+   "3123"
   ],
   "precision": [
    "approximated"
@@ -137259,7 +137339,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3122"
+   "3124"
   ],
   "precision": [
    "approximated"
@@ -137271,7 +137351,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3122"
+   "3124"
   ],
   "precision": [
    "approximated"
@@ -137283,7 +137363,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3130"
+   "3132"
   ],
   "precision": [
    "approximated"
@@ -137295,7 +137375,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3130"
+   "3132"
   ],
   "precision": [
    "approximated"
@@ -137307,7 +137387,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3144"
+   "3146"
   ],
   "precision": [
    "approximated"
@@ -137319,7 +137399,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3144"
+   "3146"
   ],
   "precision": [
    "approximated"
@@ -137331,7 +137411,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3210"
+   "3212"
   ],
   "precision": [
    "approximated"
@@ -137343,7 +137423,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3210"
+   "3212"
   ],
   "precision": [
    "approximated"
@@ -137379,7 +137459,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3278"
+   "3280"
   ],
   "precision": [
    "approximated"
@@ -137391,7 +137471,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3278"
+   "3280"
   ],
   "precision": [
    "approximated"
@@ -137403,7 +137483,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3280"
+   "3282"
   ],
   "precision": [
    "approximated"
@@ -137415,7 +137495,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3280"
+   "3282"
   ],
   "precision": [
    "approximated"
@@ -137427,7 +137507,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3346"
+   "3348"
   ],
   "precision": [
    "approximated"
@@ -137439,7 +137519,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3346"
+   "3348"
   ],
   "precision": [
    "approximated"
@@ -137451,7 +137531,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3362"
+   "3364"
   ],
   "precision": [
    "approximated"
@@ -137463,7 +137543,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3362"
+   "3364"
   ],
   "precision": [
    "approximated"
@@ -137499,7 +137579,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3390"
+   "3392"
   ],
   "precision": [
    "widened"
@@ -137511,7 +137591,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3390"
+   "3392"
   ],
   "precision": [
    "widened"
@@ -137523,7 +137603,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3391"
+   "3393"
   ],
   "precision": [
    "approximated"
@@ -137535,7 +137615,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3391"
+   "3393"
   ],
   "precision": [
    "approximated"
@@ -137547,7 +137627,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3404"
+   "3406"
   ],
   "precision": [
    "approximated"
@@ -137559,7 +137639,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3404"
+   "3406"
   ],
   "precision": [
    "approximated"
@@ -137619,7 +137699,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3458"
+   "3460"
   ],
   "precision": [
    "approximated"
@@ -137631,7 +137711,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3458"
+   "3460"
   ],
   "precision": [
    "approximated"
@@ -137643,7 +137723,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3506"
+   "3508"
   ],
   "precision": [
    "approximated"
@@ -137655,7 +137735,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3506"
+   "3508"
   ],
   "precision": [
    "approximated"
@@ -137667,7 +137747,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3518"
+   "3520"
   ],
   "precision": [
    "approximated"
@@ -137679,7 +137759,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3518"
+   "3520"
   ],
   "precision": [
    "approximated"
@@ -137715,7 +137795,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3531"
+   "3533"
   ],
   "precision": [
    "approximated"
@@ -137727,7 +137807,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3531"
+   "3533"
   ],
   "precision": [
    "approximated"
@@ -137739,7 +137819,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3547"
+   "3549"
   ],
   "precision": [
    "widened"
@@ -137751,7 +137831,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3547"
+   "3549"
   ],
   "precision": [
    "widened"
@@ -137763,7 +137843,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3570"
+   "3572"
   ],
   "precision": [
    "approximated"
@@ -137775,7 +137855,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3570"
+   "3572"
   ],
   "precision": [
    "approximated"
@@ -137811,7 +137891,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3608"
+   "3610"
   ],
   "precision": [
    "approximated"
@@ -137823,7 +137903,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3608"
+   "3610"
   ],
   "precision": [
    "approximated"
@@ -137835,7 +137915,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2281"
+   "2282"
   ],
   "precision": [
    "approximated"
@@ -137847,7 +137927,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2281"
+   "2282"
   ],
   "precision": [
    "approximated"
@@ -137859,7 +137939,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3625"
+   "3627"
   ],
   "precision": [
    "approximated"
@@ -137871,7 +137951,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3625"
+   "3627"
   ],
   "precision": [
    "approximated"
@@ -137883,7 +137963,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3650"
+   "3652"
   ],
   "precision": [
    "approximated"
@@ -137895,7 +137975,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3650"
+   "3652"
   ],
   "precision": [
    "approximated"
@@ -137907,7 +137987,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3659"
+   "3661"
   ],
   "precision": [
    "approximated"
@@ -137919,7 +137999,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3659"
+   "3661"
   ],
   "precision": [
    "approximated"
@@ -137931,7 +138011,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3690"
+   "3692"
   ],
   "precision": [
    "approximated"
@@ -137943,7 +138023,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3690"
+   "3692"
   ],
   "precision": [
    "approximated"
@@ -137955,7 +138035,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3691"
+   "3693"
   ],
   "precision": [
    "approximated"
@@ -137967,7 +138047,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3691"
+   "3693"
   ],
   "precision": [
    "approximated"
@@ -137979,7 +138059,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3752"
+   "3754"
   ],
   "precision": [
    "approximated"
@@ -137991,7 +138071,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3752"
+   "3754"
   ],
   "precision": [
    "approximated"
@@ -138003,7 +138083,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3769"
+   "3771"
   ],
   "precision": [
    "approximated"
@@ -138015,7 +138095,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3769"
+   "3771"
   ],
   "precision": [
    "approximated"
@@ -138051,7 +138131,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3776"
+   "3778"
   ],
   "precision": [
    "approximated"
@@ -138063,7 +138143,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3776"
+   "3778"
   ],
   "precision": [
    "approximated"
@@ -138075,7 +138155,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3793"
+   "3795"
   ],
   "precision": [
    "approximated"
@@ -138087,7 +138167,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3793"
+   "3795"
   ],
   "precision": [
    "approximated"
@@ -138099,7 +138179,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3799"
+   "3801"
   ],
   "precision": [
    "widened"
@@ -138111,7 +138191,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3799"
+   "3801"
   ],
   "precision": [
    "widened"
@@ -138123,7 +138203,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3815"
+   "3817"
   ],
   "precision": [
    "approximated"
@@ -138135,7 +138215,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3815"
+   "3817"
   ],
   "precision": [
    "approximated"
@@ -138147,7 +138227,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3836"
+   "3838"
   ],
   "precision": [
    "approximated"
@@ -138159,7 +138239,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3836"
+   "3838"
   ],
   "precision": [
    "approximated"
@@ -138171,7 +138251,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3843"
+   "3845"
   ],
   "precision": [
    "approximated"
@@ -138183,7 +138263,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3843"
+   "3845"
   ],
   "precision": [
    "approximated"
@@ -138195,7 +138275,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3844"
+   "3846"
   ],
   "precision": [
    "approximated"
@@ -138207,7 +138287,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3844"
+   "3846"
   ],
   "precision": [
    "approximated"
@@ -138219,7 +138299,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3845"
+   "3847"
   ],
   "precision": [
    "approximated"
@@ -138231,7 +138311,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3845"
+   "3847"
   ],
   "precision": [
    "approximated"
@@ -138243,7 +138323,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3874"
+   "3876"
   ],
   "precision": [
    "approximated"
@@ -138255,7 +138335,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3874"
+   "3876"
   ],
   "precision": [
    "approximated"
@@ -138267,7 +138347,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3986"
+   "3988"
   ],
   "precision": [
    "widened"
@@ -138279,7 +138359,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3986"
+   "3988"
   ],
   "precision": [
    "widened"
@@ -138291,7 +138371,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3886"
+   "3888"
   ],
   "precision": [
    "approximated"
@@ -138303,7 +138383,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3886"
+   "3888"
   ],
   "precision": [
    "approximated"
@@ -138315,7 +138395,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3887"
+   "3889"
   ],
   "precision": [
    "approximated"
@@ -138327,7 +138407,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3887"
+   "3889"
   ],
   "precision": [
    "approximated"
@@ -138339,7 +138419,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3889"
+   "3891"
   ],
   "precision": [
    "approximated"
@@ -138351,7 +138431,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3889"
+   "3891"
   ],
   "precision": [
    "approximated"
@@ -138379,7 +138459,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3894"
+   "3896"
   ],
   "precision": [
    "approximated"
@@ -138391,7 +138471,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3894"
+   "3896"
   ],
   "precision": [
    "approximated"
@@ -138403,7 +138483,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3904"
+   "3906"
   ],
   "precision": [
    "approximated"
@@ -138415,7 +138495,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3904"
+   "3906"
   ],
   "precision": [
    "approximated"
@@ -138451,7 +138531,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3923"
+   "3925"
   ],
   "precision": [
    "approximated"
@@ -138463,7 +138543,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3923"
+   "3925"
   ],
   "precision": [
    "approximated"
@@ -138475,7 +138555,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3926"
+   "3928"
   ],
   "precision": [
    "approximated"
@@ -138487,7 +138567,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3926"
+   "3928"
   ],
   "precision": [
    "approximated"
@@ -138499,7 +138579,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3928"
+   "3930"
   ],
   "precision": [
    "approximated"
@@ -138511,7 +138591,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3928"
+   "3930"
   ],
   "precision": [
    "approximated"
@@ -138523,7 +138603,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3936"
+   "3938"
   ],
   "precision": [
    "approximated"
@@ -138535,18 +138615,6 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3936"
-  ],
-  "precision": [
-   "approximated"
-  ]
- },
- {
-  "url": "https://a.b.tuzaijidi.com/deep/path?q=1",
-  "engine": "adblock",
-  "oracle": false,
-  "sim": true,
-  "responsible": [
    "3938"
   ],
   "precision": [
@@ -138555,66 +138623,6 @@
  },
  {
   "url": "https://a.b.tuzaijidi.com/deep/path?q=1",
-  "engine": "adblockparser",
-  "oracle": false,
-  "sim": true,
-  "responsible": [
-   "3938"
-  ],
-  "precision": [
-   "approximated"
-  ]
- },
- {
-  "url": "https://a.b.tv.com/deep/path?q=1",
-  "engine": "adblock",
-  "oracle": false,
-  "sim": true,
-  "responsible": [
-   "3947"
-  ],
-  "precision": [
-   "approximated"
-  ]
- },
- {
-  "url": "https://a.b.tv.com/deep/path?q=1",
-  "engine": "adblockparser",
-  "oracle": false,
-  "sim": true,
-  "responsible": [
-   "3947"
-  ],
-  "precision": [
-   "approximated"
-  ]
- },
- {
-  "url": "https://a.b.tw-blog.com/deep/path?q=1",
-  "engine": "adblock",
-  "oracle": false,
-  "sim": true,
-  "responsible": [
-   "3955"
-  ],
-  "precision": [
-   "approximated"
-  ]
- },
- {
-  "url": "https://a.b.tw-blog.com/deep/path?q=1",
-  "engine": "adblockparser",
-  "oracle": false,
-  "sim": true,
-  "responsible": [
-   "3955"
-  ],
-  "precision": [
-   "approximated"
-  ]
- },
- {
-  "url": "https://a.b.tw01.org/deep/path?q=1",
   "engine": "adblock",
   "oracle": false,
   "sim": true,
@@ -138626,7 +138634,7 @@
   ]
  },
  {
-  "url": "https://a.b.tw01.org/deep/path?q=1",
+  "url": "https://a.b.tuzaijidi.com/deep/path?q=1",
   "engine": "adblockparser",
   "oracle": false,
   "sim": true,
@@ -138638,12 +138646,84 @@
   ]
  },
  {
+  "url": "https://a.b.tv.com/deep/path?q=1",
+  "engine": "adblock",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3949"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tv.com/deep/path?q=1",
+  "engine": "adblockparser",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3949"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tw-blog.com/deep/path?q=1",
+  "engine": "adblock",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3957"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tw-blog.com/deep/path?q=1",
+  "engine": "adblockparser",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3957"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tw01.org/deep/path?q=1",
+  "engine": "adblock",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3942"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://a.b.tw01.org/deep/path?q=1",
+  "engine": "adblockparser",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3942"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
   "url": "https://a.b.tweetcs.com/deep/path?q=1",
   "engine": "adblock",
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3962"
+   "3964"
   ],
   "precision": [
    "approximated"
@@ -138655,7 +138735,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3962"
+   "3964"
   ],
   "precision": [
    "approximated"
@@ -138667,7 +138747,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3970"
+   "3972"
   ],
   "precision": [
    "approximated"
@@ -138679,7 +138759,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3970"
+   "3972"
   ],
   "precision": [
    "approximated"
@@ -138691,7 +138771,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3975"
+   "3977"
   ],
   "precision": [
    "approximated"
@@ -138703,7 +138783,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3975"
+   "3977"
   ],
   "precision": [
    "approximated"
@@ -138715,7 +138795,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3976"
+   "3978"
   ],
   "precision": [
    "approximated"
@@ -138727,7 +138807,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3976"
+   "3978"
   ],
   "precision": [
    "approximated"
@@ -138739,7 +138819,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3977"
+   "3979"
   ],
   "precision": [
    "approximated"
@@ -138751,7 +138831,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3977"
+   "3979"
   ],
   "precision": [
    "approximated"
@@ -138763,7 +138843,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3991"
+   "3993"
   ],
   "precision": [
    "approximated"
@@ -138775,7 +138855,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3991"
+   "3993"
   ],
   "precision": [
    "approximated"
@@ -138787,7 +138867,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4003"
+   "4005"
   ],
   "precision": [
    "approximated"
@@ -138799,7 +138879,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4003"
+   "4005"
   ],
   "precision": [
    "approximated"
@@ -138811,7 +138891,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4007",
+   "4009",
    "||typepad.com"
   ],
   "precision": [
@@ -138824,7 +138904,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2341"
+   "2342"
   ],
   "precision": [
    "approximated"
@@ -138836,7 +138916,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2341"
+   "2342"
   ],
   "precision": [
    "approximated"
@@ -138848,7 +138928,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4020"
+   "4022"
   ],
   "precision": [
    "approximated"
@@ -138860,7 +138940,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4020"
+   "4022"
   ],
   "precision": [
    "approximated"
@@ -138872,7 +138952,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4037"
+   "4039"
   ],
   "precision": [
    "approximated"
@@ -138884,7 +138964,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4037"
+   "4039"
   ],
   "precision": [
    "approximated"
@@ -138896,7 +138976,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4039"
+   "4041"
   ],
   "precision": [
    "approximated"
@@ -138908,7 +138988,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4039"
+   "4041"
   ],
   "precision": [
    "approximated"
@@ -138920,7 +139000,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4040"
+   "4042"
   ],
   "precision": [
    "approximated"
@@ -138932,7 +139012,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4040"
+   "4042"
   ],
   "precision": [
    "approximated"
@@ -138944,7 +139024,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4051"
+   "4053"
   ],
   "precision": [
    "approximated"
@@ -138956,7 +139036,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4051"
+   "4053"
   ],
   "precision": [
    "approximated"
@@ -138968,7 +139048,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2121"
+   "2122"
   ],
   "precision": [
    "widened"
@@ -138980,7 +139060,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2121"
+   "2122"
   ],
   "precision": [
    "widened"
@@ -138992,7 +139072,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4077"
+   "4079"
   ],
   "precision": [
    "widened"
@@ -139004,7 +139084,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4077"
+   "4079"
   ],
   "precision": [
    "widened"
@@ -139040,7 +139120,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4117"
+   "4119"
   ],
   "precision": [
    "approximated"
@@ -139052,7 +139132,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4117"
+   "4119"
   ],
   "precision": [
    "approximated"
@@ -139064,7 +139144,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4123"
+   "4125"
   ],
   "precision": [
    "approximated"
@@ -139076,7 +139156,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4123"
+   "4125"
   ],
   "precision": [
    "approximated"
@@ -139136,7 +139216,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4128"
+   "4130"
   ],
   "precision": [
    "approximated"
@@ -139148,7 +139228,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4128"
+   "4130"
   ],
   "precision": [
    "approximated"
@@ -139160,7 +139240,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4131"
+   "4133"
   ],
   "precision": [
    "approximated"
@@ -139172,7 +139252,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4131"
+   "4133"
   ],
   "precision": [
    "approximated"
@@ -139184,7 +139264,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -139196,7 +139276,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -139208,7 +139288,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4207"
+   "4210"
   ],
   "precision": [
    "approximated"
@@ -139220,7 +139300,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4207"
+   "4210"
   ],
   "precision": [
    "approximated"
@@ -139232,7 +139312,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4212"
+   "4215"
   ],
   "precision": [
    "approximated"
@@ -139244,7 +139324,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4212"
+   "4215"
   ],
   "precision": [
    "approximated"
@@ -139256,7 +139336,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4214"
+   "4217"
   ],
   "precision": [
    "approximated"
@@ -139268,7 +139348,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4214"
+   "4217"
   ],
   "precision": [
    "approximated"
@@ -139280,7 +139360,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2238"
+   "2239"
   ],
   "precision": [
    "approximated"
@@ -139292,7 +139372,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2238"
+   "2239"
   ],
   "precision": [
    "approximated"
@@ -139304,7 +139384,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4269"
+   "4272"
   ],
   "precision": [
    "widened"
@@ -139316,7 +139396,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4269"
+   "4272"
   ],
   "precision": [
    "widened"
@@ -139328,7 +139408,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4290"
+   "4293"
   ],
   "precision": [
    "approximated"
@@ -139340,7 +139420,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4290"
+   "4293"
   ],
   "precision": [
    "approximated"
@@ -139448,7 +139528,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2298"
+   "2299"
   ],
   "precision": [
    "approximated"
@@ -139460,7 +139540,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2298"
+   "2299"
   ],
   "precision": [
    "approximated"
@@ -139472,7 +139552,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2299"
+   "2300"
   ],
   "precision": [
    "approximated"
@@ -139484,7 +139564,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2299"
+   "2300"
   ],
   "precision": [
    "approximated"
@@ -139520,7 +139600,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2519"
+   "2520"
   ],
   "precision": [
    "approximated"
@@ -139532,7 +139612,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2519"
+   "2520"
   ],
   "precision": [
    "approximated"
@@ -139544,7 +139624,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -139556,7 +139636,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -139592,7 +139672,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2933"
+   "2935"
   ],
   "precision": [
    "approximated"
@@ -139604,7 +139684,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2933"
+   "2935"
   ],
   "precision": [
    "approximated"
@@ -139616,7 +139696,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3150"
+   "3152"
   ],
   "precision": [
    "approximated"
@@ -139628,7 +139708,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3150"
+   "3152"
   ],
   "precision": [
    "approximated"
@@ -139640,7 +139720,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3499"
+   "3501"
   ],
   "precision": [
    "approximated"
@@ -139652,7 +139732,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3499"
+   "3501"
   ],
   "precision": [
    "approximated"
@@ -139664,7 +139744,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -139676,7 +139756,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -139688,7 +139768,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3754"
+   "3756"
   ],
   "precision": [
    "widened"
@@ -139700,7 +139780,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3754"
+   "3756"
   ],
   "precision": [
    "widened"
@@ -139712,7 +139792,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3763"
+   "3765"
   ],
   "precision": [
    "widened"
@@ -139724,7 +139804,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3763"
+   "3765"
   ],
   "precision": [
    "widened"
@@ -139736,7 +139816,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4206"
+   "4209"
   ],
   "precision": [
    "approximated"
@@ -139748,7 +139828,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4206"
+   "4209"
   ],
   "precision": [
    "approximated"
@@ -139760,7 +139840,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2195"
+   "2196"
   ],
   "precision": [
    "approximated"
@@ -139772,7 +139852,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2195"
+   "2196"
   ],
   "precision": [
    "approximated"
@@ -139784,7 +139864,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4322"
+   "4325"
   ],
   "precision": [
    "approximated"
@@ -139796,7 +139876,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4322"
+   "4325"
   ],
   "precision": [
    "approximated"
@@ -139808,7 +139888,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4327"
+   "4330"
   ],
   "precision": [
    "approximated"
@@ -139820,7 +139900,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4327"
+   "4330"
   ],
   "precision": [
    "approximated"
@@ -139832,7 +139912,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4344"
+   "4347"
   ],
   "precision": [
    "approximated"
@@ -139844,7 +139924,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4344"
+   "4347"
   ],
   "precision": [
    "approximated"
@@ -139856,7 +139936,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4346"
+   "4349"
   ],
   "precision": [
    "approximated"
@@ -139868,7 +139948,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4346"
+   "4349"
   ],
   "precision": [
    "approximated"
@@ -139880,7 +139960,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4373"
+   "4376"
   ],
   "precision": [
    "approximated"
@@ -139892,7 +139972,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4373"
+   "4376"
   ],
   "precision": [
    "approximated"
@@ -139904,7 +139984,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4427"
+   "4430"
   ],
   "precision": [
    "approximated"
@@ -139916,7 +139996,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4427"
+   "4430"
   ],
   "precision": [
    "approximated"
@@ -139928,7 +140008,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4428"
+   "4431"
   ],
   "precision": [
    "approximated"
@@ -139940,7 +140020,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4428"
+   "4431"
   ],
   "precision": [
    "approximated"
@@ -140048,7 +140128,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2196"
+   "2197"
   ],
   "precision": [
    "approximated"
@@ -140060,7 +140140,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2196"
+   "2197"
   ],
   "precision": [
    "approximated"
@@ -140397,7 +140477,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2377"
+   "2378"
   ],
   "precision": [
    "widened"
@@ -140409,7 +140489,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2377"
+   "2378"
   ],
   "precision": [
    "widened"
@@ -140565,7 +140645,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3392"
+   "3394"
   ],
   "precision": [
    "widened"
@@ -140577,7 +140657,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3392"
+   "3394"
   ],
   "precision": [
    "widened"
@@ -140589,7 +140669,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3946"
+   "3948"
   ],
   "precision": [
    "approximated"
@@ -140601,7 +140681,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3946"
+   "3948"
   ],
   "precision": [
    "approximated"
@@ -140781,7 +140861,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3419"
+   "3421"
   ],
   "precision": [
    "approximated"
@@ -140793,7 +140873,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3419"
+   "3421"
   ],
   "precision": [
    "approximated"
@@ -140853,7 +140933,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4023"
+   "4025"
   ],
   "precision": [
    "widened"
@@ -140865,7 +140945,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4023"
+   "4025"
   ],
   "precision": [
    "widened"
@@ -140973,7 +141053,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2154"
+   "2155"
   ],
   "precision": [
    "approximated"
@@ -140985,7 +141065,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2154"
+   "2155"
   ],
   "precision": [
    "approximated"
@@ -140997,7 +141077,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3554"
+   "3556"
   ],
   "precision": [
    "approximated"
@@ -141009,7 +141089,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3554"
+   "3556"
   ],
   "precision": [
    "approximated"
@@ -141261,7 +141341,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3963"
+   "3965"
   ],
   "precision": [
    "approximated"
@@ -141273,7 +141353,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3963"
+   "3965"
   ],
   "precision": [
    "approximated"
@@ -141405,7 +141485,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3053"
+   "3055"
   ],
   "precision": [
    "widened"
@@ -141417,7 +141497,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3053"
+   "3055"
   ],
   "precision": [
    "widened"
@@ -141597,7 +141677,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2086"
+   "2087"
   ],
   "precision": [
    "approximated"
@@ -141609,7 +141689,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2086"
+   "2087"
   ],
   "precision": [
    "approximated"
@@ -141621,7 +141701,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2089"
+   "2090"
   ],
   "precision": [
    "approximated"
@@ -141633,7 +141713,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2089"
+   "2090"
   ],
   "precision": [
    "approximated"
@@ -141645,7 +141725,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2094"
+   "2095"
   ],
   "precision": [
    "approximated"
@@ -141657,7 +141737,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2094"
+   "2095"
   ],
   "precision": [
    "approximated"
@@ -141669,7 +141749,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2133"
+   "2134"
   ],
   "precision": [
    "approximated"
@@ -141681,7 +141761,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2133"
+   "2134"
   ],
   "precision": [
    "approximated"
@@ -141693,7 +141773,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2124"
+   "2125"
   ],
   "precision": [
    "approximated"
@@ -141705,7 +141785,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2124"
+   "2125"
   ],
   "precision": [
    "approximated"
@@ -141717,7 +141797,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2129"
+   "2130"
   ],
   "precision": [
    "approximated"
@@ -141729,7 +141809,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2129"
+   "2130"
   ],
   "precision": [
    "approximated"
@@ -141741,7 +141821,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2130"
+   "2131"
   ],
   "precision": [
    "approximated"
@@ -141753,7 +141833,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2130"
+   "2131"
   ],
   "precision": [
    "approximated"
@@ -141765,7 +141845,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2137"
+   "2138"
   ],
   "precision": [
    "approximated"
@@ -141777,7 +141857,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2137"
+   "2138"
   ],
   "precision": [
    "approximated"
@@ -141789,7 +141869,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2146"
+   "2147"
   ],
   "precision": [
    "approximated"
@@ -141801,7 +141881,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2146"
+   "2147"
   ],
   "precision": [
    "approximated"
@@ -141837,7 +141917,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2156"
+   "2157"
   ],
   "precision": [
    "approximated"
@@ -141849,7 +141929,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2156"
+   "2157"
   ],
   "precision": [
    "approximated"
@@ -141861,7 +141941,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2167"
+   "2168"
   ],
   "precision": [
    "approximated"
@@ -141873,7 +141953,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2167"
+   "2168"
   ],
   "precision": [
    "approximated"
@@ -141885,7 +141965,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2172"
+   "2173"
   ],
   "precision": [
    "approximated"
@@ -141897,7 +141977,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2172"
+   "2173"
   ],
   "precision": [
    "approximated"
@@ -141909,7 +141989,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2185"
+   "2186"
   ],
   "precision": [
    "approximated"
@@ -141921,7 +142001,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2185"
+   "2186"
   ],
   "precision": [
    "approximated"
@@ -141933,7 +142013,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2187"
+   "2188"
   ],
   "precision": [
    "approximated"
@@ -141945,7 +142025,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2187"
+   "2188"
   ],
   "precision": [
    "approximated"
@@ -141957,7 +142037,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2231"
+   "2232"
   ],
   "precision": [
    "approximated"
@@ -141969,7 +142049,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2231"
+   "2232"
   ],
   "precision": [
    "approximated"
@@ -141981,7 +142061,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2244"
+   "2245"
   ],
   "precision": [
    "approximated"
@@ -141993,7 +142073,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2244"
+   "2245"
   ],
   "precision": [
    "approximated"
@@ -142005,7 +142085,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2249"
+   "2250"
   ],
   "precision": [
    "approximated"
@@ -142017,7 +142097,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2249"
+   "2250"
   ],
   "precision": [
    "approximated"
@@ -142029,7 +142109,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2254"
+   "2255"
   ],
   "precision": [
    "approximated"
@@ -142041,7 +142121,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2254"
+   "2255"
   ],
   "precision": [
    "approximated"
@@ -142053,7 +142133,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2257"
+   "2258"
   ],
   "precision": [
    "approximated"
@@ -142065,7 +142145,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2257"
+   "2258"
   ],
   "precision": [
    "approximated"
@@ -142077,7 +142157,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2277"
+   "2278"
   ],
   "precision": [
    "approximated"
@@ -142089,7 +142169,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2277"
+   "2278"
   ],
   "precision": [
    "approximated"
@@ -142101,7 +142181,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2225"
+   "2226"
   ],
   "precision": [
    "approximated"
@@ -142113,7 +142193,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2225"
+   "2226"
   ],
   "precision": [
    "approximated"
@@ -142125,7 +142205,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2702"
+   "2703"
   ],
   "precision": [
    "approximated"
@@ -142137,7 +142217,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2702"
+   "2703"
   ],
   "precision": [
    "approximated"
@@ -142175,7 +142255,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2347"
+   "2348"
   ],
   "precision": [
    "approximated"
@@ -142187,7 +142267,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2347"
+   "2348"
   ],
   "precision": [
    "approximated"
@@ -142199,7 +142279,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2348"
+   "2349"
   ],
   "precision": [
    "approximated"
@@ -142211,7 +142291,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2348"
+   "2349"
   ],
   "precision": [
    "approximated"
@@ -142223,7 +142303,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2352"
+   "2353"
   ],
   "precision": [
    "approximated"
@@ -142235,7 +142315,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2352"
+   "2353"
   ],
   "precision": [
    "approximated"
@@ -142247,7 +142327,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2372"
+   "2373"
   ],
   "precision": [
    "approximated"
@@ -142259,7 +142339,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2372"
+   "2373"
   ],
   "precision": [
    "approximated"
@@ -142271,7 +142351,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2381"
+   "2382"
   ],
   "precision": [
    "approximated"
@@ -142283,7 +142363,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2381"
+   "2382"
   ],
   "precision": [
    "approximated"
@@ -142295,7 +142375,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2384"
+   "2385"
   ],
   "precision": [
    "approximated"
@@ -142307,7 +142387,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2384"
+   "2385"
   ],
   "precision": [
    "approximated"
@@ -142319,7 +142399,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2388"
+   "2389"
   ],
   "precision": [
    "approximated"
@@ -142331,7 +142411,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2388"
+   "2389"
   ],
   "precision": [
    "approximated"
@@ -142343,7 +142423,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2416"
+   "2417"
   ],
   "precision": [
    "approximated"
@@ -142355,7 +142435,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2416"
+   "2417"
   ],
   "precision": [
    "approximated"
@@ -142367,7 +142447,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2417"
+   "2418"
   ],
   "precision": [
    "approximated"
@@ -142379,7 +142459,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2417"
+   "2418"
   ],
   "precision": [
    "approximated"
@@ -142391,7 +142471,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2343"
+   "2344"
   ],
   "precision": [
    "widened"
@@ -142403,7 +142483,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2343"
+   "2344"
   ],
   "precision": [
    "widened"
@@ -142415,7 +142495,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4203"
+   "4206"
   ],
   "precision": [
    "approximated"
@@ -142427,7 +142507,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4203"
+   "4206"
   ],
   "precision": [
    "approximated"
@@ -142439,7 +142519,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2437"
+   "2438"
   ],
   "precision": [
    "approximated"
@@ -142451,7 +142531,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2437"
+   "2438"
   ],
   "precision": [
    "approximated"
@@ -142463,7 +142543,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2444"
+   "2445"
   ],
   "precision": [
    "approximated"
@@ -142475,7 +142555,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2444"
+   "2445"
   ],
   "precision": [
    "approximated"
@@ -142487,7 +142567,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3145"
+   "3147"
   ],
   "precision": [
    "approximated"
@@ -142499,7 +142579,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3145"
+   "3147"
   ],
   "precision": [
    "approximated"
@@ -142511,7 +142591,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3146"
+   "3148"
   ],
   "precision": [
    "approximated"
@@ -142523,7 +142603,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3146"
+   "3148"
   ],
   "precision": [
    "approximated"
@@ -142535,7 +142615,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2467"
+   "2468"
   ],
   "precision": [
    "approximated"
@@ -142547,7 +142627,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2467"
+   "2468"
   ],
   "precision": [
    "approximated"
@@ -142583,7 +142663,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2540"
+   "2541"
   ],
   "precision": [
    "approximated"
@@ -142595,7 +142675,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2540"
+   "2541"
   ],
   "precision": [
    "approximated"
@@ -142631,7 +142711,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2580"
+   "2581"
   ],
   "precision": [
    "approximated"
@@ -142643,7 +142723,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2580"
+   "2581"
   ],
   "precision": [
    "approximated"
@@ -142655,7 +142735,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2588"
+   "2589"
   ],
   "precision": [
    "approximated"
@@ -142667,7 +142747,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2588"
+   "2589"
   ],
   "precision": [
    "approximated"
@@ -142679,7 +142759,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2601"
+   "2602"
   ],
   "precision": [
    "approximated"
@@ -142691,7 +142771,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2601"
+   "2602"
   ],
   "precision": [
    "approximated"
@@ -142703,7 +142783,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2636"
+   "2637"
   ],
   "precision": [
    "approximated"
@@ -142715,7 +142795,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2636"
+   "2637"
   ],
   "precision": [
    "approximated"
@@ -142727,7 +142807,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2640"
+   "2641"
   ],
   "precision": [
    "approximated"
@@ -142739,7 +142819,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2640"
+   "2641"
   ],
   "precision": [
    "approximated"
@@ -142751,7 +142831,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2643"
+   "2644"
   ],
   "precision": [
    "approximated"
@@ -142763,7 +142843,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2643"
+   "2644"
   ],
   "precision": [
    "approximated"
@@ -142775,7 +142855,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2653"
+   "2654"
   ],
   "precision": [
    "approximated"
@@ -142787,7 +142867,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2653"
+   "2654"
   ],
   "precision": [
    "approximated"
@@ -142799,7 +142879,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -142811,7 +142891,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -142823,7 +142903,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2691"
+   "2692"
   ],
   "precision": [
    "approximated"
@@ -142835,7 +142915,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2691"
+   "2692"
   ],
   "precision": [
    "approximated"
@@ -142847,7 +142927,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2743"
+   "2744"
   ],
   "precision": [
    "approximated"
@@ -142859,7 +142939,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2743"
+   "2744"
   ],
   "precision": [
    "approximated"
@@ -142871,7 +142951,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2754"
+   "2755"
   ],
   "precision": [
    "approximated"
@@ -142883,7 +142963,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2754"
+   "2755"
   ],
   "precision": [
    "approximated"
@@ -142919,7 +142999,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2767"
+   "2768"
   ],
   "precision": [
    "approximated"
@@ -142931,7 +143011,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2767"
+   "2768"
   ],
   "precision": [
    "approximated"
@@ -142943,7 +143023,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2788"
+   "2789"
   ],
   "precision": [
    "approximated"
@@ -142955,7 +143035,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2788"
+   "2789"
   ],
   "precision": [
    "approximated"
@@ -142967,7 +143047,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2799"
+   "2800"
   ],
   "precision": [
    "approximated"
@@ -142979,7 +143059,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2799"
+   "2800"
   ],
   "precision": [
    "approximated"
@@ -142991,7 +143071,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2839"
+   "2841"
   ],
   "precision": [
    "approximated"
@@ -143003,7 +143083,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2839"
+   "2841"
   ],
   "precision": [
    "approximated"
@@ -143015,7 +143095,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2846"
+   "2848"
   ],
   "precision": [
    "approximated"
@@ -143027,7 +143107,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2846"
+   "2848"
   ],
   "precision": [
    "approximated"
@@ -143039,7 +143119,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3147"
+   "3149"
   ],
   "precision": [
    "approximated"
@@ -143051,7 +143131,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3147"
+   "3149"
   ],
   "precision": [
    "approximated"
@@ -143063,7 +143143,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2852"
+   "2854"
   ],
   "precision": [
    "approximated"
@@ -143075,7 +143155,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2852"
+   "2854"
   ],
   "precision": [
    "approximated"
@@ -143087,7 +143167,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2889"
+   "2891"
   ],
   "precision": [
    "approximated"
@@ -143099,7 +143179,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2889"
+   "2891"
   ],
   "precision": [
    "approximated"
@@ -143111,7 +143191,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2901"
+   "2903"
   ],
   "precision": [
    "approximated"
@@ -143123,7 +143203,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2901"
+   "2903"
   ],
   "precision": [
    "approximated"
@@ -143135,7 +143215,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2902"
+   "2904"
   ],
   "precision": [
    "approximated"
@@ -143147,7 +143227,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2902"
+   "2904"
   ],
   "precision": [
    "approximated"
@@ -143207,7 +143287,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2923"
+   "2925"
   ],
   "precision": [
    "approximated"
@@ -143219,7 +143299,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2923"
+   "2925"
   ],
   "precision": [
    "approximated"
@@ -143231,7 +143311,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2942"
+   "2944"
   ],
   "precision": [
    "approximated"
@@ -143243,7 +143323,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2942"
+   "2944"
   ],
   "precision": [
    "approximated"
@@ -143255,7 +143335,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2950"
+   "2952"
   ],
   "precision": [
    "approximated"
@@ -143267,7 +143347,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2950"
+   "2952"
   ],
   "precision": [
    "approximated"
@@ -143279,7 +143359,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3012"
+   "3014"
   ],
   "precision": [
    "approximated"
@@ -143291,7 +143371,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3012"
+   "3014"
   ],
   "precision": [
    "approximated"
@@ -143303,7 +143383,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3023"
+   "3025"
   ],
   "precision": [
    "approximated"
@@ -143315,7 +143395,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3023"
+   "3025"
   ],
   "precision": [
    "approximated"
@@ -143327,7 +143407,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3063"
+   "3065"
   ],
   "precision": [
    "approximated"
@@ -143339,7 +143419,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3063"
+   "3065"
   ],
   "precision": [
    "approximated"
@@ -143351,7 +143431,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3064"
+   "3066"
   ],
   "precision": [
    "approximated"
@@ -143363,7 +143443,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3064"
+   "3066"
   ],
   "precision": [
    "approximated"
@@ -143375,7 +143455,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3076"
+   "3078"
   ],
   "precision": [
    "approximated"
@@ -143387,7 +143467,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3076"
+   "3078"
   ],
   "precision": [
    "approximated"
@@ -143399,7 +143479,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3077"
+   "3079"
   ],
   "precision": [
    "approximated"
@@ -143411,7 +143491,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3077"
+   "3079"
   ],
   "precision": [
    "approximated"
@@ -143447,7 +143527,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3102"
+   "3104"
   ],
   "precision": [
    "approximated"
@@ -143459,7 +143539,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3102"
+   "3104"
   ],
   "precision": [
    "approximated"
@@ -143471,7 +143551,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -143483,7 +143563,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2438"
+   "2439"
   ],
   "precision": [
    "widened"
@@ -143495,7 +143575,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3408"
+   "3410"
   ],
   "precision": [
    "approximated"
@@ -143507,7 +143587,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3408"
+   "3410"
   ],
   "precision": [
    "approximated"
@@ -143519,7 +143599,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3121"
+   "3123"
   ],
   "precision": [
    "approximated"
@@ -143531,7 +143611,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3121"
+   "3123"
   ],
   "precision": [
    "approximated"
@@ -143543,7 +143623,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3122"
+   "3124"
   ],
   "precision": [
    "approximated"
@@ -143555,7 +143635,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3122"
+   "3124"
   ],
   "precision": [
    "approximated"
@@ -143567,7 +143647,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3130"
+   "3132"
   ],
   "precision": [
    "approximated"
@@ -143579,7 +143659,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3130"
+   "3132"
   ],
   "precision": [
    "approximated"
@@ -143591,7 +143671,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3144"
+   "3146"
   ],
   "precision": [
    "approximated"
@@ -143603,7 +143683,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3144"
+   "3146"
   ],
   "precision": [
    "approximated"
@@ -143615,7 +143695,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3210"
+   "3212"
   ],
   "precision": [
    "approximated"
@@ -143627,7 +143707,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3210"
+   "3212"
   ],
   "precision": [
    "approximated"
@@ -143663,7 +143743,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3278"
+   "3280"
   ],
   "precision": [
    "approximated"
@@ -143675,7 +143755,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3278"
+   "3280"
   ],
   "precision": [
    "approximated"
@@ -143687,7 +143767,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3280"
+   "3282"
   ],
   "precision": [
    "approximated"
@@ -143699,7 +143779,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3280"
+   "3282"
   ],
   "precision": [
    "approximated"
@@ -143711,7 +143791,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3346"
+   "3348"
   ],
   "precision": [
    "approximated"
@@ -143723,7 +143803,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3346"
+   "3348"
   ],
   "precision": [
    "approximated"
@@ -143735,7 +143815,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3362"
+   "3364"
   ],
   "precision": [
    "approximated"
@@ -143747,7 +143827,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3362"
+   "3364"
   ],
   "precision": [
    "approximated"
@@ -143783,7 +143863,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3391"
+   "3393"
   ],
   "precision": [
    "approximated"
@@ -143795,7 +143875,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3391"
+   "3393"
   ],
   "precision": [
    "approximated"
@@ -143807,7 +143887,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3404"
+   "3406"
   ],
   "precision": [
    "approximated"
@@ -143819,7 +143899,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3404"
+   "3406"
   ],
   "precision": [
    "approximated"
@@ -143855,7 +143935,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3458"
+   "3460"
   ],
   "precision": [
    "approximated"
@@ -143867,7 +143947,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3458"
+   "3460"
   ],
   "precision": [
    "approximated"
@@ -143879,7 +143959,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3506"
+   "3508"
   ],
   "precision": [
    "approximated"
@@ -143891,7 +143971,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3506"
+   "3508"
   ],
   "precision": [
    "approximated"
@@ -143903,7 +143983,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3518"
+   "3520"
   ],
   "precision": [
    "approximated"
@@ -143915,7 +143995,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3518"
+   "3520"
   ],
   "precision": [
    "approximated"
@@ -143951,7 +144031,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3547"
+   "3549"
   ],
   "precision": [
    "widened"
@@ -143963,7 +144043,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3547"
+   "3549"
   ],
   "precision": [
    "widened"
@@ -143975,7 +144055,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3570"
+   "3572"
   ],
   "precision": [
    "approximated"
@@ -143987,7 +144067,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3570"
+   "3572"
   ],
   "precision": [
    "approximated"
@@ -144023,7 +144103,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3608"
+   "3610"
   ],
   "precision": [
    "approximated"
@@ -144035,7 +144115,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3608"
+   "3610"
   ],
   "precision": [
    "approximated"
@@ -144047,7 +144127,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2281"
+   "2282"
   ],
   "precision": [
    "approximated"
@@ -144059,7 +144139,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2281"
+   "2282"
   ],
   "precision": [
    "approximated"
@@ -144071,7 +144151,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3625"
+   "3627"
   ],
   "precision": [
    "approximated"
@@ -144083,7 +144163,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3625"
+   "3627"
   ],
   "precision": [
    "approximated"
@@ -144095,7 +144175,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3650"
+   "3652"
   ],
   "precision": [
    "approximated"
@@ -144107,7 +144187,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3650"
+   "3652"
   ],
   "precision": [
    "approximated"
@@ -144119,7 +144199,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3659"
+   "3661"
   ],
   "precision": [
    "approximated"
@@ -144131,7 +144211,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3659"
+   "3661"
   ],
   "precision": [
    "approximated"
@@ -144143,7 +144223,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3690"
+   "3692"
   ],
   "precision": [
    "approximated"
@@ -144155,7 +144235,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3690"
+   "3692"
   ],
   "precision": [
    "approximated"
@@ -144167,7 +144247,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3691"
+   "3693"
   ],
   "precision": [
    "approximated"
@@ -144179,7 +144259,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3691"
+   "3693"
   ],
   "precision": [
    "approximated"
@@ -144191,7 +144271,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3752"
+   "3754"
   ],
   "precision": [
    "approximated"
@@ -144203,7 +144283,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3752"
+   "3754"
   ],
   "precision": [
    "approximated"
@@ -144215,7 +144295,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3769"
+   "3771"
   ],
   "precision": [
    "approximated"
@@ -144227,7 +144307,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3769"
+   "3771"
   ],
   "precision": [
    "approximated"
@@ -144263,7 +144343,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3776"
+   "3778"
   ],
   "precision": [
    "approximated"
@@ -144275,7 +144355,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3776"
+   "3778"
   ],
   "precision": [
    "approximated"
@@ -144287,7 +144367,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3793"
+   "3795"
   ],
   "precision": [
    "approximated"
@@ -144299,7 +144379,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3793"
+   "3795"
   ],
   "precision": [
    "approximated"
@@ -144311,7 +144391,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3799"
+   "3801"
   ],
   "precision": [
    "widened"
@@ -144323,7 +144403,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3799"
+   "3801"
   ],
   "precision": [
    "widened"
@@ -144335,7 +144415,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3815"
+   "3817"
   ],
   "precision": [
    "approximated"
@@ -144347,7 +144427,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3815"
+   "3817"
   ],
   "precision": [
    "approximated"
@@ -144359,7 +144439,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3836"
+   "3838"
   ],
   "precision": [
    "approximated"
@@ -144371,7 +144451,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3836"
+   "3838"
   ],
   "precision": [
    "approximated"
@@ -144383,7 +144463,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3843"
+   "3845"
   ],
   "precision": [
    "approximated"
@@ -144395,7 +144475,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3843"
+   "3845"
   ],
   "precision": [
    "approximated"
@@ -144407,7 +144487,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3844"
+   "3846"
   ],
   "precision": [
    "approximated"
@@ -144419,7 +144499,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3844"
+   "3846"
   ],
   "precision": [
    "approximated"
@@ -144431,7 +144511,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3845"
+   "3847"
   ],
   "precision": [
    "approximated"
@@ -144443,7 +144523,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3845"
+   "3847"
   ],
   "precision": [
    "approximated"
@@ -144455,7 +144535,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3874"
+   "3876"
   ],
   "precision": [
    "approximated"
@@ -144467,7 +144547,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3874"
+   "3876"
   ],
   "precision": [
    "approximated"
@@ -144479,7 +144559,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3986"
+   "3988"
   ],
   "precision": [
    "widened"
@@ -144491,7 +144571,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3986"
+   "3988"
   ],
   "precision": [
    "widened"
@@ -144503,7 +144583,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3886"
+   "3888"
   ],
   "precision": [
    "approximated"
@@ -144515,7 +144595,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3886"
+   "3888"
   ],
   "precision": [
    "approximated"
@@ -144527,7 +144607,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3887"
+   "3889"
   ],
   "precision": [
    "approximated"
@@ -144539,7 +144619,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3887"
+   "3889"
   ],
   "precision": [
    "approximated"
@@ -144551,7 +144631,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3889"
+   "3891"
   ],
   "precision": [
    "approximated"
@@ -144563,7 +144643,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3889"
+   "3891"
   ],
   "precision": [
    "approximated"
@@ -144575,7 +144655,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3894"
+   "3896"
   ],
   "precision": [
    "approximated"
@@ -144587,7 +144667,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3894"
+   "3896"
   ],
   "precision": [
    "approximated"
@@ -144599,7 +144679,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3904"
+   "3906"
   ],
   "precision": [
    "approximated"
@@ -144611,7 +144691,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3904"
+   "3906"
   ],
   "precision": [
    "approximated"
@@ -144647,7 +144727,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3923"
+   "3925"
   ],
   "precision": [
    "approximated"
@@ -144659,7 +144739,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3923"
+   "3925"
   ],
   "precision": [
    "approximated"
@@ -144671,7 +144751,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3926"
+   "3928"
   ],
   "precision": [
    "approximated"
@@ -144683,7 +144763,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3926"
+   "3928"
   ],
   "precision": [
    "approximated"
@@ -144695,7 +144775,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3928"
+   "3930"
   ],
   "precision": [
    "approximated"
@@ -144707,7 +144787,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3928"
+   "3930"
   ],
   "precision": [
    "approximated"
@@ -144719,7 +144799,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3936"
+   "3938"
   ],
   "precision": [
    "approximated"
@@ -144731,18 +144811,6 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3936"
-  ],
-  "precision": [
-   "approximated"
-  ]
- },
- {
-  "url": "https://tuzaijidi.com/",
-  "engine": "adblock",
-  "oracle": false,
-  "sim": true,
-  "responsible": [
    "3938"
   ],
   "precision": [
@@ -144751,42 +144819,6 @@
  },
  {
   "url": "https://tuzaijidi.com/",
-  "engine": "adblockparser",
-  "oracle": false,
-  "sim": true,
-  "responsible": [
-   "3938"
-  ],
-  "precision": [
-   "approximated"
-  ]
- },
- {
-  "url": "https://tv.com/",
-  "engine": "adblock",
-  "oracle": false,
-  "sim": true,
-  "responsible": [
-   "3947"
-  ],
-  "precision": [
-   "approximated"
-  ]
- },
- {
-  "url": "https://tv.com/",
-  "engine": "adblockparser",
-  "oracle": false,
-  "sim": true,
-  "responsible": [
-   "3947"
-  ],
-  "precision": [
-   "approximated"
-  ]
- },
- {
-  "url": "https://tw01.org/",
   "engine": "adblock",
   "oracle": false,
   "sim": true,
@@ -144798,7 +144830,7 @@
   ]
  },
  {
-  "url": "https://tw01.org/",
+  "url": "https://tuzaijidi.com/",
   "engine": "adblockparser",
   "oracle": false,
   "sim": true,
@@ -144810,12 +144842,60 @@
   ]
  },
  {
+  "url": "https://tv.com/",
+  "engine": "adblock",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3949"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tv.com/",
+  "engine": "adblockparser",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3949"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tw01.org/",
+  "engine": "adblock",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3942"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
+  "url": "https://tw01.org/",
+  "engine": "adblockparser",
+  "oracle": false,
+  "sim": true,
+  "responsible": [
+   "3942"
+  ],
+  "precision": [
+   "approximated"
+  ]
+ },
+ {
   "url": "https://tweetcs.com/",
   "engine": "adblock",
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3962"
+   "3964"
   ],
   "precision": [
    "approximated"
@@ -144827,7 +144907,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3962"
+   "3964"
   ],
   "precision": [
    "approximated"
@@ -144839,7 +144919,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3970"
+   "3972"
   ],
   "precision": [
    "approximated"
@@ -144851,7 +144931,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3970"
+   "3972"
   ],
   "precision": [
    "approximated"
@@ -144863,7 +144943,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3975"
+   "3977"
   ],
   "precision": [
    "approximated"
@@ -144875,7 +144955,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3975"
+   "3977"
   ],
   "precision": [
    "approximated"
@@ -144887,7 +144967,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3976"
+   "3978"
   ],
   "precision": [
    "approximated"
@@ -144899,7 +144979,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3976"
+   "3978"
   ],
   "precision": [
    "approximated"
@@ -144911,7 +144991,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3977"
+   "3979"
   ],
   "precision": [
    "approximated"
@@ -144923,7 +145003,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3977"
+   "3979"
   ],
   "precision": [
    "approximated"
@@ -144935,7 +145015,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3991"
+   "3993"
   ],
   "precision": [
    "approximated"
@@ -144947,7 +145027,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3991"
+   "3993"
   ],
   "precision": [
    "approximated"
@@ -144959,7 +145039,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4003"
+   "4005"
   ],
   "precision": [
    "approximated"
@@ -144971,7 +145051,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4003"
+   "4005"
   ],
   "precision": [
    "approximated"
@@ -144983,7 +145063,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4007",
+   "4009",
    "||typepad.com"
   ],
   "precision": [
@@ -144996,7 +145076,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2341"
+   "2342"
   ],
   "precision": [
    "approximated"
@@ -145008,7 +145088,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2341"
+   "2342"
   ],
   "precision": [
    "approximated"
@@ -145020,7 +145100,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4020"
+   "4022"
   ],
   "precision": [
    "approximated"
@@ -145032,7 +145112,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4020"
+   "4022"
   ],
   "precision": [
    "approximated"
@@ -145044,7 +145124,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4037"
+   "4039"
   ],
   "precision": [
    "approximated"
@@ -145056,7 +145136,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4037"
+   "4039"
   ],
   "precision": [
    "approximated"
@@ -145068,7 +145148,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4039"
+   "4041"
   ],
   "precision": [
    "approximated"
@@ -145080,7 +145160,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4039"
+   "4041"
   ],
   "precision": [
    "approximated"
@@ -145092,7 +145172,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4040"
+   "4042"
   ],
   "precision": [
    "approximated"
@@ -145104,7 +145184,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4040"
+   "4042"
   ],
   "precision": [
    "approximated"
@@ -145116,7 +145196,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4051"
+   "4053"
   ],
   "precision": [
    "approximated"
@@ -145128,7 +145208,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4051"
+   "4053"
   ],
   "precision": [
    "approximated"
@@ -145140,7 +145220,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2121"
+   "2122"
   ],
   "precision": [
    "widened"
@@ -145152,7 +145232,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2121"
+   "2122"
   ],
   "precision": [
    "widened"
@@ -145164,7 +145244,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4077"
+   "4079"
   ],
   "precision": [
    "widened"
@@ -145176,7 +145256,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4077"
+   "4079"
   ],
   "precision": [
    "widened"
@@ -145212,7 +145292,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4117"
+   "4119"
   ],
   "precision": [
    "approximated"
@@ -145224,7 +145304,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4117"
+   "4119"
   ],
   "precision": [
    "approximated"
@@ -145236,7 +145316,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4123"
+   "4125"
   ],
   "precision": [
    "approximated"
@@ -145248,7 +145328,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4123"
+   "4125"
   ],
   "precision": [
    "approximated"
@@ -145308,7 +145388,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4128"
+   "4130"
   ],
   "precision": [
    "approximated"
@@ -145320,7 +145400,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4128"
+   "4130"
   ],
   "precision": [
    "approximated"
@@ -145332,7 +145412,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4131"
+   "4133"
   ],
   "precision": [
    "approximated"
@@ -145344,7 +145424,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4131"
+   "4133"
   ],
   "precision": [
    "approximated"
@@ -145356,7 +145436,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -145368,7 +145448,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4176"
+   "4179"
   ],
   "precision": [
    "widened"
@@ -145380,7 +145460,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4207"
+   "4210"
   ],
   "precision": [
    "approximated"
@@ -145392,7 +145472,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4207"
+   "4210"
   ],
   "precision": [
    "approximated"
@@ -145404,7 +145484,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4212"
+   "4215"
   ],
   "precision": [
    "approximated"
@@ -145416,7 +145496,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4212"
+   "4215"
   ],
   "precision": [
    "approximated"
@@ -145428,7 +145508,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4214"
+   "4217"
   ],
   "precision": [
    "approximated"
@@ -145440,7 +145520,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4214"
+   "4217"
   ],
   "precision": [
    "approximated"
@@ -145452,7 +145532,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2238"
+   "2239"
   ],
   "precision": [
    "approximated"
@@ -145464,7 +145544,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2238"
+   "2239"
   ],
   "precision": [
    "approximated"
@@ -145476,7 +145556,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4269"
+   "4272"
   ],
   "precision": [
    "widened"
@@ -145488,7 +145568,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4269"
+   "4272"
   ],
   "precision": [
    "widened"
@@ -145500,7 +145580,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4290"
+   "4293"
   ],
   "precision": [
    "approximated"
@@ -145512,7 +145592,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4290"
+   "4293"
   ],
   "precision": [
    "approximated"
@@ -145620,7 +145700,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2298"
+   "2299"
   ],
   "precision": [
    "approximated"
@@ -145632,7 +145712,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2298"
+   "2299"
   ],
   "precision": [
    "approximated"
@@ -145644,7 +145724,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2299"
+   "2300"
   ],
   "precision": [
    "approximated"
@@ -145656,7 +145736,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2299"
+   "2300"
   ],
   "precision": [
    "approximated"
@@ -145692,7 +145772,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2519"
+   "2520"
   ],
   "precision": [
    "approximated"
@@ -145704,7 +145784,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2519"
+   "2520"
   ],
   "precision": [
    "approximated"
@@ -145716,7 +145796,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -145728,7 +145808,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2683"
+   "2684"
   ],
   "precision": [
    "approximated"
@@ -145764,7 +145844,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2933"
+   "2935"
   ],
   "precision": [
    "approximated"
@@ -145776,7 +145856,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2933"
+   "2935"
   ],
   "precision": [
    "approximated"
@@ -145788,7 +145868,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3150"
+   "3152"
   ],
   "precision": [
    "approximated"
@@ -145800,7 +145880,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3150"
+   "3152"
   ],
   "precision": [
    "approximated"
@@ -145812,7 +145892,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3499"
+   "3501"
   ],
   "precision": [
    "approximated"
@@ -145824,7 +145904,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3499"
+   "3501"
   ],
   "precision": [
    "approximated"
@@ -145836,7 +145916,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -145848,7 +145928,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3591"
+   "3593"
   ],
   "precision": [
    "widened"
@@ -145860,7 +145940,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3754"
+   "3756"
   ],
   "precision": [
    "widened"
@@ -145872,7 +145952,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3754"
+   "3756"
   ],
   "precision": [
    "widened"
@@ -145884,7 +145964,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3763"
+   "3765"
   ],
   "precision": [
    "widened"
@@ -145896,7 +145976,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "3763"
+   "3765"
   ],
   "precision": [
    "widened"
@@ -145908,7 +145988,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4206"
+   "4209"
   ],
   "precision": [
    "approximated"
@@ -145920,7 +146000,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4206"
+   "4209"
   ],
   "precision": [
    "approximated"
@@ -145932,7 +146012,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2195"
+   "2196"
   ],
   "precision": [
    "approximated"
@@ -145944,7 +146024,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "2195"
+   "2196"
   ],
   "precision": [
    "approximated"
@@ -145956,7 +146036,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4322"
+   "4325"
   ],
   "precision": [
    "approximated"
@@ -145968,7 +146048,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4322"
+   "4325"
   ],
   "precision": [
    "approximated"
@@ -145980,7 +146060,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4327"
+   "4330"
   ],
   "precision": [
    "approximated"
@@ -145992,7 +146072,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4327"
+   "4330"
   ],
   "precision": [
    "approximated"
@@ -146004,7 +146084,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4344"
+   "4347"
   ],
   "precision": [
    "approximated"
@@ -146016,7 +146096,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4344"
+   "4347"
   ],
   "precision": [
    "approximated"
@@ -146028,7 +146108,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4346"
+   "4349"
   ],
   "precision": [
    "approximated"
@@ -146040,7 +146120,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4346"
+   "4349"
   ],
   "precision": [
    "approximated"
@@ -146052,7 +146132,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4373"
+   "4376"
   ],
   "precision": [
    "approximated"
@@ -146064,7 +146144,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4373"
+   "4376"
   ],
   "precision": [
    "approximated"
@@ -146076,7 +146156,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4427"
+   "4430"
   ],
   "precision": [
    "approximated"
@@ -146088,7 +146168,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4427"
+   "4430"
   ],
   "precision": [
    "approximated"
@@ -146100,7 +146180,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4428"
+   "4431"
   ],
   "precision": [
    "approximated"
@@ -146112,7 +146192,7 @@
   "oracle": false,
   "sim": true,
   "responsible": [
-   "4428"
+   "4431"
   ],
   "precision": [
    "approximated"
