@@ -92,6 +92,7 @@ host-suffix, 6parkbbs.com, proxy
 host-suffix, 6parker.com, proxy
 host-suffix, 6parknews.com, proxy
 host-suffix, 7capture.com, proxy
+host-suffix, 7x24hrs.com, proxy
 host-suffix, 8-d.com, proxy
 host-suffix, 85cc.us, proxy
 host-suffix, 881903.com, proxy
@@ -2418,7 +2419,9 @@ host-suffix, meridian-trust.org, proxy
 host-suffix, meripet.com, proxy
 host-suffix, merit-times.com.tw, proxy
 host-suffix, messenger.com, proxy
+host-suffix, meta.ai, proxy
 host-suffix, meta.com, proxy
+host-suffix, metaaivm.com, proxy
 host-suffix, metafilter.com, proxy
 host-suffix, metamask.io, proxy
 host-suffix, metart.com, proxy
