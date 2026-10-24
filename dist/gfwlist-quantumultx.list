@@ -826,6 +826,7 @@ host-suffix, comparitech.com, proxy
 host-suffix, compileheart.com, proxy
 host-suffix, connect.facebook.net, proxy
 host-suffix, conoha.jp, proxy
+host-suffix, console.typesafe.ai, proxy
 host-suffix, contests.twilio.com, proxy
 host-suffix, cool18.com, proxy
 host-suffix, coolaler.com, proxy
@@ -1380,6 +1381,7 @@ host-suffix, g.ai, proxy
 host-suffix, g.co, proxy
 host-suffix, g0v.social, proxy
 host-suffix, g6hentai.com, proxy
+host-suffix, ga.jspm.io, proxy
 host-suffix, gab.com, proxy
 host-suffix, gabocorp.com, proxy
 host-suffix, gagaoolala.com, proxy
