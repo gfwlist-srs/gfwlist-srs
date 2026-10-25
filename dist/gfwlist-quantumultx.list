@@ -41,6 +41,7 @@ host-suffix, 10beasts.net, proxy
 host-suffix, 10musume.com, proxy
 host-suffix, 123av.com, proxy
 host-suffix, 123av.me, proxy
+host-suffix, 123av.org, proxy
 host-suffix, 12bet.com, proxy
 host-suffix, 12vpn.com, proxy
 host-suffix, 12vpn.net, proxy
@@ -2182,6 +2183,7 @@ host-suffix, khc.edu.tw, proxy
 host-suffix, kichiku-doujinko.com, proxy
 host-suffix, kik.com, proxy
 host-suffix, killwall.com, proxy
+host-suffix, kimootoko.net, proxy
 host-suffix, kindle4rss.com, proxy
 host-suffix, kindleren.com, proxy
 host-suffix, kingdomsalvation.org, proxy
@@ -2462,6 +2464,7 @@ host-suffix, mingshengbao.com, proxy
 host-suffix, minhhue.net, proxy
 host-suffix, miningpoolhub.com, proxy
 host-suffix, ministrybooks.org, proxy
+host-suffix, minkch.com, proxy
 host-suffix, minzhuzhongguo.org, proxy
 host-suffix, miraheze.org, proxy
 host-suffix, mirdc.org.tw, proxy
@@ -2523,6 +2526,7 @@ host-suffix, mos.ru, proxy
 host-suffix, mosavi.io, proxy
 host-suffix, motherless.com, proxy
 host-suffix, movements.org, proxy
+host-suffix, movie.eroterest.net, proxy
 host-suffix, moviefap.com, proxy
 host-suffix, mpettis.com, proxy
 host-suffix, mpfinance.com, proxy
@@ -2656,6 +2660,9 @@ host-suffix, nitter.net, proxy
 host-suffix, niu.moe, proxy
 host-suffix, niusnews.com, proxy
 host-suffix, njactb.org, proxy
+host-suffix, njav.com, proxy
+host-suffix, njav.tv, proxy
+host-suffix, njavtv.com, proxy
 host-suffix, nlfreevpn.com, proxy
 host-suffix, nmsl.website, proxy
 host-suffix, nnews.eu, proxy
@@ -2907,6 +2914,7 @@ host-suffix, plexvpn.pro, proxy
 host-suffix, plurk.com, proxy
 host-suffix, plus.codes, proxy
 host-suffix, pmatehunter.com, proxy
+host-suffix, po-kaki-to.com, proxy
 host-suffix, po2b.com, proxy
 host-suffix, podbean.com, proxy
 host-suffix, podcast.co, proxy
@@ -4367,6 +4375,7 @@ host-suffix, zootool.com, proxy
 host-suffix, zophar.net, proxy
 host-suffix, zorrovpn.com, proxy
 host-suffix, zozotown.com, proxy
+host-suffix, zozovideo.com, proxy
 host-suffix, zpn.im, proxy
 host-suffix, zspeeder.me, proxy
 host-suffix, zuo.la, proxy
