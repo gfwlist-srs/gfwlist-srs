@@ -237,6 +237,7 @@ host-suffix, anobii.com, proxy
 host-suffix, anonfiles.com, proxy
 host-suffix, anonymouse.org, proxy
 host-suffix, anthonycalzadilla.com, proxy
+host-suffix, anthropic.auth0.com, proxy
 host-suffix, anthropic.com, proxy
 host-suffix, antiwave.net, proxy
 host-suffix, antpool.com, proxy
@@ -543,6 +544,7 @@ host-suffix, broadpressinc.com, proxy
 host-suffix, brookings.edu, proxy
 host-suffix, brutaltgp.com, proxy
 host-suffix, bsky.app, proxy
+host-suffix, bsky.chat, proxy
 host-suffix, bsky.network, proxy
 host-suffix, bsky.social, proxy
 host-suffix, bt4g.org, proxy
@@ -766,7 +768,10 @@ host-suffix, ck101.com, proxy
 host-suffix, clashyun.com, proxy
 host-suffix, classicalguitarblog.net, proxy
 host-suffix, claude.ai, proxy
+host-suffix, claude.app, proxy
 host-suffix, claude.com, proxy
+host-suffix, claudemcpcontent.com, proxy
+host-suffix, claudeusercontent.com, proxy
 host-suffix, cldr.unicode.org, proxy
 host-suffix, clearsurance.com, proxy
 host-suffix, clementine-player.org, proxy
