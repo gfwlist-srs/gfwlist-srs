@@ -261,6 +261,7 @@ host-suffix, api.pureapk.com, proxy
 host-suffix, api.recaptcha.net, proxy
 host-suffix, api.shuaiapi.com, proxy
 host-suffix, api.steampowered.com, proxy
+host-suffix, api.themoviedb.org, proxy
 host-suffix, apiary.io, proxy
 host-suffix, apigee.com, proxy
 host-suffix, apk.support, proxy
@@ -3691,6 +3692,7 @@ host-suffix, torlock.com, proxy
 host-suffix, torproject.org, proxy
 host-suffix, torrentgalaxy.to, proxy
 host-suffix, torrentkitty.tv, proxy
+host-suffix, torrentleech.org, proxy
 host-suffix, torrentprivacy.com, proxy
 host-suffix, torrentproject.se, proxy
 host-suffix, torrenty.org, proxy
@@ -4312,6 +4314,7 @@ host-suffix, youtubeeducation.com, proxy
 host-suffix, youtubegaming.com, proxy
 host-suffix, youtubekids.com, proxy
 host-suffix, youversion.com, proxy
+host-suffix, youversionapi.com, proxy
 host-suffix, youwin.com, proxy
 host-suffix, youxu.info, proxy
 host-suffix, yt.be, proxy

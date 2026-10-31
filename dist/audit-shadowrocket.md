@@ -1,9 +1,9 @@
 # gfwlist→Shadowrocket 审计报告
 
-- 上游 Last Modified: Fri, 30 Oct 2026 05:24:27 +0000
-- 输入行数: 4544
-- Shadowrocket 规则: {"exception": 33, "block": 4368, "total": 4401, "by_type": {"DOMAIN-SUFFIX": 4388, "DOMAIN-KEYWORD": 0, "IP-CIDR": 1, "URL-REGEX": 12}}
-- 目标侧精度分布: {"exception:exact": 33, "block:exact": 4089, "block:approximated": 237, "block:widened": 42}
+- 上游 Last Modified: Sat, 31 Oct 2026 05:12:41 +0000
+- 输入行数: 4547
+- Shadowrocket 规则: {"exception": 33, "block": 4371, "total": 4404, "by_type": {"DOMAIN-SUFFIX": 4391, "DOMAIN-KEYWORD": 0, "IP-CIDR": 1, "URL-REGEX": 12}}
+- 目标侧精度分布: {"exception:exact": 33, "block:exact": 4092, "block:approximated": 237, "block:widened": 42}
 
 ## 目标侧说明
 - URL-REGEX 匹配对象为整条 URL; DOMAIN-* 匹配对象为 host。
@@ -47,7 +47,7 @@
 | `DOMAIN-SUFFIX,blog.excite.co.jp,PROXY` | block | approximated | 2082 |  |
 | `DOMAIN-SUFFIX,blog.jp,PROXY` | block | approximated | 1568 |  |
 | `DOMAIN-SUFFIX,blog.ranxiang.com,PROXY` | block | widened | 3447 |  |
-| `DOMAIN-SUFFIX,blog.soylent.com,PROXY` | block | approximated | 4002 |  |
+| `DOMAIN-SUFFIX,blog.soylent.com,PROXY` | block | approximated | 4004 |  |
 | `DOMAIN-SUFFIX,blogtd.org,PROXY` | block | approximated | 1574 |  |
 | `DOMAIN-SUFFIX,busayari.com,PROXY` | block | approximated | 1629 |  |
 | `DOMAIN-SUFFIX,busu.org,PROXY` | block | widened | 1632 |  |
@@ -58,7 +58,7 @@
 | `DOMAIN-SUFFIX,certificate.revocationcheck.com,PROXY` | block | approximated | 3474 |  |
 | `DOMAIN-SUFFIX,cgdepot.org,PROXY` | block | approximated | 1716 |  |
 | `DOMAIN-SUFFIX,china-review.com.ua,PROXY` | block | approximated | 1774 |  |
-| `DOMAIN-SUFFIX,china.ucanews.com,PROXY` | block | widened | 4079 |  |
+| `DOMAIN-SUFFIX,china.ucanews.com,PROXY` | block | widened | 4081 |  |
 | `DOMAIN-SUFFIX,chinanewscenter.com,PROXY` | block | approximated | 1772 |  |
 | `DOMAIN-SUFFIX,chinman.net,PROXY` | block | approximated | 1788 |  |
 | `DOMAIN-SUFFIX,chrdnet.com,PROXY` | block | approximated | 1790 |  |
@@ -76,7 +76,7 @@
 | `DOMAIN-SUFFIX,dalailama.mn,PROXY` | block | approximated | 1915 |  |
 | `DOMAIN-SUFFIX,dalailamacenter.org,PROXY` | block | approximated | 1917 |  |
 | `DOMAIN-SUFFIX,david-kilgour.com,PROXY` | block | approximated | 1924 |  |
-| `DOMAIN-SUFFIX,deck.ly,PROXY` | block | approximated | 4019 |  |
+| `DOMAIN-SUFFIX,deck.ly,PROXY` | block | approximated | 4021 |  |
 | `DOMAIN-SUFFIX,digiland.tw,PROXY` | block | widened | 1945 |  |
 | `DOMAIN-SUFFIX,dscn.info,PROXY` | block | approximated | 1987 |  |
 | `DOMAIN-SUFFIX,dstk.dk,PROXY` | block | approximated | 1988 |  |
@@ -124,7 +124,7 @@
 | `DOMAIN-SUFFIX,hitomi.la,PROXY` | block | approximated | 2452 |  |
 | `DOMAIN-SUFFIX,hk-pub.com,PROXY` | block | approximated | 2453 |  |
 | `DOMAIN-SUFFIX,hk.gradconnection.com,PROXY` | block | widened | 2376 |  |
-| `DOMAIN-SUFFIX,hkcoc.weather.com.hk,PROXY` | block | approximated | 4260 |  |
+| `DOMAIN-SUFFIX,hkcoc.weather.com.hk,PROXY` | block | approximated | 4262 |  |
 | `DOMAIN-SUFFIX,homeservershow.com,PROXY` | block | approximated | 2473 |  |
 | `DOMAIN-SUFFIX,hornytrip.com,PROXY` | block | approximated | 2480 |  |
 | `DOMAIN-SUFFIX,ht.ly,PROXY` | block | approximated | 3197 |  |
@@ -203,62 +203,62 @@
 | `DOMAIN-SUFFIX,superzooi.com,PROXY` | block | approximated | 3746 |  |
 | `DOMAIN-SUFFIX,suprememastertv.com,PROXY` | block | approximated | 3747 |  |
 | `DOMAIN-SUFFIX,surfeasy.com.au,PROXY` | block | approximated | 3749 |  |
-| `DOMAIN-SUFFIX,taa-usa.org,PROXY` | block | approximated | 3808 |  |
-| `DOMAIN-SUFFIX,taoism.net,PROXY` | block | approximated | 3825 |  |
+| `DOMAIN-SUFFIX,taa-usa.org,PROXY` | block | approximated | 3810 |  |
+| `DOMAIN-SUFFIX,taoism.net,PROXY` | block | approximated | 3827 |  |
 | `DOMAIN-SUFFIX,tarr.uspto.gov,PROXY` | block | widened | 1165 |  |
-| `DOMAIN-SUFFIX,tbssqh.org,PROXY` | block | approximated | 3832 |  |
-| `DOMAIN-SUFFIX,thedalailamamovie.com,PROXY` | block | approximated | 3849 |  |
-| `DOMAIN-SUFFIX,thegioitinhoc.vn,PROXY` | block | widened | 3855 |  |
-| `DOMAIN-SUFFIX,theync.com,PROXY` | block | approximated | 3871 |  |
-| `DOMAIN-SUFFIX,tibet3rdpole.org,PROXY` | block | approximated | 3892 |  |
-| `DOMAIN-SUFFIX,tibetancommunityuk.net,PROXY` | block | approximated | 3899 |  |
-| `DOMAIN-SUFFIX,tibetansports.org,PROXY` | block | approximated | 3900 |  |
-| `DOMAIN-SUFFIX,tibetanwomen.org,PROXY` | block | approximated | 3901 |  |
-| `DOMAIN-SUFFIX,timdir.com,PROXY` | block | approximated | 3930 |  |
-| `DOMAIN-SUFFIX,tl.gd,PROXY` | block | widened | 4042 |  |
-| `DOMAIN-SUFFIX,tmi.me,PROXY` | block | approximated | 3942 |  |
-| `DOMAIN-SUFFIX,tmpp.org,PROXY` | block | approximated | 3943 |  |
-| `DOMAIN-SUFFIX,tnp.org,PROXY` | block | approximated | 3945 |  |
-| `DOMAIN-SUFFIX,toppornsites.com,PROXY` | block | approximated | 3950 |  |
-| `DOMAIN-SUFFIX,torrentproject.se,PROXY` | block | approximated | 3960 |  |
+| `DOMAIN-SUFFIX,tbssqh.org,PROXY` | block | approximated | 3834 |  |
+| `DOMAIN-SUFFIX,thedalailamamovie.com,PROXY` | block | approximated | 3851 |  |
+| `DOMAIN-SUFFIX,thegioitinhoc.vn,PROXY` | block | widened | 3857 |  |
+| `DOMAIN-SUFFIX,theync.com,PROXY` | block | approximated | 3873 |  |
+| `DOMAIN-SUFFIX,tibet3rdpole.org,PROXY` | block | approximated | 3894 |  |
+| `DOMAIN-SUFFIX,tibetancommunityuk.net,PROXY` | block | approximated | 3901 |  |
+| `DOMAIN-SUFFIX,tibetansports.org,PROXY` | block | approximated | 3902 |  |
+| `DOMAIN-SUFFIX,tibetanwomen.org,PROXY` | block | approximated | 3903 |  |
+| `DOMAIN-SUFFIX,timdir.com,PROXY` | block | approximated | 3932 |  |
+| `DOMAIN-SUFFIX,tl.gd,PROXY` | block | widened | 4044 |  |
+| `DOMAIN-SUFFIX,tmi.me,PROXY` | block | approximated | 3944 |  |
+| `DOMAIN-SUFFIX,tmpp.org,PROXY` | block | approximated | 3945 |  |
+| `DOMAIN-SUFFIX,tnp.org,PROXY` | block | approximated | 3947 |  |
+| `DOMAIN-SUFFIX,toppornsites.com,PROXY` | block | approximated | 3952 |  |
+| `DOMAIN-SUFFIX,torrentproject.se,PROXY` | block | approximated | 3962 |  |
 | `DOMAIN-SUFFIX,tosh.comedycentral.com,PROXY` | block | approximated | 1829 |  |
-| `DOMAIN-SUFFIX,tubeislam.com,PROXY` | block | approximated | 3979 |  |
-| `DOMAIN-SUFFIX,tumutanzi.com,PROXY` | block | approximated | 3982 |  |
-| `DOMAIN-SUFFIX,tunein.com,PROXY` | block | approximated | 3984 |  |
-| `DOMAIN-SUFFIX,tushycash.com,PROXY` | block | approximated | 3992 |  |
-| `DOMAIN-SUFFIX,tuzaijidi.com,PROXY` | block | approximated | 3994 |  |
-| `DOMAIN-SUFFIX,tv.com,PROXY` | block | approximated | 4003 |  |
-| `DOMAIN-SUFFIX,tw-blog.com,PROXY` | block | approximated | 4011 |  |
-| `DOMAIN-SUFFIX,tw01.org,PROXY` | block | approximated | 3996 |  |
-| `DOMAIN-SUFFIX,tweetcs.com,PROXY` | block | approximated | 4018 |  |
-| `DOMAIN-SUFFIX,tweez.net,PROXY` | block | approximated | 4026 |  |
-| `DOMAIN-SUFFIX,twicountry.org,PROXY` | block | approximated | 4031 |  |
-| `DOMAIN-SUFFIX,twiends.com,PROXY` | block | approximated | 4032 |  |
-| `DOMAIN-SUFFIX,twifan.com,PROXY` | block | approximated | 4033 |  |
-| `DOMAIN-SUFFIX,twt.tl,PROXY` | block | approximated | 4047 |  |
-| `DOMAIN-SUFFIX,twtkr.com,PROXY` | block | approximated | 4059 |  |
+| `DOMAIN-SUFFIX,tubeislam.com,PROXY` | block | approximated | 3981 |  |
+| `DOMAIN-SUFFIX,tumutanzi.com,PROXY` | block | approximated | 3984 |  |
+| `DOMAIN-SUFFIX,tunein.com,PROXY` | block | approximated | 3986 |  |
+| `DOMAIN-SUFFIX,tushycash.com,PROXY` | block | approximated | 3994 |  |
+| `DOMAIN-SUFFIX,tuzaijidi.com,PROXY` | block | approximated | 3996 |  |
+| `DOMAIN-SUFFIX,tv.com,PROXY` | block | approximated | 4005 |  |
+| `DOMAIN-SUFFIX,tw-blog.com,PROXY` | block | approximated | 4013 |  |
+| `DOMAIN-SUFFIX,tw01.org,PROXY` | block | approximated | 3998 |  |
+| `DOMAIN-SUFFIX,tweetcs.com,PROXY` | block | approximated | 4020 |  |
+| `DOMAIN-SUFFIX,tweez.net,PROXY` | block | approximated | 4028 |  |
+| `DOMAIN-SUFFIX,twicountry.org,PROXY` | block | approximated | 4033 |  |
+| `DOMAIN-SUFFIX,twiends.com,PROXY` | block | approximated | 4034 |  |
+| `DOMAIN-SUFFIX,twifan.com,PROXY` | block | approximated | 4035 |  |
+| `DOMAIN-SUFFIX,twt.tl,PROXY` | block | approximated | 4049 |  |
+| `DOMAIN-SUFFIX,twtkr.com,PROXY` | block | approximated | 4061 |  |
 | `DOMAIN-SUFFIX,ub0.cc,PROXY` | block | approximated | 2374 |  |
-| `DOMAIN-SUFFIX,ubddns.org,PROXY` | block | approximated | 4076 |  |
-| `DOMAIN-SUFFIX,unblockdmm.com,PROXY` | block | approximated | 4093 |  |
-| `DOMAIN-SUFFIX,uncyclopedia.hk,PROXY` | block | approximated | 4095 |  |
-| `DOMAIN-SUFFIX,uncyclopedia.tw,PROXY` | block | approximated | 4096 |  |
-| `DOMAIN-SUFFIX,upornia.com,PROXY` | block | approximated | 4107 |  |
+| `DOMAIN-SUFFIX,ubddns.org,PROXY` | block | approximated | 4078 |  |
+| `DOMAIN-SUFFIX,unblockdmm.com,PROXY` | block | approximated | 4095 |  |
+| `DOMAIN-SUFFIX,uncyclopedia.hk,PROXY` | block | approximated | 4097 |  |
+| `DOMAIN-SUFFIX,uncyclopedia.tw,PROXY` | block | approximated | 4098 |  |
+| `DOMAIN-SUFFIX,upornia.com,PROXY` | block | approximated | 4109 |  |
 | `DOMAIN-SUFFIX,uygur.fc2web.com,PROXY` | block | widened | 2154 |  |
-| `DOMAIN-SUFFIX,uymaarip.com,PROXY` | block | widened | 4133 |  |
+| `DOMAIN-SUFFIX,uymaarip.com,PROXY` | block | widened | 4135 |  |
 | `DOMAIN-SUFFIX,viu.tv,PROXY` | block | widened | 258 |  |
-| `DOMAIN-SUFFIX,vllcs.org,PROXY` | block | approximated | 4173 |  |
-| `DOMAIN-SUFFIX,vovo2000.com,PROXY` | block | approximated | 4179 |  |
+| `DOMAIN-SUFFIX,vllcs.org,PROXY` | block | approximated | 4175 |  |
+| `DOMAIN-SUFFIX,vovo2000.com,PROXY` | block | approximated | 4181 |  |
 | `DOMAIN-SUFFIX,vpn.cmu.edu,PROXY` | block | approximated | 1817 |  |
 | `DOMAIN-SUFFIX,vpn.sv.cmu.edu,PROXY` | block | approximated | 1818 |  |
-| `DOMAIN-SUFFIX,vpnaccount.org,PROXY` | block | approximated | 4184 |  |
-| `DOMAIN-SUFFIX,vpncoupons.com,PROXY` | block | approximated | 4187 |  |
-| `DOMAIN-SUFFIX,w3s.link,PROXY` | block | widened | 4233 |  |
-| `DOMAIN-SUFFIX,webwarper.net,PROXY` | block | approximated | 4264 |  |
-| `DOMAIN-SUFFIX,weisuo.ws,PROXY` | block | approximated | 4269 |  |
-| `DOMAIN-SUFFIX,wemigrate.org,PROXY` | block | approximated | 4271 |  |
+| `DOMAIN-SUFFIX,vpnaccount.org,PROXY` | block | approximated | 4186 |  |
+| `DOMAIN-SUFFIX,vpncoupons.com,PROXY` | block | approximated | 4189 |  |
+| `DOMAIN-SUFFIX,w3s.link,PROXY` | block | widened | 4235 |  |
+| `DOMAIN-SUFFIX,webwarper.net,PROXY` | block | approximated | 4266 |  |
+| `DOMAIN-SUFFIX,weisuo.ws,PROXY` | block | approximated | 4271 |  |
+| `DOMAIN-SUFFIX,wemigrate.org,PROXY` | block | approximated | 4273 |  |
 | `DOMAIN-SUFFIX,wiki.gamerp.jp,PROXY` | block | approximated | 2271 |  |
-| `DOMAIN-SUFFIX,wordpress.com,PROXY` | block | widened | 4326 |  |
-| `DOMAIN-SUFFIX,woyaolian.org,PROXY` | block | approximated | 4347 |  |
+| `DOMAIN-SUFFIX,wordpress.com,PROXY` | block | widened | 4328 |  |
+| `DOMAIN-SUFFIX,woyaolian.org,PROXY` | block | approximated | 4349 |  |
 | `DOMAIN-SUFFIX,www.antd.org,PROXY` | block | approximated | 1396 |  |
 | `DOMAIN-SUFFIX,www.aolnews.com,PROXY` | block | approximated | 643 |  |
 | `DOMAIN-SUFFIX,www.cmoinc.org,PROXY` | block | approximated | 1814 |  |
@@ -272,17 +272,17 @@
 | `DOMAIN-SUFFIX,www.oxid.it,PROXY` | block | approximated | 3202 |  |
 | `DOMAIN-SUFFIX,www.s4miniarchive.com,PROXY` | block | approximated | 3555 |  |
 | `DOMAIN-SUFFIX,www.skype.com,PROXY` | block | widened | 3647 |  |
-| `DOMAIN-SUFFIX,www.tablesgenerator.com,PROXY` | block | widened | 3810 |  |
-| `DOMAIN-SUFFIX,www.taiwanonline.cc,PROXY` | block | widened | 3819 |  |
-| `DOMAIN-SUFFIX,www.websnapr.com,PROXY` | block | approximated | 4263 |  |
+| `DOMAIN-SUFFIX,www.tablesgenerator.com,PROXY` | block | widened | 3812 |  |
+| `DOMAIN-SUFFIX,www.taiwanonline.cc,PROXY` | block | widened | 3821 |  |
+| `DOMAIN-SUFFIX,www.websnapr.com,PROXY` | block | approximated | 4265 |  |
 | `DOMAIN-SUFFIX,www.zensur.freerk.com,PROXY` | block | approximated | 2228 |  |
-| `DOMAIN-SUFFIX,xianjian.tw,PROXY` | block | approximated | 4380 |  |
-| `DOMAIN-SUFFIX,xing.com,PROXY` | block | approximated | 4385 |  |
-| `DOMAIN-SUFFIX,xxx.xxx,PROXY` | block | approximated | 4402 |  |
-| `DOMAIN-SUFFIX,xxxymovies.com,PROXY` | block | approximated | 4404 |  |
-| `DOMAIN-SUFFIX,yeyeclub.com,PROXY` | block | approximated | 4431 |  |
-| `DOMAIN-SUFFIX,zhenxiang.biz,PROXY` | block | approximated | 4486 |  |
-| `DOMAIN-SUFFIX,zhongguo.ca,PROXY` | block | approximated | 4487 |  |
+| `DOMAIN-SUFFIX,xianjian.tw,PROXY` | block | approximated | 4382 |  |
+| `DOMAIN-SUFFIX,xing.com,PROXY` | block | approximated | 4387 |  |
+| `DOMAIN-SUFFIX,xxx.xxx,PROXY` | block | approximated | 4404 |  |
+| `DOMAIN-SUFFIX,xxxymovies.com,PROXY` | block | approximated | 4406 |  |
+| `DOMAIN-SUFFIX,yeyeclub.com,PROXY` | block | approximated | 4434 |  |
+| `DOMAIN-SUFFIX,zhenxiang.biz,PROXY` | block | approximated | 4489 |  |
+| `DOMAIN-SUFFIX,zhongguo.ca,PROXY` | block | approximated | 4490 |  |
 | `IP-CIDR,85.17.73.31/32,PROXY,no-resolve` | block | widened | 27 | no-resolve: 仅匹配 IP 字面量目标 |
 | `URL-REGEX,(?:^\|://\|\.)(000webhost\.com\|0rz\.tw\|1\-apple\.com\.tw\|1000giri\.net\|10...` | block | widened | -1 | 集合级 gap: ABP ||host 无右边界, 补中缀/起始延续; path 中 `.` 边界可能误命中(放宽) |
 | `URL-REGEX,(?:^\|://\|\.).*2\.bahamut\.com\.tw,PROXY` | block | widened | 1500 | (^|\.) -> (?:^|://|\.); path 中 `.` 边界可能误命中(放宽) |
@@ -290,7 +290,7 @@
 | `URL-REGEX,(?:^\|://\|\.)cdn.*\.i\-scmp\.com,PROXY` | block | widened | 134 | (^|\.) -> (?:^|://|\.); path 中 `.` 边界可能误命中(放宽) |
 | `URL-REGEX,(?:^\|://\|\.)cdn.*\.search\.xxx,PROXY` | block | widened | 229 | (^|\.) -> (?:^|://|\.); path 中 `.` 边界可能误命中(放宽) |
 | `URL-REGEX,(?:^\|://\|\.)fbcdn.*\.akamaihd\.net,PROXY` | block | widened | 1355 | (^|\.) -> (?:^|://|\.); path 中 `.` 边界可能误命中(放宽) |
-| `URL-REGEX,(?:^\|://\|\.)hum.*\.uchicago\.edu,PROXY` | block | widened | 4080 | (^|\.) -> (?:^|://|\.); path 中 `.` 边界可能误命中(放宽) |
+| `URL-REGEX,(?:^\|://\|\.)hum.*\.uchicago\.edu,PROXY` | block | widened | 4082 | (^|\.) -> (?:^|://|\.); path 中 `.` 边界可能误命中(放宽) |
 | `URL-REGEX,(?:^\|://\|\.)img.*\.picturedip\.com,PROXY` | block | widened | 3276 | (^|\.) -> (?:^|://|\.); path 中 `.` 边界可能误命中(放宽) |
 | `URL-REGEX,(?:^\|://\|\.)ss.*\.4sqi\.net,PROXY` | block | widened | 2188 | (^|\.) -> (?:^|://|\.); path 中 `.` 边界可能误命中(放宽) |
 | `URL-REGEX,^.+blogspot\.(.*),PROXY` | block | widened | 738 | 原样保留(URL 语境) |
