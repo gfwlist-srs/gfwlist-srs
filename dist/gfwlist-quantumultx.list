@@ -2394,7 +2394,6 @@ host-suffix, matrix.org, proxy
 host-suffix, matters.news, proxy
 host-suffix, matters.town, proxy
 host-suffix, mattwilcox.net, proxy
-host-suffix, maven.neoforged.net, proxy
 host-suffix, mcadforums.com, proxy
 host-suffix, mcaf.ee, proxy
 host-suffix, mceindex.com, proxy
@@ -2602,6 +2601,7 @@ host-suffix, ned.org, proxy
 host-suffix, nekoslovakia.net, proxy
 host-suffix, neo-miracle.com, proxy
 host-suffix, neodb.social, proxy
+host-suffix, neoforged.net, proxy
 host-suffix, neowin.net, proxy
 host-suffix, nephobox.com, proxy
 host-suffix, netalert.me, proxy

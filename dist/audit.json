@@ -12,7 +12,7 @@
     },
     {
       "line_no": 2,
-      "raw": "! Checksum: N7S3WsNPqnc3MnyZqkzfIA",
+      "raw": "! Checksum: GgM3jnUCSHPpWwrM8CFnwA",
       "category": "comment",
       "exception": false,
       "precision": "dropped",
@@ -48,7 +48,7 @@
     },
     {
       "line_no": 6,
-      "raw": "! Last Modified: Tue, 03 Nov 2026 11:32:08 +0000",
+      "raw": "! Last Modified: Thu, 05 Nov 2026 06:09:18 +0000",
       "category": "comment",
       "exception": false,
       "precision": "dropped",
@@ -42014,7 +42014,7 @@
     },
     {
       "line_no": 3035,
-      "raw": "||maven.neoforged.net",
+      "raw": "||neoforged.net",
       "category": "host-anchor",
       "exception": false,
       "precision": "exact",
@@ -42022,7 +42022,7 @@
       "emitted": [
         [
           "domain_suffix",
-          "maven.neoforged.net"
+          "neoforged.net"
         ]
       ]
     },
@@ -63140,7 +63140,7 @@
     "conflicts": [],
     "encoding_note": "domain_suffix + 一条合并 gap 正则 `(^|\\.)(suffix...)\\.` 联合编码 ABP `||host` 的左边界/无右边界语义, 二者合取与原版精确等价; gap 正则是集合级产物, 不归属单一行。",
     "gap_regex_chars": {
-      "block": 63652,
+      "block": 63645,
       "exception": 642
     }
   }

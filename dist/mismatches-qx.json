@@ -38662,22 +38662,6 @@
   "precision": []
  },
  {
-  "url": "http://maven.neoforged.net.evil-example.com/",
-  "engine": "adblock",
-  "oracle": true,
-  "sim": false,
-  "responsible": [],
-  "precision": []
- },
- {
-  "url": "http://maven.neoforged.net.evil-example.com/",
-  "engine": "adblockparser",
-  "oracle": true,
-  "sim": false,
-  "responsible": [],
-  "precision": []
- },
- {
   "url": "http://mcadforums.com.evil-example.com/",
   "engine": "adblock",
   "oracle": true,
@@ -42015,6 +41999,22 @@
  },
  {
   "url": "http://neodb.social.evil-example.com/",
+  "engine": "adblockparser",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://neoforged.net.evil-example.com/",
+  "engine": "adblock",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://neoforged.net.evil-example.com/",
   "engine": "adblockparser",
   "oracle": true,
   "sim": false,
@@ -101688,22 +101688,6 @@
   "precision": []
  },
  {
-  "url": "http://www.maven.neoforged.net.cdn-mirror.net/",
-  "engine": "adblock",
-  "oracle": true,
-  "sim": false,
-  "responsible": [],
-  "precision": []
- },
- {
-  "url": "http://www.maven.neoforged.net.cdn-mirror.net/",
-  "engine": "adblockparser",
-  "oracle": true,
-  "sim": false,
-  "responsible": [],
-  "precision": []
- },
- {
   "url": "http://www.mcadforums.com.cdn-mirror.net/",
   "engine": "adblock",
   "oracle": true,
@@ -104697,6 +104681,22 @@
  },
  {
   "url": "http://www.neodb.social.cdn-mirror.net/",
+  "engine": "adblockparser",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://www.neoforged.net.cdn-mirror.net/",
+  "engine": "adblock",
+  "oracle": true,
+  "sim": false,
+  "responsible": [],
+  "precision": []
+ },
+ {
+  "url": "http://www.neoforged.net.cdn-mirror.net/",
   "engine": "adblockparser",
   "oracle": true,
   "sim": false,

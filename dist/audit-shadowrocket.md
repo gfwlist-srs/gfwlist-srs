@@ -1,6 +1,6 @@
 # gfwlist→Shadowrocket 审计报告
 
-- 上游 Last Modified: Tue, 03 Nov 2026 11:32:08 +0000
+- 上游 Last Modified: Thu, 05 Nov 2026 06:09:18 +0000
 - 输入行数: 4548
 - Shadowrocket 规则: {"exception": 33, "block": 4372, "total": 4405, "by_type": {"DOMAIN-SUFFIX": 4392, "DOMAIN-KEYWORD": 0, "IP-CIDR": 1, "URL-REGEX": 12}}
 - 目标侧精度分布: {"exception:exact": 33, "block:exact": 4093, "block:approximated": 237, "block:widened": 42}
