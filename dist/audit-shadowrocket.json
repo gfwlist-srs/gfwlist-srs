@@ -44066,7 +44066,7 @@
     },
     {
       "line_no": 2,
-      "raw": "! Checksum: GgM3jnUCSHPpWwrM8CFnwA",
+      "raw": "! Checksum: ZdAd0wb0iG2fyYWCNL/t7Q",
       "category": "comment",
       "exception": false,
       "precision": "dropped",
@@ -44102,7 +44102,7 @@
     },
     {
       "line_no": 6,
-      "raw": "! Last Modified: Thu, 05 Nov 2026 06:09:18 +0000",
+      "raw": "! Last Modified: Fri, 06 Nov 2026 02:29:19 +0000",
       "category": "comment",
       "exception": false,
       "precision": "dropped",
@@ -107159,7 +107159,7 @@
   ],
   "summary": {
     "input_lines": 4548,
-    "upstream_last_modified": "Thu, 05 Nov 2026 06:09:18 +0000",
+    "upstream_last_modified": "Fri, 06 Nov 2026 02:29:19 +0000",
     "shadowrocket_rules": {
       "exception": 33,
       "block": 4372,
