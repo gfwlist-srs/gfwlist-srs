@@ -1047,6 +1047,7 @@ host-suffix, dt18.com, proxy
 host-suffix, dtiblog.com, proxy
 host-suffix, dtic.mil, proxy
 host-suffix, dubox.com, proxy
+host-suffix, duck.ai, proxy
 host-suffix, duck.com, proxy
 host-suffix, duckduckgo.com, proxy
 host-suffix, duckmylife.com, proxy
@@ -1395,9 +1396,9 @@ host-suffix, gab.com, proxy
 host-suffix, gabocorp.com, proxy
 host-suffix, gagaoolala.com, proxy
 host-suffix, galenwu.com, proxy
-host-suffix, game735.com, proxy
 host-suffix, gamer.com.tw, proxy
 host-suffix, gamez.com.tw, proxy
+host-suffix, gamma.app, proxy
 host-suffix, ganjing.com, proxy
 host-suffix, ganjingworld.com, proxy
 host-suffix, gaoming.net, proxy
@@ -3339,6 +3340,7 @@ host-suffix, sosreader.com, proxy
 host-suffix, sotwe.com, proxy
 host-suffix, soubory.com, proxy
 host-suffix, soulcaliburhentai.net, proxy
+host-suffix, soulogic.com, proxy
 host-suffix, soundcloud.com, proxy
 host-suffix, soundofhope.org, proxy
 host-suffix, soundon.fm, proxy
