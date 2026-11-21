@@ -792,6 +792,8 @@ host-suffix, clyp.it, proxy
 host-suffix, cmcn.org, proxy
 host-suffix, cmegroup.com, proxy
 host-suffix, cmi.org.tw, proxy
+host-suffix, cmmedia.com.tw, proxy
+host-suffix, cmoney.tw, proxy
 host-suffix, cms.gov, proxy
 host-suffix, cmule.com, proxy
 host-suffix, cmx.im, proxy
@@ -805,6 +807,7 @@ host-suffix, cnbeta.com.tw, proxy
 host-suffix, cnd.org, proxy
 host-suffix, cnnews.chosun.com, proxy
 host-suffix, cnpolitics.org, proxy
+host-suffix, cnyes.com, proxy
 host-suffix, co.ng.mil, proxy
 host-suffix, coat.co.jp, proxy
 host-suffix, cobinhood.com, proxy
@@ -1073,6 +1076,7 @@ host-suffix, e-classical.com.tw, proxy
 host-suffix, e-gold.com, proxy
 host-suffix, e-hentai.org, proxy
 host-suffix, e-hentaidb.com, proxy
+host-suffix, e-info.org.tw, proxy
 host-suffix, e-zone.com.hk, proxy
 host-suffix, e123.hk, proxy
 host-suffix, e621.net, proxy
@@ -1772,6 +1776,7 @@ host-suffix, greatfire.org, proxy
 host-suffix, greatfire.us7.list-manage.com, proxy
 host-suffix, greatfirevpn.com, proxy
 host-suffix, greatfirewallofchina.org, proxy
+host-suffix, greenbean.media, proxy
 host-suffix, greenpeace.org, proxy
 host-suffix, greenvpn.net, proxy
 host-suffix, grindr.com, proxy
@@ -1869,13 +1874,16 @@ host-suffix, hk.jiepang.com, proxy
 host-suffix, hk01.com, proxy
 host-suffix, hkbookcity.com, proxy
 host-suffix, hkchronicles.com, proxy
+host-suffix, hkcitycreation.com, proxy
 host-suffix, hkcnews.com, proxy
 host-suffix, hkcoc.com, proxy
 host-suffix, hkcoc.weather.com.hk, proxy
+host-suffix, hkcourtnews.com, proxy
 host-suffix, hkdc.us, proxy
 host-suffix, hkej.com, proxy
 host-suffix, hket.com, proxy
 host-suffix, hkfaa.com, proxy
+host-suffix, hkfeature.com, proxy
 host-suffix, hkgalden.com, proxy
 host-suffix, hkgolden.com, proxy
 host-suffix, hkgpao.com, proxy
@@ -2279,6 +2287,7 @@ host-suffix, library-access.sk, proxy
 host-suffix, library.usc.cuhk.edu.hk, proxy
 host-suffix, libredd.it, proxy
 host-suffix, lifemiles.com, proxy
+host-suffix, lifesitenews.com, proxy
 host-suffix, lighten.org.tw, proxy
 host-suffix, lighti.me, proxy
 host-suffix, lightnovel.cn, proxy
@@ -2287,6 +2296,7 @@ host-suffix, lih.kg, proxy
 host-suffix, lihkg.com, proxy
 host-suffix, like.com, proxy
 host-suffix, lilaoshibushinilaoshi.com, proxy
+host-suffix, limedia.tw, proxy
 host-suffix, line-apps.com, proxy
 host-suffix, line-scdn.net, proxy
 host-suffix, line.me, proxy
@@ -2382,6 +2392,7 @@ host-suffix, marxist.net, proxy
 host-suffix, marxists.org, proxy
 host-suffix, mas.to, proxy
 host-suffix, mash.to, proxy
+host-suffix, master-insight.com, proxy
 host-suffix, mastodon.cloud, proxy
 host-suffix, mastodon.host, proxy
 host-suffix, mastodon.online, proxy
@@ -2396,6 +2407,7 @@ host-suffix, matrix.org, proxy
 host-suffix, matters.news, proxy
 host-suffix, matters.town, proxy
 host-suffix, mattwilcox.net, proxy
+host-suffix, mc.yandex.ru, proxy
 host-suffix, mcadforums.com, proxy
 host-suffix, mcaf.ee, proxy
 host-suffix, mceindex.com, proxy
@@ -2516,6 +2528,7 @@ host-suffix, momoshop.com.tw, proxy
 host-suffix, mondex.org, proxy
 host-suffix, money-link.com.tw, proxy
 host-suffix, moneydj.com, proxy
+host-suffix, moneynet.com.tw, proxy
 host-suffix, monica.im, proxy
 host-suffix, monitorchina.org, proxy
 host-suffix, monocloud.me, proxy
@@ -2555,6 +2568,7 @@ host-suffix, muzi.com, proxy
 host-suffix, muzi.net, proxy
 host-suffix, muzu.tv, proxy
 host-suffix, mvg.jp, proxy
+host-suffix, my-formosa.com.tw, proxy
 host-suffix, my-private-network.co.uk, proxy
 host-suffix, my.pcloud.com, proxy
 host-suffix, myaudiocast.com, proxy
@@ -2638,6 +2652,7 @@ host-suffix, newtalk.tw, proxy
 host-suffix, newthuhole.com, proxy
 host-suffix, newyorker.com, proxy
 host-suffix, nexon.com, proxy
+host-suffix, nextapple.com, proxy
 host-suffix, nextdigital.com.hk, proxy
 host-suffix, nexton-net.jp, proxy
 host-suffix, nexttv.com.tw, proxy
@@ -2833,6 +2848,7 @@ host-suffix, parse.com, proxy
 host-suffix, parsevideo.com, proxy
 host-suffix, partnerstack.xyz, proxy
 host-suffix, passion.com, proxy
+host-suffix, passiontimes.hk, proxy
 host-suffix, paste.ee, proxy
 host-suffix, pastie.org, proxy
 host-suffix, patreon.com, proxy
@@ -3010,6 +3026,7 @@ host-suffix, ptwxz.com, proxy
 host-suffix, pubu.com.tw, proxy
 host-suffix, puffinbrowser.com, proxy
 host-suffix, pullfolio.co, proxy
+host-suffix, pulsehknews.com, proxy
 host-suffix, pure18.com, proxy
 host-suffix, pureconcepts.net, proxy
 host-suffix, pureinsight.org, proxy
@@ -3235,6 +3252,7 @@ host-suffix, shadowsocks.be, proxy
 host-suffix, shadowsocks.com.hk, proxy
 host-suffix, shadowsocks.org, proxy
 host-suffix, shahit.biz, proxy
+host-suffix, shanghainationalparty.com, proxy
 host-suffix, share-videos.se, proxy
 host-suffix, share.america.gov, proxy
 host-suffix, sharecool.org, proxy
@@ -3274,6 +3292,7 @@ host-suffix, sinchew.com.my, proxy
 host-suffix, sing-box.sagernet.org, proxy
 host-suffix, singaporepools.com.sg, proxy
 host-suffix, singlelogin.se, proxy
+host-suffix, singpao.com.hk, proxy
 host-suffix, singtao.com, proxy
 host-suffix, singtaousa.com, proxy
 host-suffix, sinoants.com, proxy
@@ -3481,6 +3500,7 @@ host-suffix, taiwanhot.net, proxy
 host-suffix, taiwanjustice.net, proxy
 host-suffix, taiwanncf.org.tw, proxy
 host-suffix, taiwannews.com.tw, proxy
+host-suffix, taiwantoday.tw, proxy
 host-suffix, taiwantt.org.tw, proxy
 host-suffix, talkatone.com, proxy
 host-suffix, talkboxapp.com, proxy
@@ -3545,6 +3565,7 @@ host-suffix, thebodyshop-usa.com, proxy
 host-suffix, thecenter.mit.edu, proxy
 host-suffix, thechasernews.co.uk, proxy
 host-suffix, thechinacollection.org, proxy
+host-suffix, thecollectivehk.com, proxy
 host-suffix, theconversation.com, proxy
 host-suffix, thedalailamamovie.com, proxy
 host-suffix, thediplomat.com, proxy
@@ -3560,18 +3581,22 @@ host-suffix, thehun.net, proxy
 host-suffix, theinitium.com, proxy
 host-suffix, theintercept.com, proxy
 host-suffix, thenewslens.com, proxy
+host-suffix, theonlinecitizen.com, proxy
 host-suffix, thepiratebay.org, proxy
 host-suffix, theporndude.com, proxy
 host-suffix, theportalwiki.com, proxy
 host-suffix, theprint.in, proxy
 host-suffix, thesaturdaypaper.com.au, proxy
+host-suffix, thestandard.com.hk, proxy
 host-suffix, thestandnews.com, proxy
+host-suffix, thestar.com, proxy
 host-suffix, thetatoken.org, proxy
 host-suffix, thetibetpost.com, proxy
 host-suffix, thetvdb.com, proxy
 host-suffix, theweek.com, proxy
 host-suffix, thewgo.org, proxy
 host-suffix, thewirechina.com, proxy
+host-suffix, thewitnesshk.com, proxy
 host-suffix, theync.com, proxy
 host-suffix, thinkchina.sg, proxy
 host-suffix, thinkgeek.com, proxy
@@ -4139,6 +4164,7 @@ host-suffix, wo.tc, proxy
 host-suffix, woeser.com, proxy
 host-suffix, wokar.org, proxy
 host-suffix, wolfax.com, proxy
+host-suffix, womany.net, proxy
 host-suffix, wombo.ai, proxy
 host-suffix, woolyss.com, proxy
 host-suffix, woopie.jp, proxy
